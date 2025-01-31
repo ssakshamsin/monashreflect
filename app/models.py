@@ -3,6 +3,7 @@ from app import db, login_manager
 from flask_login import UserMixin
 from werkzeug.security import generate_password_hash, check_password_hash
 from time import time
+
 import jwt
 from flask import current_app
 from flask_login import UserMixin
@@ -16,6 +17,7 @@ class User(UserMixin, db.Model):
     username = db.Column(db.String(64), unique=True, nullable=False)
     email = db.Column(db.String(120), unique=True, nullable=False)
     password_hash = db.Column(db.String(128))
+    timestamp = db.Column(db.DateTime, default=datetime.utcnow)
     is_verified = db.Column(db.Boolean, default=False)
     reviews = db.relationship('Review', backref='author', lazy='dynamic')
 
@@ -88,6 +90,10 @@ class Review(db.Model):
     downvotes = db.Column(db.Integer, default=0)
     user_id = db.Column(db.Integer, db.ForeignKey('user.id'))
     unit_id = db.Column(db.Integer, db.ForeignKey('unit.id'))
+
+    def has_voted(self, user, vote_type):
+        vote = Vote.query.filter_by(user_id=user.id, review_id=self.id, vote_type=vote_type).first()
+        return vote is not None
 
 class Vote(db.Model):
     id = db.Column(db.Integer, primary_key=True)

@@ -5,6 +5,7 @@ from app.models import User, Unit, Review, Vote
 from app.forms import RegistrationForm, LoginForm, ReviewForm, SearchForm
 from datetime import datetime
 from app.email import send_verification_email
+from urllib.parse import urlparse
 
 main = Blueprint('main', __name__)
 auth = Blueprint('auth', __name__)
@@ -54,7 +55,7 @@ def unit(code):
     
     return render_template('unit.html', unit=unit, reviews=reviews, sort=sort)
 
-@auth.route('/login')
+@auth.route('/login', methods=['GET', 'POST'])  # Add both GET and POST methods
 def login():
     if current_user.is_authenticated:
         return redirect(url_for('main.home'))
@@ -65,7 +66,10 @@ def login():
             flash('Invalid email or password')
             return redirect(url_for('auth.login'))
         login_user(user, remember=form.remember_me.data)
-        return redirect(url_for('main.home'))
+        next_page = request.args.get('next')
+        if not next_page or urlparse(next_page).netloc != '':
+            next_page = url_for('main.home')
+        return redirect(next_page)
     return render_template('auth/login.html', title='Sign In', form=form)
 
 @auth.route('/register')
@@ -94,6 +98,10 @@ def verify_email(token):
     flash('Your email has been verified.')
     return redirect(url_for('auth.login'))
 
+
+@auth.route('/logout')
+def logout():
+    return redirect(url_for('main.home'))
 
 @main.route('/unit/<string:code>/review', methods=['GET', 'POST'])
 @login_required
