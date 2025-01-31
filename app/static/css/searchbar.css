@@ -1,0 +1,22 @@
+/* Search Bar Container */
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  
+  /* Search Bar Input */
+  #searchBar {
+    width: 100%;
+    max-width: 600px; /* Limits the width for better aesthetics */
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  #searchBar:focus {
+    border-color: #007bff; /* Highlight border on focus */
+  }

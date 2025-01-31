@@ -1,0 +1,83 @@
+/* Poll Container */
+.poll-container {
+    margin: 2rem 0;
+    text-align: center;
+  }
+  
+  /* Poll Bar Container */
+  .poll-bar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Poll Buttons */
+  .poll-button {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .good-button {
+    background-color: #28a745; /* Green for Good */
+    color: #fff;
+  }
+  
+  .bad-button {
+    background-color: #dc3545; /* Red for Bad */
+    color: #fff;
+  }
+  
+  .poll-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Bar Wrapper */
+  .bar-wrapper {
+    position: relative;
+    flex: 1;
+    height: 30px;
+    background-color: #e9ecef;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  /* Left and Right Bars */
+  .bar-left,
+  .bar-right {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    transition: width 0.3s ease;
+  }
+  
+  .bar-left {
+    left: 0;
+    background-color: #28a745; /* Green for Good */
+    width: 50%; /* Initial width */
+  }
+  
+  .bar-right {
+    right: 0;
+    background-color: #dc3545; /* Red for Bad */
+    width: 50%; /* Initial width */
+  }
+  
+  /* Vote Count */
+  .vote-count {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .vote-count p {
+    margin: 0.5rem 0;
+  }
+
+ 

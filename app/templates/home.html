@@ -1,20 +1,35 @@
+
 {% extends "base.html" %}
-
 {% block title %}Home{% endblock %}
-
 {% block content %}
-    <h1>University Unit Reviews</h1>
-    
-    {% if units %}
+  <div class="container">
+    <!-- Search Bar -->
+    <div class="search-container">
+      <input
+        type="text"
+        id="searchBar"
+        placeholder="Search for a unit..."
+        oninput="filterUnits()"
+      />
+    </div>
+
+    <!-- Units Grid -->
+    <div id="unitsGrid" class="units-grid">
+      {% if units %}
         {% for unit in units %}
-            <div class="unit-card">
-                <h2>{{ unit.code }} - {{ unit.name }}</h2>
-                <p>{{ unit.description }}</p>
-                <p>Faculty: {{ unit.faculty }}</p>
-                <a href="{{ url_for('main.unit', code=unit.code) }}">View Reviews</a>
-            </div>
+          <div class="unit-card" data-code="{{ unit.code }}" data-name="{{ unit.name }}">
+            <h2>{{ unit.code }} - {{ unit.name }}</h2>
+            <p>{{ unit.description }}</p>
+            <p>Faculty: {{ unit.faculty }}</p>
+            <a href="{{ url_for('main.unit', code=unit.code) }}">View Reviews</a>
+          </div>
         {% endfor %}
-    {% else %}
+      {% else %}
         <p>No units available.</p>
-    {% endif %}
+      {% endif %}
+    </div>
+  </div>
+
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
 {% endblock %}

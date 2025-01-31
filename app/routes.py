@@ -1,3 +1,4 @@
+
 from flask import Blueprint, render_template, flash, redirect, url_for, request, jsonify, current_app
 from flask_login import login_user, logout_user, current_user, login_required
 from app import db
@@ -160,3 +161,27 @@ def profile():
         .order_by(Review.timestamp.desc())\
         .paginate(page=page, per_page=current_app.config['REVIEWS_PER_PAGE'])
     return render_template('profile.html', user=current_user, reviews=reviews)
+
+@main.route("/contact")
+def contact():
+    return render_template("contact.html")
+
+@main.route("/about")
+def about():
+    return render_template("about.html")
+
+@main.route("/faq")
+def faq():
+    return render_template("faq.html")
+
+@main.route("/privacy_policy")
+def privacy_policy():
+    return render_template("privacy_policy.html")
+
+@main.route("/terms_conditions")
+def terms_conditions():
+    return render_template("terms_conditions.html")
+
+@main.route("/rules")  
+def rules():
+    return render_template("rules.html")
