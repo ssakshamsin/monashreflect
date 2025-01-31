@@ -34,17 +34,28 @@
             </div>
         </div>
 
-        <!-- Sort Options -->
-        <div class="sort-options">
-            Sort by:
-            <a href="{{ url_for('main.unit', code=unit.code, sort='newest') }}"
-               class="{% if sort == 'newest' %}active{% endif %}">Newest</a>
-            <a href="{{ url_for('main.unit', code=unit.code, sort='highest_rated') }}"
-               class="{% if sort == 'highest_rated' %}active{% endif %}">Highest Rated</a>
-            <a href="{{ url_for('main.unit', code=unit.code, sort='most_voted') }}"
-               class="{% if sort == 'most_voted' %}active{% endif %}">Most Voted</a>
+                <!-- Sort Options -->
+        <div class="sort-container">
+            <label for="sortDropdown">Sort by:</label>
+            <select id="sortDropdown" class="sort-dropdown">
+            <option value="{{ url_for('main.unit', code=unit.code, sort='newest') }}"
+                    {% if sort == 'newest' %}selected{% endif %}>Newest</option>
+            <option value="{{ url_for('main.unit', code=unit.code, sort='highest_rated') }}"
+                    {% if sort == 'highest_rated' %}selected{% endif %}>Highest Rated</option>
+            <option value="{{ url_for('main.unit', code=unit.code, sort='most_voted') }}"
+                    {% if sort == 'most_voted' %}selected{% endif %}>Most Voted</option>
+            </select>
         </div>
+
+        
     </div>
+    <script>
+        // Add an event listener to the dropdown
+        document.getElementById('sortDropdown').addEventListener('change', function () {
+          const selectedUrl = this.value; // Get the selected URL
+          window.location.href = selectedUrl; // Redirect to the selected URL
+        });
+    </script>
 
     <!-- Reviews Section -->
     <div class="reviews-section">

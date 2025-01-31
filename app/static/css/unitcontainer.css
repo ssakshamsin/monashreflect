@@ -20,6 +20,12 @@
     text-align: center;
     font-size: 1rem;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
+  
+    /* Use Flexbox to structure the card */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Pushes the button to the bottom */
+    height: 100%; /* Ensures the card takes up full height */
   }
   
   .unit-card:hover {
@@ -35,10 +41,11 @@
   .unit-card p {
     margin-bottom: 0.5rem;
     color: #666;
+    flex-grow: 1; /* Allows the description to take up remaining space */
   }
   
   .unit-card a {
-    display: inline-block;
+    display: block; /* Make the button a block element */
     margin-top: 0.5rem;
     padding: 0.5rem 1rem;
     background-color: #007bff;
@@ -46,7 +53,12 @@
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s ease;
+  
+    /* Center the button horizontally */
+    margin-left: auto;
+    margin-right: auto;
   }
+  
   
   .unit-card a:hover {
     background-color: #0056b3;

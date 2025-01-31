@@ -1,0 +1,34 @@
+/* Sort Container */
+.sort-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .sort-container label {
+    margin-right: 0.5rem;
+    font-weight: bold;
+    color: var(--text-color);
+  }
+  
+  /* Dropdown Styling */
+  .sort-dropdown {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    background-color: white;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+  }
+  
+  .sort-dropdown:focus {
+    border-color: var(--primary-color);
+    outline: none;
+  }
+  
+  .sort-dropdown option {
+    padding: 0.5rem;
+    background-color: white;
+    color: var(--text-color);
+  }
