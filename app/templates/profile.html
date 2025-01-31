@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div class="profile-section">
+        <h1>{{ current_user.username }}'s Profile</h1>
+        
+        <div class="stats-card">
+            <h2>Your Statistics</h2>
+            <p>Total Reviews: {{ reviews.total }}</p>
+            <p>Member Since: {{ current_user.timestamp.strftime('%Y-%m-%d') }}</p>
+        </div>
+
+        <div class="user-reviews">
+            <h2>Your Reviews</h2>
+            {% if reviews.items %}
+                {% for review in reviews.items %}
+                    <div class="review-card">
+                        <div class="review-header">
+                            <a href="{{ url_for('main.unit', code=review.unit.code) }}">
+                                {{ review.unit.code }} - {{ review.unit.name }}
+                            </a>
+                            <span class="review-date">{{ review.timestamp.strftime('%Y-%m-%d') }}</span>
+                        </div>
+                        <div class="review-rating">
+                            {% for _ in range(review.rating) %}⭐{% endfor %}
+                        </div>
+                        <div class="review-content">
+                            {{ review.content }}
+                        </div>
+                        <div class="review-stats">
+                            <span>👍 {{ review.upvotes }}</span>
+                            <span>👎 {{ review.downvotes }}</span>
+                        </div>
+                    </div>
+                {% endfor %}
+
+                {% if reviews.pages > 1 %}
+                    <div class="pagination">
+                        {% for page in reviews.iter_pages() %}
+                            {% if page %}
+                                <a href="{{ url_for('main.profile', page=page) }}"
+                                   class="{% if page == reviews.page %}active{% endif %}">
+                                    {{ page }}
+                                </a>
+                            {% else %}
+                                <span class="ellipsis">...</span>
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+                {% endif %}
+            {% else %}
+                <p>You haven't written any reviews yet.</p>
+            {% endif %}
+        </div>
+    </div>
+{% endblock %}

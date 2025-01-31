@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div class="search-section">
+        <h1>Search Units</h1>
+        <form action="{{ url_for('main.search') }}" method="get" class="search-form">
+            {{ form.query(class="form-control", placeholder="Search by unit code, name, or description") }}
+            {{ form.faculty(class="form-control") }}
+            {{ form.submit(class="btn btn-primary") }}
+        </form>
+
+        <div class="search-results">
+            {% if units %}
+                {% for unit in units %}
+                    <div class="unit-card">
+                        <h2>{{ unit.code }} - {{ unit.name }}</h2>
+                        <p>{{ unit.description }}</p>
+                        <p>Faculty: {{ unit.faculty }}</p>
+                        <a href="{{ url_for('main.unit', code=unit.code) }}" 
+                           class="btn btn-secondary">View Reviews</a>
+                    </div>
+                {% endfor %}
+            {% else %}
+                <p>No units found matching your search criteria.</p>
+            {% endif %}
+        </div>
+    </div>
+{% endblock %}

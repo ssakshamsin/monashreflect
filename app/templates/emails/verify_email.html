@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Verify Your Email</title>
+</head>
+<body>
+    <h1>Welcome to Unit Reviews!</h1>
+    <p>Dear {{ user.username }},</p>
+    <p>To verify your email address click on the following link:</p>
+    <p>
+        <a href="{{ url_for('auth.verify_email', token=token, _external=True) }}">
+            Click here to verify your email
+        </a>
+    </p>
+    <p>If you have not requested a verification email, please ignore this message.</p>
+    <p>Best regards,<br>The Unit Reviews Team</p>
+</body>
+</html>

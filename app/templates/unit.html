@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div class="unit-header">
+        <h1>{{ unit.code }} - {{ unit.name }}</h1>
+        <p>{{ unit.description }}</p>
+        <p>Faculty: {{ unit.faculty }}</p>
+        
+        {% if current_user.is_authenticated %}
+            <a href="{{ url_for('main.submit_review', code=unit.code) }}" 
+               class="btn btn-primary">Write a Review</a>
+        {% endif %}
+    </div>
+
+    <div class="reviews-section">
+        <div class="sort-options">
+            Sort by:
+            <a href="{{ url_for('main.unit', code=unit.code, sort='newest') }}"
+               class="{% if sort == 'newest' %}active{% endif %}">Newest</a>
+            <a href="{{ url_for('main.unit', code=unit.code, sort='highest_rated') }}"
+               class="{% if sort == 'highest_rated' %}active{% endif %}">Highest Rated</a>
+            <a href="{{ url_for('main.unit', code=unit.code, sort='most_voted') }}"
+               class="{% if sort == 'most_voted' %}active{% endif %}">Most Voted</a>
+        </div>
+
+        {% for review in reviews.items %}
+            <div class="review-card">
+                <div class="review-header">
+                    <span class="review-author">
+                        {% if review.author %}
+                            {{ review.author.username }}
+                        {% else %}
+                            Anonymous
+                        {% endif %}
+                    </span>
+                    <span class="review-date">{{ review.timestamp.strftime('%Y-%m-%d') }}</span>
+                </div>
+                <div class="review-rating">
+                    {% for _ in range(review.rating) %}⭐{% endfor %}
+                </div>
+                <div class="review-content">
+                    {{ review.content }}
+                </div>
+                {% if current_user.is_authenticated %}
+                    <div class="review-votes">
+                        <button onclick="voteReview('{{ review.id }}', 'up')"
+                        class="vote-btn upvote {% if review.has_voted(current_user, 'up') %}active{% endif %}">
+                    ▲ <span class="vote-count">{{ review.upvotes }}</span>
+                </button>
+                <button onclick="voteReview('{{ review.id }}', 'down')"
+                        class="vote-btn downvote {% if review.has_voted(current_user, 'down') %}active{% endif %}">
+                    ▼ <span class="vote-count">{{ review.downvotes }}</span>
+                </button>
+            </div>
+        {% endif %}
+    </div>
+{% endfor %}
+
+{% if reviews.pages > 1 %}
+    <div class="pagination">
+        {% for page in reviews.iter_pages() %}
+            {% if page %}
+                <a href="{{ url_for('main.unit', code=unit.code, page=page, sort=sort) }}"
+                   class="{% if page == reviews.page %}active{% endif %}">
+                    {{ page }}
+                </a>
+            {% else %}
+                <span class="ellipsis">...</span>
+            {% endif %}
+        {% endfor %}
+    </div>
+{% endif %}
+</div>
+
+<script>
+function voteReview(reviewId, voteType) {
+    fetch(`/review/${reviewId}/${voteType}`)
+        .then(response => response.json())
+        .then(data => {
+            const review = document.querySelector(`[data-review-id="${reviewId}"]`);
+            review.querySelector('.upvotes').textContent = data.upvotes;
+            review.querySelector('.downvotes').textContent = data.downvotes;
+        });
+}
+</script>
+{% endblock %}
