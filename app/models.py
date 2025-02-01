@@ -44,11 +44,12 @@ class User(UserMixin, db.Model):
         return User.query.get(id)
 
 class Unit(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
-    code = db.Column(db.String(10), unique=True, nullable=False)
-    name = db.Column(db.String(100), nullable=False)
-    description = db.Column(db.Text)
-    faculty = db.Column(db.String(50))
+    id = db.Column(db.Integer, primary_key=True, autoincrement=True)
+    code = db.Column(db.String(20), unique=True, nullable=False)
+    name = db.Column(db.String(255), nullable=False)
+    faculty = db.Column(db.String(255), nullable=False)
+    credit_points = db.Column(db.Integer, nullable=False)
+    url = db.Column(db.String(500), nullable=False)
     reviews = db.relationship('Review', backref='unit', lazy='dynamic')    
     def vote(self, user, vote_type):
         existing_vote = Vote.query.filter_by(
@@ -100,3 +101,12 @@ class Vote(db.Model):
     user_id = db.Column(db.Integer, db.ForeignKey('user.id'))
     review_id = db.Column(db.Integer, db.ForeignKey('review.id'))
     vote_type = db.Column(db.String(4))
+
+class Assessment(db.Model):
+    id = db.Column(db.Integer, primary_key=True, autoincrement=True)
+    unit_code = db.Column(db.String(20), db.ForeignKey('unit.code'), nullable=False)
+    number = db.Column(db.Integer, nullable=False)
+    name = db.Column(db.String(255), nullable=False)
+    weight = db.Column(db.Integer, nullable=False)
+
+    unit = db.relationship("Unit", backref=db.backref("assessments", lazy=True))

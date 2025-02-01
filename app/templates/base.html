@@ -10,7 +10,7 @@
   <!-- Navigation -->
   <nav>
     <div class="nav-container">
-      <a href="{{ url_for('main.home') }}" class="logo">Unit Reviews</a>
+      <a href="{{ url_for('main.landing') }}" class="logo">Unit Reviews</a>
       <div class="nav-links">
         {% if current_user.is_authenticated %}
           <a href="{{ url_for('main.profile') }}">Profile</a>

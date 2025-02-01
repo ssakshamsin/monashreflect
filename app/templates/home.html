@@ -20,7 +20,7 @@
           <div class="unit-card" data-code="{{ unit.code }}" data-name="{{ unit.name }}">
             <h2>{{ unit.code }} - {{ unit.name }}</h2>
             <p>{{ unit.description }}</p>
-            <p>Faculty: {{ unit.faculty }}</p>
+            <p>{{ unit.faculty }}</p>
             <a href="{{ url_for('main.unit', code=unit.code) }}">View Reviews</a>
           </div>
         {% endfor %}

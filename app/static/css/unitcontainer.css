@@ -29,6 +29,7 @@
     flex-direction: column;
     justify-content: space-between; /* Pushes the button to the bottom */
     height: 100%; /* Ensures the card takes up full height */
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
 .unit-card:hover {

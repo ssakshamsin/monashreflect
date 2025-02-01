@@ -16,8 +16,13 @@ UNITS = [
     # Add more units as needed
 ]
 
-# Home route
+
 @main.route("/", methods=["GET"])
+def landing():
+    return render_template("landing.html")
+
+# Home route
+@main.route("/units", methods=["GET"])
 def home():
     query = request.args.get("query", "").strip().lower()
     if query:
@@ -60,7 +65,7 @@ def vote_unit(code):
     })
 
 from app import db
-from app.models import User
+from app.models import User, Unit
 
 test_user = User(username='testuser', email='test@example.com')
 test_user.set_password('password')

@@ -11,7 +11,7 @@ from urllib.parse import urlparse
 main = Blueprint('main', __name__)
 auth = Blueprint('auth', __name__)
 
-@main.route('/')
+@main.route('/units', methods=['GET'])
 def home():
     # Add some sample units if none exist
     if Unit.query.count() == 0:
@@ -185,4 +185,8 @@ def terms_conditions():
 @main.route("/rules")  
 def rules():
     return render_template("rules.html")
+
+@main.route("/")
+def landing():
+    return render_template("landing.html")
 
