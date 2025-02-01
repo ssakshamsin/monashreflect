@@ -1,0 +1,114 @@
+/* General styling for the auth form */
+.auth-form {
+    max-width: 800px; /* Increase width for a larger form */
+    margin: 40px auto; /* Center the form horizontally */
+    padding: 2rem;
+    background-color: #ffffff; /* White background for contrast */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    text-align: center; /* Center align text */
+}
+
+.auth-form h1 {
+    font-size: 2rem; /* Larger font size for the title */
+    color: #333; /* Dark gray for contrast */
+    margin-bottom: 1.5rem; /* Space below the title */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Form group styling */
+.form-group {
+    margin-bottom: 1.5rem; /* Space between form elements */
+    text-align: left; /* Align labels and inputs to the left */
+}
+
+.form-label {
+    display: block; /* Ensure labels are on their own line */
+    margin-bottom: 0.5rem; /* Space between label and input */
+    font-size: 1rem;
+    color: #555; /* Gray for secondary text */
+    font-weight: bold;
+}
+
+.form-control {
+    width: 100%; /* Full width inputs */
+    padding: 1.25 rem; /* Padding inside inputs */
+    font-size: 1rem;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    transition: border-color 0.3s ease; /* Smooth hover effect */
+}
+
+.form-control:focus {
+    border-color: #007BFF; /* Blue border on focus */
+    outline: none; /* Remove default focus outline */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.25); /* Subtle glow on focus */
+}
+
+.error {
+    color: #dc3545; /* Red for error messages */
+    font-size: 0.875rem;
+    display: block;
+    margin-top: 0.25rem;
+}
+
+/* Remember Me section */
+.remember-me-container {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: space-between; /* Push label to the left and checkbox to the right */
+    align-items: center; /* Vertically center align items */
+}
+
+.remember-me-label {
+    font-size: 0.9rem; /* Slightly smaller font size */
+    color: #555; /* Gray for secondary text */
+    margin: 0; /* Remove extra margin */
+}
+
+.remember-me-checkbox {
+    display: flex; /* Ensure proper alignment */
+    align-items: center; /* Center vertically */
+}
+
+.form-checkbox {
+    width: 1rem; /* Smaller checkbox */
+    height: 1rem;
+    accent-color: #007BFF; /* Blue for the checkbox */
+    margin: 0; /* Remove extra margin */
+}
+
+/* Submit button */
+.btn-primary {
+    width: 100%; /* Full width button */
+    padding: 0.75rem; /* Padding inside button */
+    font-size: 1rem;
+    color: #fff; /* White text */
+    background-color: #007BFF; /* Blue background */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* New User section */
+.new-user {
+    margin-top: 1.5rem; /* Space above the new user link */
+    font-size: 1rem;
+    color: #555; /* Gray for secondary text */
+    text-align: center; /* Center align text */
+}
+
+.new-user a {
+    color: #007BFF; /* Blue for the link */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold;
+    transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+.new-user a:hover {
+    color: #0056b3; /* Darker blue on hover */
+}

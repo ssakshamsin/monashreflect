@@ -9,10 +9,13 @@
     border: 1px solid #ddd;
     border-radius: 5px;
     background-color: #fff;
-  }
-  
-  /* Unit Card */
-  .unit-card {
+
+    /* Ensure all cards stretch to the same height */
+    align-items: stretch;
+}
+
+/* Unit Card */
+.unit-card {
     background-color: #f9f9f9;
     padding: 1.5rem;
     border: 1px solid #ddd;
@@ -20,46 +23,95 @@
     text-align: center;
     font-size: 1rem;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
-  
+
     /* Use Flexbox to structure the card */
     display: flex;
     flex-direction: column;
     justify-content: space-between; /* Pushes the button to the bottom */
     height: 100%; /* Ensures the card takes up full height */
-  }
-  
-  .unit-card:hover {
+}
+
+.unit-card:hover {
     transform: scale(1.05);
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
-  }
-  
-  .unit-card h2 {
+}
+
+.unit-card h2 {
     font-size: 1.25rem;
     margin-bottom: 0.5rem;
-  }
-  
-  .unit-card p {
+}
+
+.unit-card p {
     margin-bottom: 0.5rem;
     color: #666;
     flex-grow: 1; /* Allows the description to take up remaining space */
-  }
-  
-  .unit-card a {
+}
+
+.unit-card a {
     display: block; /* Make the button a block element */
     margin-top: 0.5rem;
-    padding: 0.5rem 1rem;
+    padding: 0.75rem 1rem; /* Consistent padding for the button */
     background-color: #007bff;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s ease;
-  
+
     /* Center the button horizontally */
     margin-left: auto;
     margin-right: auto;
-  }
-  
-  
-  .unit-card a:hover {
+
+    /* Ensure consistent button size */
+    width: 100%; /* Full width for better alignment */
+    max-width: 200px; /* Limit maximum width for consistency */
+    text-align: center;
+}
+
+.unit-card a:hover {
     background-color: #0056b3;
-  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .units-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns on tablets */
+    }
+
+    /* Make all text smaller */
+    .unit-card h2 {
+        font-size: 1.1rem;
+    }
+
+    .unit-card p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .units-grid {
+        grid-template-columns: 1fr; /* Single column on mobile */
+    }
+
+    /* Further reduce padding for smaller screens */
+    .unit-card {
+        padding: 1rem;
+    }
+
+    /* Adjust button padding */
+    .unit-card a {
+        padding: 0.5rem 1rem;
+    }
+}
+
+
+
+
+ /* Cards */
+ .unit-card, .review-card, .stats-card {
+    background: white;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 100%; /* Ensure cards don't exceed viewport width */
+}
