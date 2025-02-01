@@ -1,0 +1,77 @@
+/* Collapsible Section */
+.collapsible-section {
+  margin-top: 1rem; /* Space above the collapsible section */
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.collapsible-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--text-color);
+  background-color: var(--background-color);
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.collapsible-header:hover {
+  background-color: #f0f0f0;
+}
+
+.collapsible-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  padding: 0 1rem; /* Padding inside the collapsible content */
+  background-color: white;
+}
+
+.collapsible-content p {
+  margin: 0.75rem 0; /* Space between paragraphs */
+  line-height: 1.6;
+}
+
+.collapsible-content a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.collapsible-content a:hover {
+  text-decoration: underline;
+}
+
+/* Sort Container */
+.sort-container {
+  margin-top: 1.5rem; /* Space above the sort dropdown */
+  display: flex;
+  align-items: center;
+}
+
+.sort-container label {
+  margin-right: 0.5rem;
+  font-weight: bold;
+  color: var(--text-color);
+}
+
+.sort-dropdown {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  background-color: white;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+}
+
+.sort-dropdown:focus {
+  border-color: var(--primary-color);
+  outline: none;
+}

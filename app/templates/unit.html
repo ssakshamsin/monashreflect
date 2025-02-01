@@ -27,6 +27,7 @@
                     Bad
                 </button>
             </div>
+
             <div class="vote-count">
                 <p>Good Votes: <span id="goodVotes">{{ unit.good_votes }}</span></p>
                 <p>Bad Votes: <span id="badVotes">{{ unit.bad_votes }}</span></p>
@@ -34,6 +35,38 @@
             </div>
         </div>
 
+        <!-- accordion drop down-->
+         <!-- extra  information we are adding, credit points, assessment summary, handbook link  -->
+        <!-- Collapsible Extra Information -->
+        <div class="collapsible-section">
+          <button class="collapsible-header" onclick="toggleCollapse(this)">
+            Extra Information →
+          </button>
+          <div class="collapsible-content">
+            <p><strong>Credit Points:</strong> {{ unit.credit_points }}</p>
+            <p><strong>Assessment Summary:</strong> {{ unit.assessment_summary }}</p>
+            <p><strong>Handbook Link:</strong> <a href="{{ unit.handbook_link }}" target="_blank">View Handbook</a></p>
+          </div>
+        </div>
+        <script>
+            // Toggle collapsible functionality
+            function toggleCollapse(button) {
+            const content = button.nextElementSibling; // Get the collapsible content
+            const isCollapsed = content.style.maxHeight === '' || content.style.maxHeight === '0px';
+
+            // Toggle the arrow direction
+            button.textContent = isCollapsed
+                ? button.textContent.replace('→', '↓')
+                : button.textContent.replace('↓', '→');
+
+            // Expand or collapse the content
+            if (isCollapsed) {
+                content.style.maxHeight = content.scrollHeight + 'px'; // Expand
+            } else {
+                content.style.maxHeight = '0px'; // Collapse
+            }
+            }
+        </script>
                 <!-- Sort Options -->
         <div class="sort-container">
             <label for="sortDropdown">Sort by:</label>
@@ -49,6 +82,8 @@
 
         
     </div>
+
+
     <script>
         // Add an event listener to the dropdown
         document.getElementById('sortDropdown').addEventListener('change', function () {
