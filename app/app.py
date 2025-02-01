@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request
 from flask import Blueprint
 from flask import jsonify
+
 # Initialize the Flask app
 app = Flask(__name__)
 
@@ -57,5 +58,14 @@ def vote_unit(code):
         'bad_votes': unit.bad_votes,
         'total_votes': unit.good_votes + unit.bad_votes,
     })
+
+from app import db
+from app.models import User
+
+test_user = User(username='testuser', email='test@example.com')
+test_user.set_password('password')
+db.session.add(test_user)
+db.session.commit()
+
 if __name__ == "__main__":
     app.run(debug=True)

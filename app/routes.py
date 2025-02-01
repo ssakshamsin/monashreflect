@@ -185,3 +185,4 @@ def terms_conditions():
 @main.route("/rules")  
 def rules():
     return render_template("rules.html")
+
