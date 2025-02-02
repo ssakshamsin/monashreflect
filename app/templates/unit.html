@@ -4,6 +4,16 @@
         <h1>{{ unit.code }} - {{ unit.name }}</h1>
         <p>{{ unit.faculty }}</p>
 
+        <!-- Simplistic Collapsible Extra Information -->
+        <!-- Simplistic Collapsible Extra Information -->
+        <p class="collapsible-header simplistic" onclick="toggleCollapse(this)">
+            Extra Information →
+        </p>
+        <div class="collapsible-content simplistic">
+            <p><strong>Credit Points:</strong> {{ unit.credit_points }}</p>
+            <p><strong>Assessment Summary:</strong> {{ unit.assessment_summary }}</p>
+            <p><strong>Handbook Link:</strong> <a href="{{ unit.url }}" target="_blank">View Handbook</a></p>
+        </div>
         <!-- Poll UI -->
         <div class="poll-container">
             <div class="poll-bar-container">
@@ -39,7 +49,7 @@
         <!-- accordion drop down-->
          <!-- extra  information we are adding, credit points, assessment summary, handbook link  -->
         <!-- Collapsible Extra Information -->
-        <div class="collapsible-section">
+        <!-- <div class="collapsible-section">
           <button class="collapsible-header" onclick="toggleCollapse(this)">
             Extra Information →
           </button>
@@ -48,7 +58,7 @@
             <p><strong>Assessment Summary:</strong> {{ unit.assessment_summary }}</p>
             <p><strong>Handbook Link:</strong> <a href="{{ unit.url }}" target="_blank">View Handbook</a></p>
           </div>
-        </div>
+        </div> -->
         <script>
             // Toggle collapsible functionality
             function toggleCollapse(button) {
@@ -90,7 +100,7 @@
 
                     <!-- Review Content Section -->
                     <div class="form-group">
-                        <textarea id="reviewContent" name="content" class="form-control" rows="5" 
+                        <textarea id="reviewContent" name="content" class="form-control" rows="3" 
                         placeholder="Write your review here!" required>{{ form.content.data if form.content.data else '' }}</textarea>
                         {% for error in form.content.errors %}
                             <span class="error">{{ error }}</span>

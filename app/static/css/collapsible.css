@@ -75,3 +75,45 @@
   border-color: var(--primary-color);
   outline: none;
 }
+
+/* Simplistic Collapsible Header (New) */
+.collapsible-header.simplistic {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color: var(--text-color);
+  cursor: pointer;
+  transition: color 0.3s ease;
+  padding: 0; /* Remove padding to make it look like plain text */
+  background-color: transparent; /* No background color */
+  border: none; /* No border */
+  font-weight: normal; /* Match the style of {{ unit.faculty }} */
+}
+
+.collapsible-header.simplistic:hover {
+  color: var(--primary-color); /* Highlight on hover */
+}
+
+/* Simplistic Collapsible Content (New) */
+.collapsible-content.simplistic {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  padding-left: 1rem; /* Indent content for better readability */
+  background-color: transparent; /* No background color */
+  border: none; /* No border */
+}
+
+.collapsible-content.simplistic p {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  color: var(--text-color);
+}
+
+.collapsible-content.simplistic a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.collapsible-content.simplistic a:hover {
+  text-decoration: underline;
+}

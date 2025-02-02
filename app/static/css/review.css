@@ -101,3 +101,8 @@
 .login-prompt a:hover {
     text-decoration: underline;
 }
+
+.form-control{
+    min-height: 60px;
+    max-height: 120px;
+}
