@@ -13,7 +13,12 @@
             </div>
             <div class="form-group">
                 {{ form.password.label(class="form-label") }}
+                <div class="password-container">
                 {{ form.password(class="form-control") }}
+                <div class="eye-icon-wrapper" onclick="togglePassword('password', 'eye-icon')">
+                    <img id="eye-icon" src="{{ url_for('static', filename='images/eye2.png') }}" alt="Show Password" class="eye-icon">
+                </div>
+            </div>
                 {% for error in form.password.errors %}
                     <span class="error">{{ error }}</span>
                 {% endfor %}
@@ -30,4 +35,47 @@
         </form>
         <p class="new-user">New User? <a href="{{ url_for('auth.register') }}">Click Here to Register</a></p>
     </div>
+
+    
+    <style>
+        .eye-icon {
+            width: 22px;
+            height: 22px;
+            cursor: pointer;
+        }
+        .input-group {
+            display: flex;
+            align-items: center;
+        }
+        .input-group-text {
+            background: white;
+            border: none;
+            cursor: pointer;
+            padding: 5px;
+        }
+
+        .eye-icon-wrapper {
+            position: absolute;
+            right: 15px;
+            top: 70%;
+            transform: translateY(-50%);
+            cursor: pointer;
+            z-index: 10;
+        }
+    </style>
+    
+    <script>
+        function togglePassword(passwordId, iconId) {
+            var passwordField = document.getElementById(passwordId);
+            var icon = document.getElementById(iconId);
+
+            if (passwordField.type === "password") {
+                passwordField.type = "text";
+                icon.src = "{{ url_for('static', filename='images/eye.png') }}";  // Change to hidden eye image
+            } else {
+                passwordField.type = "password";
+                icon.src = "{{ url_for('static', filename='images/eye2.png') }}";  // Change back to visible eye image
+            }
+        }
+    </script>
 {% endblock %}

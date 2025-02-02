@@ -20,6 +20,7 @@
 .form-group {
     margin-bottom: 1.5rem; /* Keep spacing unchanged */
     text-align: left; /* Align labels and inputs to the left */
+    position: relative;
 }
 
 .form-label {
@@ -33,6 +34,7 @@
 .form-control {
     width: 100%; /* Full width inputs */
     padding: 0.75rem; /* Keep padding unchanged */
+    padding-right: 40px;
     font-size: 1rem; /* Keep font size unchanged */
     border: 1px solid #ccc; /* Light gray border */
     border-radius: 5px; /* Rounded corners */

@@ -41,6 +41,18 @@
     font-size: 1.25rem;
     margin-bottom: 0.5rem;
 }
+.back-to-search {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 12px;
+    text-decoration: none;
+    color: #0b1b2c;
+    font-weight: bold;
+}
+
+.back-to-search:hover {
+    text-decoration: underline;
+}
 
 .unit-card p {
     margin-bottom: 0.5rem;

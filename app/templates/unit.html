@@ -1,5 +1,10 @@
 {% extends "base.html" %}
 {% block content %}
+
+    <a href="{{ url_for('main.home') }}" class="back-to-search">
+        ← Back to Search
+    </a>
+
     <div class="unit-header">
         <h1>{{ unit.code }} - {{ unit.name }}</h1>
         <p>{{ unit.faculty }}</p>
@@ -45,7 +50,7 @@
                     <div id="goodBar" class="bar-left"></div>
                     <div id="badBar" class="bar-right"></div>
                 </div>
-                <p><span id="totalVotes">{{ unit.downvotes }}</span></p>
+                <p><span id="badVotes">{{ unit.downvotes }}</span></p>
                 <button
                     id="badButton"
                     onclick="voteUnit('bad')"
@@ -56,11 +61,6 @@
                 </button>
             </div>
 
-            <div class="vote-count">
-                <p>Good Votes: <span id="goodVotes">{{ unit.upvotes }}</span></p>
-                <p>Bad Votes: <span id="badVotes">{{ unit.downvotes }}</span></p>
-                <p>Total Votes: <span id="totalVotes">{{ unit.total_votes }}</span></p>
-            </div>
         </div>
 
         <!-- accordion drop down-->
@@ -151,7 +151,7 @@
             </div>
             {% endif %}
 
-                <!-- Sort Options -->
+       {% if reviews.items|length > 0 %}
         <div class="sort-container">
             <label for="sortDropdown">Sort by:</label>
             <select id="sortDropdown" class="sort-dropdown">
@@ -163,12 +163,18 @@
                     {% if sort == 'most_voted' %}selected{% endif %}>Most Voted</option>
             </select>
         </div>
+        {% endif %}
 
         
     </div>
 
 
     <script>
+        document.addEventListener("DOMContentLoaded", function() {
+        const goodVotes = parseInt(document.getElementById("goodVotes").textContent) || 0;
+        const badVotes = parseInt(document.getElementById("badVotes").textContent) || 0;
+        updateBars(goodVotes, badVotes);
+        });
         // Add an event listener to the dropdown
         document.getElementById('sortDropdown').addEventListener('change', function () {
           const selectedUrl = this.value; // Get the selected URL
@@ -249,8 +255,6 @@
         .catch(error => console.error('Error:', error));
     }
 
-
-
     async function voteUnit(voteType) {
         const unitId = "{{ unit.code }}";  // Get unit ID from template
         const response = await fetch(`/unit/${unitId}/vote`, {
@@ -266,11 +270,24 @@
         if (response.ok) {
             document.getElementById("goodVotes").innerText = data.upvotes;
             document.getElementById("badVotes").innerText = data.downvotes;
-            document.getElementById("totalVotes").innerText = data.total_votes;
+            updateBars(data.upvotes, data.downvotes);
         } else {
             alert("Error: " + data.error);
         }
     }
+
+    function updateBars() {
+        const goodVotes = parseInt(document.getElementById("goodVotes").textContent) || 0;
+        const badVotes = parseInt(document.getElementById("badVotes").textContent) || 0;
+        const totalVotes = goodVotes + badVotes;
+
+        let goodPercentage = totalVotes > 0 ? (goodVotes / totalVotes) * 100 : 50;
+        let badPercentage = totalVotes > 0 ? (badVotes / totalVotes) * 100 : 50;
+
+        document.getElementById("goodBar").style.width = goodPercentage + "%";
+        document.getElementById("badBar").style.width = badPercentage + "%";
+    }
+
     </script>
     
         <!-- Reviews Section -->
@@ -280,6 +297,17 @@
                 <!-- Review Header -->
                 <div class="review-header">
                     <div class="review-meta">
+                        {% if review.is_anonymous %}
+                            <img src="{{ url_for('static', filename='/pictures/default.jpg') }}" 
+                                 alt="Profile Picture" 
+                                 class="review-profile-pic">
+                        {% else %}
+                            <img src="{{ review.user.get_profile_pic_url() }}" 
+                                 alt="Profile Picture" 
+                                 class="review-profile-pic">
+                        {% endif %}
+
+                        <div class="nameand">
                         <span class="review-author">
                             {% if review.is_anonymous %}
                                 Anonymous
@@ -290,6 +318,8 @@
                             {% endif %}
                         </span>
                         <span class="review-date">{{ review.timestamp.strftime('%Y-%m-%d') }}</span>
+                    </div>
+
                     </div>
                     {% if review.can_edit(current_user) %}
                     <div class="review-actions">

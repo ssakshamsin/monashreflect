@@ -5,6 +5,7 @@ from flask_mail import Mail
 from flask_migrate import Migrate
 from config import Config
 from flask_wtf.csrf import CSRFProtect
+from security import init_security
 
 db = SQLAlchemy()
 migrate = Migrate()
@@ -22,7 +23,18 @@ def create_app(config_class=Config):
     mail.init_app(app)
     migrate.init_app(app, db)
 
+    limiter = init_security(app)
     login_manager.login_view = 'auth.login'
+    
+    @app.errorhandler(429)  # Too Many Requests
+    def ratelimit_handler(e):
+        return "Too many requests. Please try again later.", 429
+
+    @app.after_request
+    def add_security_headers(response):
+        for header, value in app.config['SECURITY_HEADERS'].items():
+            response.headers[header] = value
+        return response
 
     with app.app_context():
         # Import routes inside app context

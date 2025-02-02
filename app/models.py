@@ -3,14 +3,26 @@ from app import db, login_manager
 from flask_login import UserMixin
 from werkzeug.security import generate_password_hash, check_password_hash
 from time import time
-
+from sqlalchemy import event
+from sqlalchemy.engine import Engine
+from sqlite3 import Connection as SQLite3Connection
 import jwt
-from flask import current_app
+from flask import current_app, url_for
 from flask_login import UserMixin
 from werkzeug.security import generate_password_hash, check_password_hash
+from datetime import datetime, timedelta
+
 @login_manager.user_loader
 def load_user(id):
     return User.query.get(int(id))
+
+@event.listens_for(Engine, "connect")
+def set_sqlite_pragma(dbapi_connection, connection_record):
+    """Enable foreign key enforcement for SQLite"""
+    if isinstance(dbapi_connection, SQLite3Connection):
+        cursor = dbapi_connection.cursor()
+        cursor.execute("PRAGMA foreign_keys=ON;")
+        cursor.close()
 
 class User(UserMixin, db.Model):
     id = db.Column(db.Integer, primary_key=True)
@@ -19,6 +31,24 @@ class User(UserMixin, db.Model):
     timestamp = db.Column(db.DateTime, default=datetime.utcnow)
     is_verified = db.Column(db.Boolean, default=False)
     reviews = db.relationship("Review", back_populates="user", foreign_keys="Review.user_id")
+    profile_pic = db.Column(db.String(120), default='default.jpg')
+
+    login_attempts = db.Column(db.Integer, default=0)
+    locked_until = db.Column(db.DateTime)
+    
+    def validate_password(self, password):
+        return len(password)>=7
+
+    def increment_login_attempts(self):
+        self.login_attempts += 1
+        if self.login_attempts >= 15:  # Lock after 5 failed attempts
+            self.locked_until = datetime.utcnow() + timedelta(minutes=15)
+        db.session.commit()
+    
+    def reset_login_attempts(self):
+        self.login_attempts = 0
+        self.locked_until = None
+        db.session.commit()
 
     def set_password(self, password):
         self.password_hash = generate_password_hash(password)
@@ -38,6 +68,9 @@ class User(UserMixin, db.Model):
             'total': total_upvotes + total_downvotes
         }
 
+    def get_profile_pic_url(self):
+        return url_for('static', filename=f'pictures/{self.profile_pic}')
+    
 class Unit(db.Model):
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
     code = db.Column(db.String(20), unique=True, nullable=False)

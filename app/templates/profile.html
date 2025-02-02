@@ -1,9 +1,70 @@
 {% extends "base.html" %}
-
 {% block content %}
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+    const profilePicContainer = document.querySelector(".profile-pic-container");
+    const profileUpdateForm = document.querySelector(".profile-update-form");
+    const fileInput = document.querySelector("#profile_pic");
+    const cancelButton = document.querySelector("#cancel-update");
+    const profilePic = document.querySelector(".profile-pic");
+    
+    let originalSrc = profilePic.src;  // Store the original profile picture URL
+
+    // Show form when profile picture is clicked
+    profilePicContainer.addEventListener("click", function () {
+        profileUpdateForm.classList.toggle("hidden");
+    });
+
+    // Live preview of new profile picture
+    fileInput.addEventListener("change", function (event) {
+        const file = event.target.files[0];
+        if (file) {
+            const reader = new FileReader();
+            reader.onload = function (e) {
+                profilePic.src = e.target.result;
+            };
+            reader.readAsDataURL(file);
+        }
+    });
+
+    // Cancel update and revert profile picture
+    cancelButton.addEventListener("click", function () {
+        profileUpdateForm.classList.add("hidden");
+        profilePic.src = originalSrc;  // Restore original picture
+        fileInput.value = "";  // Reset file input
+    });
+});
+</script>
     <div class="profile-section">
+        <div class="profile-pic-container">
+        <img src="{{ current_user.get_profile_pic_url() }}" alt="Profile Picture" class="profile-pic">
+        <div class="profile-pic-overlay">Edit Profile</div>
+        </div>
         <h1>{{ current_user.username }}'s Profile</h1>
         
+    <div class="profile-update-form hidden">
+        <h2>Update Profile</h2>
+        <form action="" method="post" enctype="multipart/form-data">
+            {{ form.hidden_tag() }}
+            <div class="form-group">
+                {{ form.username.label }}
+                {{ form.username(class="form-control") }}
+                {% for error in form.username.errors %}
+                    <span class="error">{{ error }}</span>
+                {% endfor %}
+            </div>
+            <div class="form-group">
+                {{ form.profile_pic.label }}
+                {{ form.profile_pic(id="profile_pic", class="form-control") }}
+                {% for error in form.profile_pic.errors %}
+                    <span class="error">{{ error }}</span>
+                {% endfor %}
+            </div>
+            <button type="submit" class="btn btn-primary">Save Changes</button>
+            <button type="button" id="cancel-update" class="btn btn-secondary">Cancel</button>
+        </form>
+    </div>
+    
         <div class="stats-card">
             <h2>Your Statistics</h2>
             <p>Total Reviews: {{ reviews.total }}</p>

@@ -1,41 +1,29 @@
 
-from flask import Blueprint, render_template, flash, redirect, url_for, request, jsonify, current_app
+from flask import Blueprint, render_template, flash, redirect, url_for, request, jsonify, current_app, abort
 from flask_login import login_user, logout_user, current_user, login_required
+from flask_limiter import Limiter
 from app import db
 from app.models import User, Unit, Review, Vote
-from app.forms import RegistrationForm, LoginForm, ReviewForm, SearchForm
+from app.forms import RegistrationForm, LoginForm, ReviewForm, SearchForm, UpdateProfileForm
 from datetime import datetime
 from urllib.parse import urlparse
+from security import sanitize_input, limiter, validate_input
+from app.utils import save_profile_picture
 
 main = Blueprint('main', __name__)
 auth = Blueprint('auth', __name__)
 
 @main.route('/units', methods=['GET'])
 def home():
-    # Add some sample units if none exist
-    if Unit.query.count() == 0:
-        sample_units = [
-            Unit(
-                code='COMP1000',
-                name='Introduction to Computer Science',
-                description='Learn the basics of programming and computer science concepts.',
-                faculty='Science and Engineering'
-            ),
-            Unit(
-                code='COMP2000',
-                name='Data Structures',
-                description='Advanced programming concepts and data structures.',
-                faculty='Science and Engineering'
-            )
-        ]
-        db.session.add_all(sample_units)
-        db.session.commit()
-    
     units = Unit.query.all()
     return render_template('home.html', units=units)
 
 @main.route('/unit/<string:code>', methods=['GET', 'POST'])
+@validate_input
 def unit(code):
+    code = sanitize_input(code)
+    if not code:
+        abort(400)
     unit = Unit.query.filter_by(code=code).first_or_404()
     page = request.args.get('page', 1, type=int)
     sort = request.args.get('sort', 'newest')
@@ -73,21 +61,25 @@ def unit(code):
     
     return render_template('unit.html', unit=unit, reviews=reviews, sort=sort, form=form)
 
-@auth.route('/login', methods=['GET', 'POST'])  # Add both GET and POST methods
+@auth.route('/login', methods=['GET', 'POST'])
 def login():
     if current_user.is_authenticated:
         return redirect(url_for('main.home'))
+    
     form = LoginForm()
     if form.validate_on_submit():
         user = User.query.filter_by(username=form.username.data).first()
         if user is None or not user.check_password(form.password.data):
             flash('Invalid username or password')
             return redirect(url_for('auth.login'))
+        
         login_user(user, remember=form.remember_me.data)
         next_page = request.args.get('next')
         if not next_page or urlparse(next_page).netloc != '':
             next_page = url_for('main.home')
         return redirect(next_page)
+    
+    # This return statement should be at this indentation level
     return render_template('auth/login.html', title='Sign In', form=form)
 
 @auth.route('/register', methods=['GET', 'POST'])
@@ -194,7 +186,10 @@ def delete_review(id):
 
 @main.route('/review/<int:id>/<string:vote_type>', methods=['POST'])
 @login_required
+@limiter.limit("20 per minute")
 def vote_review(id, vote_type):
+    if vote_type not in ['up', 'down']:
+        abort(400)
     if not request.is_json:
         return jsonify({'error': 'Invalid request'}), 400
         
@@ -244,26 +239,21 @@ def vote_review(id, vote_type):
         'user_vote': user_vote
     })
 
-
-@main.route('/search')
-def search():
-    form = SearchForm()
-    query = request.args.get('query', '')
-    
-    units = Unit.query
-    if query:
-        units = units.filter(
-            (Unit.code.contains(query)) |
-            (Unit.name.contains(query)) |
-            (Unit.faculty.contains(query))
-        )
-    
-    units = units.order_by(Unit.code).all()
-    return render_template('search.html', units=units, form=form)
-
-@main.route('/profile')
+@main.route('/profile', methods=['GET', 'POST'])
 @login_required
 def profile():
+    form = UpdateProfileForm()
+    if form.validate_on_submit():
+        if form.profile_pic.data:
+            picture_file = save_profile_picture(form.profile_pic.data)
+            current_user.profile_pic = picture_file
+        current_user.username = form.username.data
+        db.session.commit()
+        flash('Your profile has been updated!', 'success')
+        return redirect(url_for('main.profile'))
+    elif request.method == 'GET':
+        form.username.data = current_user.username
+
     page = request.args.get('page', 1, type=int)
     
     # Get both regular and anonymous reviews
@@ -276,8 +266,7 @@ def profile():
         per_page=current_app.config['REVIEWS_PER_PAGE'],
         error_out=False
     )
-    
-    return render_template('profile.html', user=current_user, reviews=reviews)
+    return render_template('profile.html', user=current_user, reviews=reviews, form=form)
 
 @main.route('/unit/<string:code>/vote', methods=['POST'])
 @login_required
@@ -298,6 +287,21 @@ def vote_unit(code):
     })
 
 
+@main.route('/search')
+def search():
+    form = SearchForm()
+    query = request.args.get('query', '')
+    
+    units = Unit.query
+    if query:
+        units = units.filter(
+            (Unit.code.contains(query)) |
+            (Unit.name.contains(query)) |
+            (Unit.faculty.contains(query))
+        )
+    
+    units = units.order_by(Unit.code).all()
+    return render_template('search.html', units=units, form=form)
 
 @main.route("/contact")
 def contact():
