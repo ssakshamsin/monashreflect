@@ -73,6 +73,8 @@
   /* Vote Count */
   
   .vote-count {
+    display: flex;
+    justify-content: space-around;
     font-size: 0.9rem;
     color: #666;
   }

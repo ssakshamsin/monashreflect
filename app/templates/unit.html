@@ -68,6 +68,62 @@
             }
             }
         </script>
+            {% if current_user.is_authenticated %}
+            <div class="review-form-section">
+                <form method="post" class="review-form">
+                    {{ form.hidden_tag() }}
+                    
+                    <!-- Rating Section -->
+                    <div class="form-group rating-group">
+                        <!-- <label for="rating">Rating:</label> -->
+                        <div class="star-rating">
+                            {% for i in range(1, 6) %}
+                                <input type="radio" id="star{{ i }}" name="rating" value="{{ i }}" required
+                                       {% if form.rating.data == i %}checked{% endif %}>
+                                <label for="star{{ i }}" class="star">&#9733;</label>
+                            {% endfor %}
+                        </div>
+                        {% for error in form.rating.errors %}
+                            <span class="error">{{ error }}</span>
+                        {% endfor %}
+                    </div>
+
+                    <!-- Review Content Section -->
+                    <div class="form-group">
+                        <textarea id="reviewContent" name="content" class="form-control" rows="5" 
+                        placeholder="Write your review here!" required>{{ form.content.data if form.content.data else '' }}</textarea>
+                        {% for error in form.content.errors %}
+                            <span class="error">{{ error }}</span>
+                        {% endfor %}
+                    </div>
+
+                    <!-- <div class="form-group">
+                        <textarea id="reviewContent" name="content" class="form-control" rows="5" 
+                        placeholder="Write your review here!" required>{{ form.content.data if form.content.data else '' }}</textarea>
+                        {% for error in form.content.errors %}
+                            <span class="error">{{ error }}</span>
+                        {% endfor %}
+                    </div> -->
+
+                    <!-- Anonymous Option -->
+                    <div class="form-group anonymous-group">
+                        <div class="checkbox-container">
+                            {{ form.anonymous() }} {{ form.anonymous.label }}
+                        </div>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <div class="form-group">
+                        {{ form.submit(class="btn btn-primary") }}
+                    </div>
+                </form>
+            </div>
+            {% else %}
+            <div class="login-prompt">
+                <p>Please <a href="{{ url_for('auth.login') }}">log in</a> to write a review.</p>
+            </div>
+            {% endif %}
+
                 <!-- Sort Options -->
         <div class="sort-container">
             <label for="sortDropdown">Sort by:</label>
@@ -189,7 +245,7 @@
         }
     }
     </script>
-
+    
     <!-- Reviews Section -->
     <div class="reviews-section">
         {% for review in reviews.items %}
@@ -253,36 +309,7 @@
         {% endfor %}
 
             
-            {% if current_user.is_authenticated %}
-            <div class="review-form-section">
-                <h2>Write a Review</h2>
-                <form method="post" class="review-form">
-                    {{ form.hidden_tag() }}
-                    <div class="form-group">
-                        {{ form.rating.label }}
-                        {{ form.rating(class="form-control") }}
-                        {% for error in form.rating.errors %}
-                            <span class="error">{{ error }}</span>
-                        {% endfor %}
-                    </div>
-                    <div class="form-group">
-                        {{ form.content.label }}
-                        {{ form.content(class="form-control", rows=5) }}
-                        {% for error in form.content.errors %}
-                            <span class="error">{{ error }}</span>
-                        {% endfor %}
-                    </div>
-                    <div class="form-group">
-                        {{ form.anonymous() }} {{ form.anonymous.label }}
-                    </div>
-                    {{ form.submit(class="btn btn-primary") }}
-                </form>
-            </div>
-            {% else %}
-                <div class="login-prompt">
-                    <p>Please <a href="{{ url_for('auth.login') }}">log in</a> to write a review.</p>
-                </div>
-        {% endif %}
+            
 
         <!-- Pagination -->
         {% if reviews.pages > 1 %}

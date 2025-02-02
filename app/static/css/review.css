@@ -1,0 +1,103 @@
+/* Review Form Section */
+.review-form-section {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.review-form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Rating Group */
+.rating-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.star-rating {
+    line-height: 1;
+    direction: rtl;
+}
+
+.star-rating input[type="radio"] {
+    display: none; /* Hide the radio buttons */
+}
+
+.star-rating label.star {
+    font-size: 2rem;
+    color: #ccc; /* Default star color (inactive) */
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+/* Hover and Selection Effects */
+.star-rating input[type="radio"]:checked ~ label.star,
+.star-rating label.star:hover,
+.star-rating label.star:hover ~ label.star {
+    color: #facc15; /* Active star color (yellow) */
+}
+
+/* Review Content */
+.form-control {
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    resize: vertical; /* Allow vertical resizing */
+    min-height: 100px;
+    color: #333; /* Default text color */
+}
+
+.form-control::placeholder {
+    color: #aaa; /* Placeholder text color */
+    font-style: italic;
+    opacity: 1; /* Ensure full visibility */
+}
+
+/* Anonymous Checkbox */
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* Submit Button */
+.btn-primary {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker shade of primary color */
+}
+
+/* Login Prompt */
+.login-prompt {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.1rem;
+    color: var(--text-color);
+}
+
+.login-prompt a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-prompt a:hover {
+    text-decoration: underline;
+}
