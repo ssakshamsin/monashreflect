@@ -74,8 +74,27 @@ main {
     padding: 0 1rem;
 }
 
+/* Add to your style.css */
+.vote-btn {
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: color 0.2s;
+}
 
+.vote-btn.active {
+    color: #3498db;
+    font-weight: bold;
+}
 
+.vote-count {
+    display: inline-block;
+    min-width: 20px;
+    text-align: center;
+}
+
+button:disabled{
+    cursor: default;
+}
 /* Pagination */
 .pagination {
     display: flex;

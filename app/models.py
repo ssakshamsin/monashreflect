@@ -15,33 +15,16 @@ def load_user(id):
 class User(UserMixin, db.Model):
     id = db.Column(db.Integer, primary_key=True)
     username = db.Column(db.String(64), unique=True, nullable=False)
-    email = db.Column(db.String(120), unique=True, nullable=False)
     password_hash = db.Column(db.String(128))
     timestamp = db.Column(db.DateTime, default=datetime.utcnow)
     is_verified = db.Column(db.Boolean, default=False)
-    reviews = db.relationship('Review', backref='author', lazy='dynamic')
+    reviews = db.relationship("Review", back_populates="user", foreign_keys="Review.user_id")
 
     def set_password(self, password):
         self.password_hash = generate_password_hash(password)
 
     def check_password(self, password):
         return check_password_hash(self.password_hash, password)
-    
-    def get_verification_token(self, expires_in=3600):
-        return jwt.encode(
-            {'verify_email': self.id, 'exp': time() + expires_in},
-            current_app.config['SECRET_KEY'],
-            algorithm='HS256'
-        )
-
-    @staticmethod
-    def verify_token(token):
-        try:
-            id = jwt.decode(token, current_app.config['SECRET_KEY'],
-                          algorithms=['HS256'])['verify_email']
-        except:
-            return None
-        return User.query.get(id)
 
 class Unit(db.Model):
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
@@ -50,10 +33,17 @@ class Unit(db.Model):
     faculty = db.Column(db.String(255), nullable=False)
     credit_points = db.Column(db.Integer, nullable=False)
     url = db.Column(db.String(500), nullable=False)
-    reviews = db.relationship('Review', backref='unit', lazy='dynamic')    
+    upvotes = db.Column(db.Integer, default=0, nullable=False)
+    downvotes = db.Column(db.Integer, default=0, nullable=False)
+
+    @property
+    def total_votes(self):
+        return self.upvotes + self.downvotes
+    
+    reviews = db.relationship('Review', back_populates="unit", lazy='dynamic')
     def vote(self, user, vote_type):
         existing_vote = Vote.query.filter_by(
-            user_id=user.id, review_id=self.id).first()
+            user_id=user.id, unit_id=self.id).first()
         
         if existing_vote:
             if existing_vote.vote_type == vote_type:
@@ -71,7 +61,7 @@ class Unit(db.Model):
                     self.downvotes += 1
                     self.upvotes -= 1
         else:
-            new_vote = Vote(user_id=user.id, review_id=self.id, vote_type=vote_type)
+            new_vote = Vote(user_id=user.id, unit_id=self.id, vote_type=vote_type)
             db.session.add(new_vote)
             if vote_type == 'up':
                 self.upvotes += 1
@@ -86,21 +76,47 @@ class Review(db.Model):
     rating = db.Column(db.Integer, nullable=False)
     timestamp = db.Column(db.DateTime, default=datetime.utcnow)
     is_anonymous = db.Column(db.Boolean, default=False)
-    is_approved = db.Column(db.Boolean, default=False)
     upvotes = db.Column(db.Integer, default=0)
     downvotes = db.Column(db.Integer, default=0)
-    user_id = db.Column(db.Integer, db.ForeignKey('user.id'))
-    unit_id = db.Column(db.Integer, db.ForeignKey('unit.id'))
+    user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)
+    unit_id = db.Column(db.Integer, db.ForeignKey('unit.id'), nullable=False)
+
+    user = db.relationship("User", back_populates="reviews", foreign_keys=[user_id])
+    unit = db.relationship("Unit", back_populates="reviews")
+
 
     def has_voted(self, user, vote_type):
-        vote = Vote.query.filter_by(user_id=user.id, review_id=self.id, vote_type=vote_type).first()
+        if not user.is_authenticated:
+            return False
+        vote = Vote.query.filter_by(
+            user_id=user.id,
+            review_id=self.id,
+            vote_type=vote_type
+        ).first()
         return vote is not None
 
+    def get_vote_status(self, user):
+        if not user.is_authenticated:
+            return None
+        vote = Vote.query.filter_by(
+            user_id=user.id,
+            review_id=self.id
+        ).first()
+        return vote.vote_type if vote else None
+
+    def can_edit(self, user):
+        if not user.is_authenticated:
+            return False
+        return user.id == self.user_id # or user.is_admin
+    
 class Vote(db.Model):
     id = db.Column(db.Integer, primary_key=True)
-    user_id = db.Column(db.Integer, db.ForeignKey('user.id'))
-    review_id = db.Column(db.Integer, db.ForeignKey('review.id'))
-    vote_type = db.Column(db.String(4))
+    user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)
+    unit_id = db.Column(db.Integer, db.ForeignKey('unit.id'), nullable=True)  # Allow voting for units
+    review_id = db.Column(db.Integer, db.ForeignKey('review.id'), nullable=True)
+    vote_type = db.Column(db.String(4), nullable=False)  # 'up' or 'down'
+
+    __table_args__ = (db.UniqueConstraint('user_id', 'review_id'),)
 
 class Assessment(db.Model):
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)

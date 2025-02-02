@@ -62,7 +62,6 @@ def seed_database():
         # Create a sample user
         user = User(
             username='testuser',
-            email='test@example.com',
             password_hash=generate_password_hash('password123'),
             is_verified=True
         )
@@ -75,16 +74,14 @@ def seed_database():
                 rating=5,
                 timestamp=datetime.utcnow(),
                 user_id=1,
-                unit_id=1,
-                is_approved=True
+                unit_id=1
             ),
             Review(
                 content='Challenging but rewarding. Good foundation for advanced topics.',
                 rating=4,
                 timestamp=datetime.utcnow(),
                 user_id=1,
-                unit_id=2,
-                is_approved=True
+                unit_id=2
             )
         ]
         db.session.add_all(reviews)

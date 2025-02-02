@@ -67,7 +67,7 @@ def vote_unit(code):
 from app import db
 from app.models import User, Unit
 
-test_user = User(username='testuser', email='test@example.com')
+test_user = User(username='testuser')
 test_user.set_password('password')
 db.session.add(test_user)
 db.session.commit()

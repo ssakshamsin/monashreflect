@@ -2,7 +2,6 @@
 {% block content %}
     <div class="unit-header">
         <h1>{{ unit.code }} - {{ unit.name }}</h1>
-        <p>{{ unit.description }}</p>
         <p>{{ unit.faculty }}</p>
 
         <!-- Poll UI -->
@@ -12,6 +11,7 @@
                     id="goodButton"
                     onclick="voteUnit('good')"
                     class="poll-button good-button"
+                    {% if not current_user.is_authenticated %}disabled{% endif %}
                 >
                     Good
                 </button>
@@ -23,14 +23,15 @@
                     id="badButton"
                     onclick="voteUnit('bad')"
                     class="poll-button bad-button"
+                    {% if not current_user.is_authenticated %}disabled{% endif %}
                 >
                     Bad
                 </button>
             </div>
 
             <div class="vote-count">
-                <p>Good Votes: <span id="goodVotes">{{ unit.good_votes }}</span></p>
-                <p>Bad Votes: <span id="badVotes">{{ unit.bad_votes }}</span></p>
+                <p>Good Votes: <span id="goodVotes">{{ unit.upvotes }}</span></p>
+                <p>Bad Votes: <span id="badVotes">{{ unit.downvotes }}</span></p>
                 <p>Total Votes: <span id="totalVotes">{{ unit.total_votes }}</span></p>
             </div>
         </div>
@@ -45,7 +46,7 @@
           <div class="collapsible-content">
             <p><strong>Credit Points:</strong> {{ unit.credit_points }}</p>
             <p><strong>Assessment Summary:</strong> {{ unit.assessment_summary }}</p>
-            <p><strong>Handbook Link:</strong> <a href="{{ unit.handbook_link }}" target="_blank">View Handbook</a></p>
+            <p><strong>Handbook Link:</strong> <a href="{{ unit.url }}" target="_blank">View Handbook</a></p>
           </div>
         </div>
         <script>
@@ -90,6 +91,103 @@
           const selectedUrl = this.value; // Get the selected URL
           window.location.href = selectedUrl; // Redirect to the selected URL
         });
+        function csrf_token () {
+            return document.querySelector('meta[name="csrf-token"]').getAttribute('content');
+        }
+        function voteReview(reviewId, voteType) {
+        fetch(`/review/${reviewId}/${voteType}`, {
+            method: 'POST',
+            headers: {
+                'X-CSRF-Token': '{{ csrf_token() }}',
+                'Content-Type': 'application/json'
+            },
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.error) {
+                alert(data.error);
+                return;
+            }
+            document.getElementById(`upvotes-${reviewId}`).textContent = data.upvotes;
+            document.getElementById(`downvotes-${reviewId}`).textContent = data.downvotes;
+            
+            // Update button states
+            const reviewContainer = document.querySelector(`[data-review-id="${reviewId}"]`);
+            const upvoteBtn = reviewContainer.querySelector('.upvote');
+            const downvoteBtn = reviewContainer.querySelector('.downvote');
+            
+            if (data.user_vote === 'up') {
+                upvoteBtn.classList.add('active');
+                downvoteBtn.classList.remove('active');
+            } else if (data.user_vote === 'down') {
+                downvoteBtn.classList.add('active');
+                upvoteBtn.classList.remove('active');
+            } else {
+                upvoteBtn.classList.remove('active');
+                downvoteBtn.classList.remove('active');
+            }
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            alert('An error occurred while voting');
+        });
+    }
+
+    function enableEdit(reviewId) {
+    document.getElementById(`editReview-${reviewId}`).style.display = 'block';
+    }
+
+    function cancelEdit(reviewId) {
+        document.getElementById(`editReview-${reviewId}`).style.display = 'none';
+    }
+
+    function saveEdit(reviewId) {
+        const newContent = document.getElementById(`editContent-${reviewId}`).value;
+        const newRating = document.getElementById(`editRating-${reviewId}`).value;
+        
+        fetch(`/review/${reviewId}/edit`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'X-CSRF-Token': '{{ csrf_token() }}'
+            },
+            body: JSON.stringify({ content: newContent, rating: newRating })
+        })
+        .then(response => response.json())
+        
+        .then(data => {
+            console.log(data.success);
+            if (data) {
+                location.reload(); // Refresh page to show updated review
+            } else {
+                alert('Error updating review');
+            }
+        })
+        .catch(error => console.error('Error:', error));
+    }
+
+
+
+    async function voteUnit(voteType) {
+        const unitId = "{{ unit.code }}";  // Get unit ID from template
+        const response = await fetch(`/unit/${unitId}/vote`, {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "X-CSRFToken": "{{ csrf_token() }}"  // If using Flask-WTF CSRF protection
+            },
+            body: JSON.stringify({ vote_type: voteType === "good" ? "up" : "down" })
+        });
+
+        const data = await response.json();
+        if (response.ok) {
+            document.getElementById("goodVotes").innerText = data.upvotes;
+            document.getElementById("badVotes").innerText = data.downvotes;
+            document.getElementById("totalVotes").innerText = data.total_votes;
+        } else {
+            alert("Error: " + data.error);
+        }
+    }
     </script>
 
     <!-- Reviews Section -->
@@ -98,34 +196,93 @@
             <div class="review-card">
                 <div class="review-header">
                     <span class="review-author">
-                        {% if review.author %}
-                            {{ review.author.username }}
+                        {% if review.is_anonymous %}
+                            Anonymous 
+                        {% elif review.user %}
+                            {{ review.user.username }}
                         {% else %}
-                            Anonymous
+                            Deleted User
                         {% endif %}
                     </span>
                     <span class="review-date">{{ review.timestamp.strftime('%Y-%m-%d') }}</span>
+                    {% if review.can_edit(current_user) %}
+                    <div class="review-actions">
+                        <button onclick="enableEdit('{{ review.id }}')" class="btn btn-secondary btn-sm">Edit</button>
+                        <form action="{{ url_for('main.delete_review', id=review.id) }}" method="post" class="d-inline">{{ form.hidden_tag() }}
+                            <button type="submit" class="btn btn-danger btn-sm" onclick="return confirm('Are you sure you want to delete this review?')">Delete</button>
+                        </form>
+                    </div>
+
+                    <div id="editReview-{{ review.id }}" class="edit-review-form" style="display: none;">
+                        <textarea id="editContent-{{ review.id }}" class="form-control">{{ review.content }}</textarea>
+                        <select id="editRating-{{ review.id }}" class="form-control">
+                            {% for i in range(1, 6) %}
+                                <option value="{{ i }}" {% if review.rating == i %}selected{% endif %}>{{ i }} Stars</option>
+                            {% endfor %}
+                        </select>
+                        <button onclick="saveEdit('{{ review.id }}')" class="btn btn-success btn-sm">Save</button>
+                        <button onclick="cancelEdit('{{ review.id }}')" class="btn btn-secondary btn-sm">Cancel</button>
+                    </div>
+                {% endif %}
                 </div>
                 <div class="review-rating">
                     {% for _ in range(review.rating) %}⭐{% endfor %}
                 </div>
+                
                 <div class="review-content">
                     {{ review.content }}
                 </div>
-                {% if current_user.is_authenticated %}
-                    <div class="review-votes">
-                        <button onclick="voteReview('{{ review.id }}', 'up')"
-                                class="vote-btn upvote {% if review.has_voted(current_user, 'up') %}active{% endif %}">
-                            ▲ <span class="vote-count">{{ review.upvotes }}</span>
-                        </button>
-                        <button onclick="voteReview('{{ review.id }}', 'down')"
-                                class="vote-btn downvote {% if review.has_voted(current_user, 'down') %}active{% endif %}">
-                            ▼ <span class="vote-count">{{ review.downvotes }}</span>
-                        </button>
-                    </div>
-                {% endif %}
+
+
+            
+            <div class="review-votes" 
+            data-review-id="{{ review.id }}" 
+            data-upvotes="{{ review.upvotes }}" 
+            data-downvotes="{{ review.downvotes }}" 
+            data-user-vote="{{ review.get_vote_status(current_user) }}">
+            
+            <button onclick="voteReview('{{ review.id }}', 'up')" class="vote-btn upvote {% if review.has_voted(current_user, 'up') %}active{% endif %}"{% if not current_user.is_authenticated %}disabled{% endif %}>
+                ▲ <span id="upvotes-{{ review.id }}" class="vote-count">{{ review.upvotes }}</span>
+            </button>
+            <button onclick="voteReview('{{ review.id }}', 'down')" class="vote-btn downvote downvote {% if review.has_voted(current_user, 'down') %}active{% endif %}"{% if not current_user.is_authenticated %}disabled{% endif %}>
+                ▼ <span id="downvotes-{{ review.id }}" class="vote-count">{{ review.downvotes }}</span>
+            </button>
             </div>
+            </div>
+
         {% endfor %}
+
+            
+            {% if current_user.is_authenticated %}
+            <div class="review-form-section">
+                <h2>Write a Review</h2>
+                <form method="post" class="review-form">
+                    {{ form.hidden_tag() }}
+                    <div class="form-group">
+                        {{ form.rating.label }}
+                        {{ form.rating(class="form-control") }}
+                        {% for error in form.rating.errors %}
+                            <span class="error">{{ error }}</span>
+                        {% endfor %}
+                    </div>
+                    <div class="form-group">
+                        {{ form.content.label }}
+                        {{ form.content(class="form-control", rows=5) }}
+                        {% for error in form.content.errors %}
+                            <span class="error">{{ error }}</span>
+                        {% endfor %}
+                    </div>
+                    <div class="form-group">
+                        {{ form.anonymous() }} {{ form.anonymous.label }}
+                    </div>
+                    {{ form.submit(class="btn btn-primary") }}
+                </form>
+            </div>
+            {% else %}
+                <div class="login-prompt">
+                    <p>Please <a href="{{ url_for('auth.login') }}">log in</a> to write a review.</p>
+                </div>
+        {% endif %}
 
         <!-- Pagination -->
         {% if reviews.pages > 1 %}

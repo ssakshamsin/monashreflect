@@ -5,7 +5,6 @@ from app import db
 from app.models import User, Unit, Review, Vote
 from app.forms import RegistrationForm, LoginForm, ReviewForm, SearchForm
 from datetime import datetime
-from app.email import send_verification_email
 from urllib.parse import urlparse
 
 main = Blueprint('main', __name__)
@@ -35,11 +34,25 @@ def home():
     units = Unit.query.all()
     return render_template('home.html', units=units)
 
-@main.route('/unit/<string:code>', methods=['GET'])
+@main.route('/unit/<string:code>', methods=['GET', 'POST'])
 def unit(code):
     unit = Unit.query.filter_by(code=code).first_or_404()
     page = request.args.get('page', 1, type=int)
     sort = request.args.get('sort', 'newest')
+    form = ReviewForm()
+    
+    if form and form.validate_on_submit():
+        review = Review(content=form.content.data,
+            rating=int(form.rating.data),
+            unit_id=unit.id,
+            user=current_user,
+            is_anonymous=form.anonymous.data,
+        )
+        
+        db.session.add(review)
+        db.session.commit()
+        flash('Your review has been posted.')
+        return redirect(url_for('main.unit', code=code))
     
     if sort == 'newest':
         reviews = Review.query.filter_by(unit_id=unit.id)\
@@ -54,7 +67,11 @@ def unit(code):
     reviews = reviews.paginate(page=page, 
                              per_page=current_app.config['REVIEWS_PER_PAGE'])
     
-    return render_template('unit.html', unit=unit, reviews=reviews, sort=sort)
+
+    for review in reviews:
+        review.user_vote = review.get_vote_status(current_user) if current_user.is_authenticated else None
+    
+    return render_template('unit.html', unit=unit, reviews=reviews, sort=sort, form=form)
 
 @auth.route('/login', methods=['GET', 'POST'])  # Add both GET and POST methods
 def login():
@@ -62,9 +79,9 @@ def login():
         return redirect(url_for('main.home'))
     form = LoginForm()
     if form.validate_on_submit():
-        user = User.query.filter_by(email=form.email.data).first()
+        user = User.query.filter_by(username=form.username.data).first()
         if user is None or not user.check_password(form.password.data):
-            flash('Invalid email or password')
+            flash('Invalid username or password')
             return redirect(url_for('auth.login'))
         login_user(user, remember=form.remember_me.data)
         next_page = request.args.get('next')
@@ -73,35 +90,25 @@ def login():
         return redirect(next_page)
     return render_template('auth/login.html', title='Sign In', form=form)
 
-@auth.route('/register')
+@auth.route('/register', methods=['GET', 'POST'])
 def register():
     if current_user.is_authenticated:
         return redirect(url_for('main.home'))
     form = RegistrationForm()
     if form.validate_on_submit():
-        user = User(username=form.username.data, email=form.email.data)
+        user = User(username=form.username.data)
         user.set_password(form.password.data)
         db.session.add(user)
         db.session.commit()
-        send_verification_email(user)
-        flash('Please check your email to verify your account.')
+        flash('Congratulations, you are now a registered user!') 
         return redirect(url_for('auth.login'))
     return render_template('auth/register.html', title='Register', form=form)
-
-@auth.route('/verify/<token>')
-def verify_email(token):
-    user = User.verify_token(token)
-    if not user:
-        flash('The verification link is invalid or has expired.')
-        return redirect(url_for('main.home'))
-    user.verified = True
-    db.session.commit()
-    flash('Your email has been verified.')
-    return redirect(url_for('auth.login'))
 
 
 @auth.route('/logout')
 def logout():
+    logout_user()
+    flash('You have been logged out.')
     return redirect(url_for('main.home'))
 
 @main.route('/unit/<string:code>/review', methods=['GET', 'POST'])
@@ -109,46 +116,147 @@ def logout():
 def submit_review(code):
     unit = Unit.query.filter_by(code=code).first_or_404()
     form = ReviewForm()
+    
     if form.validate_on_submit():
-        review = Review(content=form.content.data,
-                       rating=int(form.rating.data),
-                       unit_id=unit.id,
-                       author=None if form.anonymous.data else current_user,
-                       timestamp=datetime.utcnow())
+        review = Review(
+            content=form.content.data,
+            rating=int(form.rating.data),
+            unit_id=unit.id,
+            author=current_user,
+            is_anonymous=form.anonymous.data,
+        )
         db.session.add(review)
         db.session.commit()
         flash('Your review has been submitted.')
         return redirect(url_for('main.unit', code=code))
-    return render_template('submit_review.html', title='Submit Review', 
-                         form=form, unit=unit)
+    
+    return render_template('submit_review.html', title='Submit Review', form=form, unit=unit)
 
-@main.route('/review/<int:id>/<string:vote_type>')
+from flask import jsonify, request
+
+@main.route('/review/<int:id>/edit', methods=['GET', 'POST'])
+@login_required
+def edit_review(id):
+    review = Review.query.get_or_404(id)
+    
+    if not review.can_edit(current_user):
+        if request.is_json:  # API request
+            return jsonify({'error': 'Unauthorized'}), 403
+        flash('You cannot edit this review.')
+        return redirect(url_for('main.unit', code=review.unit.code))
+    
+    form = ReviewForm()
+    
+    if request.method == 'GET':  
+        if request.is_json:  # Handle API request
+            return jsonify({
+                'content': review.content,
+                'rating': review.rating,
+                'anonymous': review.is_anonymous
+            })
+        # Normal browser form loading
+        form.content.data = review.content
+        form.rating.data = str(review.rating)
+        form.anonymous.data = review.is_anonymous
+
+    if form.validate_on_submit():
+        review.content = form.content.data
+        review.rating = int(form.rating.data)
+        review.is_anonymous = form.anonymous.data
+        db.session.commit()
+
+        if request.is_json:  # JSON response for fetch requests
+            return jsonify({
+                'updated_content': review.content,
+                'updated_rating': review.rating
+            })
+        
+        flash('Your review has been updated.')
+        return redirect(url_for('main.unit', code=review.unit.code))
+
+    return render_template('edit_review.html', form=form, review=review)
+
+
+@main.route('/review/<int:id>/delete', methods=['POST'])
+@login_required
+def delete_review(id):
+    review = Review.query.get_or_404(id)
+    if not review.can_edit(current_user):
+        flash('You cannot delete this review.')
+        return redirect(url_for('main.unit', code=review.unit.code))
+    
+    unit_code = review.unit.code
+    db.session.delete(review)
+    db.session.commit()
+    flash('Your review has been deleted.')
+    return redirect(url_for('main.unit', code=unit_code))
+
+
+@main.route('/review/<int:id>/<string:vote_type>', methods=['POST'])
 @login_required
 def vote_review(id, vote_type):
+    if not request.is_json:
+        return jsonify({'error': 'Invalid request'}), 400
+        
     review = Review.query.get_or_404(id)
     if vote_type not in ['up', 'down']:
         return jsonify({'error': 'Invalid vote type'}), 400
-    review.vote(current_user, vote_type)
+
+    existing_vote = Vote.query.filter_by(
+        user_id=current_user.id,
+        review_id=review.id
+    ).first()
+
+    if existing_vote:
+        if existing_vote.vote_type == vote_type:
+            # Remove vote if clicking the same button
+            db.session.delete(existing_vote)
+            if vote_type == 'up':
+                review.upvotes = max(0, review.upvotes - 1)
+            else:
+                review.downvotes = max(0, review.downvotes - 1)
+            user_vote = None
+        else:
+            # Change vote if clicking different button
+            existing_vote.vote_type = vote_type
+            if vote_type == 'up':
+                review.upvotes += 1
+                review.downvotes = max(0, review.downvotes - 1)
+            else:
+                review.downvotes += 1
+                review.upvotes = max(0, review.upvotes - 1)
+            user_vote = vote_type
+    else:
+        # New vote
+        new_vote = Vote(user_id=current_user.id, review_id=review.id, vote_type=vote_type)
+        db.session.add(new_vote)
+        if vote_type == 'up':
+            review.upvotes += 1
+        else:
+            review.downvotes += 1
+        user_vote = vote_type
+
+    db.session.commit()
+
     return jsonify({
         'upvotes': review.upvotes,
-        'downvotes': review.downvotes
+        'downvotes': review.downvotes,
+        'user_vote': user_vote
     })
+
 
 @main.route('/search')
 def search():
     form = SearchForm()
     query = request.args.get('query', '')
-    faculty = request.args.get('faculty', '')
     
     units = Unit.query
     if query:
         units = units.filter(
             (Unit.code.contains(query)) |
             (Unit.name.contains(query)) |
-            (Unit.description.contains(query))
+            (Unit.faculty.contains(query))
         )
-    if faculty:
-        units = units.filter_by(faculty=faculty)
     
     units = units.order_by(Unit.code).all()
     return render_template('search.html', units=units, form=form)
@@ -157,10 +265,39 @@ def search():
 @login_required
 def profile():
     page = request.args.get('page', 1, type=int)
-    reviews = Review.query.filter_by(author=current_user)\
-        .order_by(Review.timestamp.desc())\
-        .paginate(page=page, per_page=current_app.config['REVIEWS_PER_PAGE'])
+    
+    # Get both regular and anonymous reviews
+    reviews = Review.query.filter(
+        (Review.user_id == current_user.id)
+    ).order_by(Review.timestamp.desc())
+    
+    reviews = reviews.paginate(
+        page=page, 
+        per_page=current_app.config['REVIEWS_PER_PAGE'],
+        error_out=False
+    )
+    
     return render_template('profile.html', user=current_user, reviews=reviews)
+
+@main.route('/unit/<string:code>/vote', methods=['POST'])
+@login_required
+def vote_unit(code):
+    unit = Unit.query.filter_by(code=code).first_or_404()
+    data = request.json
+    vote_type = data.get("vote_type")
+
+    if vote_type not in ["up", "down"]:
+        return jsonify({"error": "Invalid vote type"}), 400
+
+    unit.vote(current_user, vote_type)
+    
+    return jsonify({
+        "upvotes": unit.upvotes,
+        "downvotes": unit.downvotes,
+        "total_votes": unit.total_votes
+    })
+
+
 
 @main.route("/contact")
 def contact():
