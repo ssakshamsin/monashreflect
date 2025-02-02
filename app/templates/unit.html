@@ -191,6 +191,17 @@
     </script>
 
     <!-- Reviews Section -->
+    <!-- Comment Block -->
+    <div class="comment-section">
+        <h3>Leave a Comment</h3>
+        <form id="commentForm" class="comment-form">
+        <textarea id="commentInput" placeholder="Write your comment here..." required></textarea>
+        <button type="submit" class="submit-comment-btn">Submit</button>
+        </form>
+    </div>
+
+    <!-- write a review  -->
+    
     <div class="reviews-section">
         {% for review in reviews.items %}
             <div class="review-card">
