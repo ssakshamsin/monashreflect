@@ -25,6 +25,18 @@ class User(UserMixin, db.Model):
 
     def check_password(self, password):
         return check_password_hash(self.password_hash, password)
+    
+    def get_total_votes(self):
+        total_upvotes = 0
+        total_downvotes = 0
+        for review in self.reviews:
+            total_upvotes += review.upvotes
+            total_downvotes += review.downvotes
+        return {
+            'upvotes': total_upvotes,
+            'downvotes': total_downvotes,
+            'total': total_upvotes + total_downvotes
+        }
 
 class Unit(db.Model):
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
@@ -35,6 +47,7 @@ class Unit(db.Model):
     url = db.Column(db.String(500), nullable=False)
     upvotes = db.Column(db.Integer, default=0, nullable=False)
     downvotes = db.Column(db.Integer, default=0, nullable=False)
+    assessment_details = db.Column(db.Text)
 
     @property
     def total_votes(self):

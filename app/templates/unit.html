@@ -11,7 +11,22 @@
         </p>
         <div class="collapsible-content simplistic">
             <p><strong>Credit Points:</strong> {{ unit.credit_points }}</p>
-            <p><strong>Assessment Summary:</strong> {{ unit.assessment_summary }}</p>
+            <p><strong>Assessment Summary:</strong> 
+                <div class="assessment-grid">
+                    {% if unit.assessments %}
+                        {% for assessment in unit.assessments|sort(attribute='number') %}
+                            <div class="assessment-card">
+                                <h3 class="assessment-name">{{ assessment.name }}</h3>
+                                <div class="assessment-weight">
+                                    <span class="weight-text">{{ assessment.weight }}%</span>
+                                </div>
+                            </div>
+                        {% endfor %}
+                    {% else %}
+                        <p class="no-assessments">No assessments have been added for this unit.</p>
+                    {% endif %}
+                </div>
+            </p>
             <p><strong>Handbook Link:</strong> <a href="{{ unit.url }}" target="_blank">View Handbook</a></p>
         </div>
         <!-- Poll UI -->

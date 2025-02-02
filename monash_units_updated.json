@@ -1156,7 +1156,7 @@
         "name": "Foundations of health professional practice",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "12",
-        "assessment_summary": "1 - Objective Structured Clinical Examination (OSCE) (4 x 10-minute clinical skills assessments) (20%); 2 - Allied health needs case study and reflection (2,400 words) (30%); 5 - Work integrated learning portfolio (Pass/Fail) (%); 3 - Prescribing practice (1,200 words) (20%); 4 - Short form final test (2 hours and 10 mins) (30%)",
+        "assessment_summary": "1 - Objective Structured Clinical Examination (OSCE) (4 x 10-minute clinical skills assessments) (20%); 2 - Allied health needs case study and reflection (2,400 words) (30%); 5 - Work integrated learning portfolio (Pass/Fail) (0%); 3 - Prescribing practice (1,200 words) (20%); 4 - Short form final test (2 hours and 10 mins) (30%)",
         "url": "https://handbook.monash.edu/2025/units/AHC5000"
     },
     {
@@ -3988,7 +3988,7 @@
         "name": "Recovery principles",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "12",
-        "assessment_summary": "4 - Critical reflection - written (2,500 words) (%); 2 - Essay (4,000 - 4,500 words) (55%); 3 - Participation in online discussion (%); 1 - Critical analysis (3,500 words) (45%)",
+        "assessment_summary": "2 - Essay (4,000 - 4,500 words) (55%); 1 - Critical analysis (3,500 words) (45%)",
         "url": "https://handbook.monash.edu/2025/units/ASC5007"
     },
     {
@@ -11900,7 +11900,7 @@
         "name": "Integrative biomedical science practical",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "6",
-        "assessment_summary": "1 - Research communication (executive summary and oral presentation)  (40%); 2 - Demonstration of laboratory skills (Pass/Fail) (%); 3 - Demonstration of professionalism (10%); 4 - Portfolio (50%)",
+        "assessment_summary": "1 - Research communication (executive summary and oral presentation)  (40%); 2 - Demonstration of laboratory skills (Pass/Fail) (0%); 3 - Demonstration of professionalism (10%); 4 - Portfolio (50%)",
         "url": "https://handbook.monash.edu/2025/units/BME3030"
     },
     {
@@ -11988,7 +11988,7 @@
         "name": "Cells, tissues and organisms",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "6",
-        "assessment_summary": "1 - Knowledge & skills portfolio \u2013 PART 1 Skills component (Pass/Fail) (%); 3 - Team Scientific Communication Presentation  (Group poster presentation 10 mins - 600 words) (30%); 2 - Knowledge & skills portfolio \u2013 PART 2 Knowledge component (A variety of question types) (70%)",
+        "assessment_summary": "1 - Knowledge & skills portfolio \u2013 PART 1 Skills component (Pass/Fail) (0%); 3 - Team Scientific Communication Presentation  (Group poster presentation 10 mins - 600 words) (30%); 2 - Knowledge & skills portfolio \u2013 PART 2 Knowledge component (A variety of question types) (70%)",
         "url": "https://handbook.monash.edu/2025/units/BMS1021"
     },
     {
@@ -12028,7 +12028,7 @@
         "name": "Human anatomy",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "6",
-        "assessment_summary": "1 - Lab-based competency hurdle(%); 3 - Collaborative learning tasks(20%); 4 - Viva Voce Exam (12 minutes)(30%); 2 - Online workbooks(50%)",
+        "assessment_summary": "1 - Lab-based competency hurdle(0%); 3 - Collaborative learning tasks(20%); 4 - Viva Voce Exam (12 minutes)(30%); 2 - Online workbooks(50%)",
         "url": "https://handbook.monash.edu/2025/units/BMS2011"
     },
     {
@@ -12188,7 +12188,7 @@
         "name": "Research project and thesis",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "36",
-        "assessment_summary": "3 - Seminar 2 (10%); 4 - Thesis (10,000 - 15,000 words) (%); 2 - Seminar 1 (15 minutes) (%); 1 - Literature review (4000 words) (10%)",
+        "assessment_summary": "3 - Seminar 2 (10%); 4 - Thesis (10,000 - 15,000 words) (80%); 2 - Seminar 1 (15 minutes) (0%); 1 - Literature review (4000 words) (10%)",
         "url": "https://handbook.monash.edu/2025/units/BMS5008"
     },
     {
@@ -12460,7 +12460,7 @@
         "name": "Industrial formulation",
         "faculty": "Faculty of Pharmacy and Pharmaceutical Sciences",
         "credit_points": "6",
-        "assessment_summary": "2 - Project report 1 (%); 1 - Assignments (%); 3 - Project report 2 (%); 4 - Final team oral examination (%)",
+        "assessment_summary": "2 - Project report 1 (Pass/Fail)(0%); 1 - Assignments (Pass/Fail)(0%); 3 - Project report 2 (Pass/Fail)(0%); 4 - Final team oral examination (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/BPS3061"
     },
     {
@@ -15172,7 +15172,7 @@
         "name": "Early human development from cells to tissues",
         "faculty": "Faculty of Science",
         "credit_points": "6",
-        "assessment_summary": "1 - In-semester tests(30%); 2 - Reports(70%); 3 - Demonstration of laboratory skills(%)",
+        "assessment_summary": "1 - In-semester tests(30%); 2 - Reports(70%); 3 - Demonstration of laboratory skills (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/DEV2011"
     },
     {
@@ -15180,7 +15180,7 @@
         "name": "Human anatomy and development: Tissues and body systems",
         "faculty": "Faculty of Science",
         "credit_points": "6",
-        "assessment_summary": "4 - Viva Voce examination(25%); 2 - Workbook(50%); 1 - Case study analysis and reflection(%); 3 - Audiovisual glossary(25%)",
+        "assessment_summary": "4 - Viva Voce examination(25%); 2 - Workbook(50%); 1 - Case study analysis and reflection (Pass/Fail)(0%); 3 - Audiovisual glossary(25%)",
         "url": "https://handbook.monash.edu/2025/units/DEV2022"
     },
     {
@@ -15348,7 +15348,7 @@
         "name": "Psychopathology part 1",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "0",
-        "assessment_summary": "3 - Psychological Report (1500 words) (30%); 2 - Mental Status Examination (20%); 1 - Satisfactory Class Participation (%); 4 - End of semester take home exam (50%)",
+        "assessment_summary": "3 - Psychological Report (1500 words) (30%); 2 - Mental Status Examination (20%); 1 - Satisfactory Class Participation (Pass/Fail)(0%); 4 - End of semester take home exam (50%)",
         "url": "https://handbook.monash.edu/2025/units/DPSY5101"
     },
     {
@@ -15356,7 +15356,7 @@
         "name": "Psychological assessment part 1",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "0",
-        "assessment_summary": "3 - Behavioural Assessment(30%); 2 - Psychometric Measure Evaluation(20%); 5 - WAIS-IV OSCE Examination(%); 4 - WAIS-IV, WMS-IV & MMP1-2 Administration(%); 6 - Psychological report(50%); 1 - Satisfactory attendance and participation are required to pass the unit.(%)",
+        "assessment_summary": "3 - Behavioural Assessment(30%); 2 - Psychometric Measure Evaluation(20%); 5 - WAIS-IV OSCE Examination (Pass/Fail)(0%); 4 - WAIS-IV, WMS-IV & MMP1-2 Administration (Pass/Fail)(0%); 6 - Psychological report(50%); 1 - Satisfactory attendance and participation are required to pass the unit. (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/DPSY5102"
     },
     {
@@ -15372,7 +15372,7 @@
         "name": "Ethics and professional practice",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "0",
-        "assessment_summary": "3 - Class presentation (40%); 1 - Self Assessment (%); 2 - Examination (60%)",
+        "assessment_summary": "3 - Class presentation (40%); 1 - Self Assessment (Pass/Fail)(0%); 2 - Examination (60%)",
         "url": "https://handbook.monash.edu/2025/units/DPSY5104"
     },
     {
@@ -15380,7 +15380,7 @@
         "name": "Clinical developmental psychology",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "0",
-        "assessment_summary": "1 - WISC-IV assessment. (%); 3 - Examination (60%); 2 - Formulation Report (1000 words) (40%)",
+        "assessment_summary": "1 - WISC-IV assessment. (Pass/Fail)(0%); 3 - Examination (60%); 2 - Formulation Report (1000 words) (40%)",
         "url": "https://handbook.monash.edu/2025/units/DPSY5105"
     },
     {
@@ -15388,7 +15388,7 @@
         "name": "Ethics and professional practice in neuropsychology",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "0",
-        "assessment_summary": "3 - A case report (%); 4 - Examination (60%); 2 - A history-taking exercise (%); 1 - Satisfactory attendance and participation are required to pass the unit. (%); 5 - Class presentation (40%)",
+        "assessment_summary": "3 - A case report (Pass/Fail)(0%); 4 - Examination (60%); 2 - A history-taking exercise (Pass/Fail)(0%); 1 - Satisfactory attendance and participation are required to pass the unit. (Pass/Fail)(0%); 5 - Class presentation (40%)",
         "url": "https://handbook.monash.edu/2025/units/DPSY5161"
     },
     {
@@ -15404,7 +15404,7 @@
         "name": "Psychopathology part 2",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "0",
-        "assessment_summary": "1 - Class Participation (%); 3 - Oral Case Presentation (30%); 2 - Psychopharmacology Take Home Test (30%); 4 - Psychological Report (40%)",
+        "assessment_summary": "1 - Class Participation (Pass/Fail)(0%); 3 - Oral Case Presentation (30%); 2 - Psychopharmacology Take Home Test (30%); 4 - Psychological Report (40%)",
         "url": "https://handbook.monash.edu/2025/units/DPSY5201"
     },
     {
@@ -15412,7 +15412,7 @@
         "name": "Theories and techniques of intervention part 1",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "0",
-        "assessment_summary": "2 - Skills practice and written submission - Guided discovery (40%); 4 - Video recording and written reflection - Sharing formulations (40%); 1 - Satisfactory attendance and participation are required to pass the unit. (%); 3 - Skills practice - Reviewing homework (20%)",
+        "assessment_summary": "2 - Skills practice and written submission - Guided discovery (40%); 4 - Video recording and written reflection - Sharing formulations (40%); 1 - Satisfactory attendance and participation are required to pass the unit. (Pass/Fail)(0%); 3 - Skills practice - Reviewing homework (20%)",
         "url": "https://handbook.monash.edu/2025/units/DPSY5203"
     },
     {
@@ -15420,7 +15420,7 @@
         "name": "Neuropsychological models of cognition and behaviour part 1",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "0",
-        "assessment_summary": "1 - 2 x assignments (20%); 3 - Visual-graphic assignment (20%); 2 - 4 x assignments (60%); 4 - Oral presentation (%)",
+        "assessment_summary": "1 - 2 x assignments (20%); 3 - Visual-graphic assignment (20%); 2 - 4 x assignments (60%); 4 - Oral presentation (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/DPSY5261"
     },
     {
@@ -15436,7 +15436,7 @@
         "name": "Neuropsychological assessment",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "0",
-        "assessment_summary": "4 - Case Report Series: Case 2 (33%); 1 - Test Kit (%); 2 - Problem Based Learning Tasks (%); 5 - Case Report Series: Case 3 (34%); 3 - Case Report Series: Case 1 (33%)",
+        "assessment_summary": "4 - Case Report Series: Case 2 (33%); 1 - Test Kit (Pass/Fail)(0%); 2 - Problem Based Learning Tasks (Pass/Fail)(0%); 5 - Case Report Series: Case 3 (34%); 3 - Case Report Series: Case 1 (33%)",
         "url": "https://handbook.monash.edu/2025/units/DPSY5263"
     },
     {
@@ -15452,7 +15452,7 @@
         "name": "Introductory practicum",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "0",
-        "assessment_summary": "3 - Student Diary (%); 6 - Final Student Assessment Report (%); 4 - Student Case/Logbook (%); 8 - Participation in OSCE (%); 2 - Mid-placement Review (%); 5 - Supervisor Logbook (%); 1 - Placement Contract (%); 7 - Final Supervisor Assessment Report (%)",
+        "assessment_summary": "3 - Student Diary (Pass/Fail)(0%); 6 - Final Student Assessment Report (Pass/Fail)(0%); 4 - Student Case/Logbook (Pass/Fail)(0%); 8 - Participation in OSCE (Pass/Fail)(0%); 2 - Mid-placement Review (Pass/Fail)(0%); 5 - Supervisor Logbook (Pass/Fail)(0%); 1 - Placement Contract (Pass/Fail)(0%); 7 - Final Supervisor Assessment Report (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/DPSY5299"
     },
     {
@@ -15468,7 +15468,7 @@
         "name": "Advanced clinical psychology: Child, adolescent and family",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "0",
-        "assessment_summary": "3 - Infant Observation (%); 1 - Group Proposal (80%); 2 - Class Participation (20%)",
+        "assessment_summary": "3 - Infant Observation (Pass/Fail)(0%); 1 - Group Proposal (80%); 2 - Class Participation (20%)",
         "url": "https://handbook.monash.edu/2025/units/DPSY7141"
     },
     {
@@ -15476,7 +15476,7 @@
         "name": "Advanced specialised practicum",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "0",
-        "assessment_summary": "7 - Final Supervisor Assessment Report(%); 2 - Mid-placement Review(%); 4 - Student Case/Logbook(%); 6 - Final Student Assessment Report(%); 3 - Student Diary(%); 1 - Placement Contract(%); 5 - Supervisor Logbook(%)",
+        "assessment_summary": "7 - Final Supervisor Assessment Report(Pass/Fail)(0%); 2 - Mid-placement Review (Pass/Fail)(0%); 4 - Student Case/Logbook (Pass/Fail)(0%); 6 - Final Student Assessment Report (Pass/Fail)(0%); 3 - Student Diary (Pass/Fail)(0%); 1 - Placement Contract (Pass/Fail)(0%); 5 - Supervisor Logbook (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/DPSY7199"
     },
     {
@@ -17852,7 +17852,7 @@
         "name": "Early childhood professional experience 1L ",
         "faculty": "Faculty of Education",
         "credit_points": "0",
-        "assessment_summary": "1 - Professional experience (%); 2 - Literacy hurdle test (%)",
+        "assessment_summary": "1 - Professional experience (Pass/Fail)(0%); 2 - Literacy hurdle test (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/EDF1021"
     },
     {
@@ -17860,7 +17860,7 @@
         "name": "Primary professional experience 1L ",
         "faculty": "Faculty of Education",
         "credit_points": "0",
-        "assessment_summary": "2 - Literacy hurdle task (%); 1 - Professional experience (%)",
+        "assessment_summary": "2 - Literacy hurdle task (Pass/Fail)(0%); 1 - Professional experience (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/EDF1022"
     },
     {
@@ -17868,7 +17868,7 @@
         "name": "Secondary professional experience 1L ",
         "faculty": "Faculty of Education",
         "credit_points": "0",
-        "assessment_summary": "2 - Literacy hurdle task (%); 1 - \tProfessional experience (%)",
+        "assessment_summary": "2 - Literacy hurdle task (Pass/Fail)(0%); 1 - \tProfessional experience (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/EDF1023"
     },
     {
@@ -18012,7 +18012,7 @@
         "name": "Early childhood professional experience 1A",
         "faculty": "Faculty of Education",
         "credit_points": "0",
-        "assessment_summary": "1 - Professional experience (%)",
+        "assessment_summary": "1 - Professional experience (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/EDF1081"
     },
     {
@@ -18020,7 +18020,7 @@
         "name": "Primary professional experience 1A",
         "faculty": "Faculty of Education",
         "credit_points": "0",
-        "assessment_summary": "1 - Professional experience (%)",
+        "assessment_summary": "1 - Professional experience (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/EDF1082"
     },
     {
@@ -18028,7 +18028,7 @@
         "name": "Secondary professional experience 1A",
         "faculty": "Faculty of Education",
         "credit_points": "0",
-        "assessment_summary": "1 - Professional experience (%)",
+        "assessment_summary": "1 - Professional experience (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/EDF1083"
     },
     {
@@ -18124,7 +18124,7 @@
         "name": "Early childhood professional experience",
         "faculty": "Faculty of Education",
         "credit_points": "0",
-        "assessment_summary": "1 - Professional experience (%)",
+        "assessment_summary": "1 - Professional experience (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/EDF2036"
     },
     {
@@ -18292,7 +18292,7 @@
         "name": "Primary professional experience 2A ",
         "faculty": "Faculty of Education",
         "credit_points": "0",
-        "assessment_summary": "1 - Professional experience (%)",
+        "assessment_summary": "1 - Professional experience (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/EDF2080"
     },
     {
@@ -18300,7 +18300,7 @@
         "name": "Primary professional experience 2B ",
         "faculty": "Faculty of Education",
         "credit_points": "0",
-        "assessment_summary": "1 - Professional experience (%)",
+        "assessment_summary": "1 - Professional experience (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/EDF2081"
     },
     {
@@ -18308,7 +18308,7 @@
         "name": "Secondary professional experience 2A",
         "faculty": "Faculty of Education",
         "credit_points": "0",
-        "assessment_summary": "1 - Professional experience (%)",
+        "assessment_summary": "1 - Professional experience (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/EDF2083"
     },
     {
@@ -18316,7 +18316,7 @@
         "name": "Special education professional experience 2A",
         "faculty": "Faculty of Education",
         "credit_points": "0",
-        "assessment_summary": "1 - Professional experience (%)",
+        "assessment_summary": "1 - Professional experience (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/EDF2084"
     },
     {
@@ -18356,7 +18356,7 @@
         "name": "Industry engagement: Part 1",
         "faculty": "Faculty of Education",
         "credit_points": "6",
-        "assessment_summary": "2 - Reflective journal with interview (2800 words or equivalent)(70%); 3 - Report from mentor(%); 1 - Annotated bibliography on productive workplace relationships and teams (1200 words or equivalent)(30%)",
+        "assessment_summary": "2 - Reflective journal with interview (2800 words or equivalent)(70%); 3 - Report from mentor (Pass/Fail)(0%); 1 - Annotated bibliography on productive workplace relationships and teams (1200 words or equivalent)(30%)",
         "url": "https://handbook.monash.edu/2025/units/EDF2405"
     },
     {
@@ -18420,7 +18420,7 @@
         "name": "Early childhood professional experience 3A",
         "faculty": "Faculty of Education",
         "credit_points": "0",
-        "assessment_summary": "1 - Professional experience (%)",
+        "assessment_summary": "1 - Professional experience (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/EDF3051"
     },
     {
@@ -18428,7 +18428,7 @@
         "name": "Early childhood professional experience 3B",
         "faculty": "Faculty of Education",
         "credit_points": "0",
-        "assessment_summary": "1 - Professional experience (%)",
+        "assessment_summary": "1 - Professional experience (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/EDF3052"
     },
     {
@@ -18524,7 +18524,7 @@
         "name": "Primary professional experience 3A ",
         "faculty": "Faculty of Education",
         "credit_points": "0",
-        "assessment_summary": "1 - Professional experience (%)",
+        "assessment_summary": "1 - Professional experience (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/EDF3080"
     },
     {
@@ -18532,7 +18532,7 @@
         "name": "Primary professional experience 3B",
         "faculty": "Faculty of Education",
         "credit_points": "0",
-        "assessment_summary": "1 - Professional experience (%)",
+        "assessment_summary": "1 - Professional experience (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/EDF3081"
     },
     {
@@ -18540,7 +18540,7 @@
         "name": "Secondary professional experience 3A ",
         "faculty": "Faculty of Education",
         "credit_points": "0",
-        "assessment_summary": "1 - Professional experience (%)",
+        "assessment_summary": "1 - Professional experience (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/EDF3082"
     },
     {
@@ -18548,7 +18548,7 @@
         "name": "Secondary professional experience 3B ",
         "faculty": "Faculty of Education",
         "credit_points": "0",
-        "assessment_summary": "1 - Professional experience (%)",
+        "assessment_summary": "1 - Professional experience (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/EDF3084"
     },
     {
@@ -18556,7 +18556,7 @@
         "name": "Early childhood professional experience 3A ",
         "faculty": "Faculty of Education",
         "credit_points": "0",
-        "assessment_summary": "1 - Professional experience (%)",
+        "assessment_summary": "1 - Professional experience (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/EDF3085"
     },
     {
@@ -18564,7 +18564,7 @@
         "name": "Primary professional experience 3C",
         "faculty": "Faculty of Education",
         "credit_points": "0",
-        "assessment_summary": "1 - Professional experience (%)",
+        "assessment_summary": "1 - Professional experience (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/EDF3086"
     },
     {
@@ -18572,7 +18572,7 @@
         "name": "Primary professional experience 3D",
         "faculty": "Faculty of Education",
         "credit_points": "0",
-        "assessment_summary": "1 - Professional experience (%)",
+        "assessment_summary": "1 - Professional experience (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/EDF3087"
     },
     {
@@ -18580,7 +18580,7 @@
         "name": "Secondary professional experience 3C",
         "faculty": "Faculty of Education",
         "credit_points": "0",
-        "assessment_summary": "1 - Professional experience (%)",
+        "assessment_summary": "1 - Professional experience (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/EDF3089"
     },
     {
@@ -18684,7 +18684,7 @@
         "name": "Industry engagement: Part 2",
         "faculty": "Faculty of Education",
         "credit_points": "6",
-        "assessment_summary": "1 - Professional portfolio (1200 words or equivalent)(30%); 2 - Learning design and reflection (2800 words or equivalent)(70%); 3 - Hurdle requirement(%)",
+        "assessment_summary": "1 - Professional portfolio (1200 words or equivalent)(30%); 2 - Learning design and reflection (2800 words or equivalent)(70%); 3 - Hurdle requirement (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/EDF3406"
     },
     {
@@ -18788,7 +18788,7 @@
         "name": "Early childhood professional experience 4A ",
         "faculty": "Faculty of Education",
         "credit_points": "0",
-        "assessment_summary": "1 - Professional experience (%)",
+        "assessment_summary": "1 - Professional experience (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/EDF4084"
     },
     {
@@ -18796,7 +18796,7 @@
         "name": "Primary professional experience 4C",
         "faculty": "Faculty of Education",
         "credit_points": "0",
-        "assessment_summary": "1 - Professional experience (%)",
+        "assessment_summary": "1 - Professional experience (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/EDF4085"
     },
     {
@@ -18804,7 +18804,7 @@
         "name": "Primary professional experience 4D",
         "faculty": "Faculty of Education",
         "credit_points": "0",
-        "assessment_summary": "1 - Professional experience (%)",
+        "assessment_summary": "1 - Professional experience (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/EDF4086"
     },
     {
@@ -18812,7 +18812,7 @@
         "name": "Secondary professional experience 4C",
         "faculty": "Faculty of Education",
         "credit_points": "0",
-        "assessment_summary": "1 - Professional experience (%)",
+        "assessment_summary": "1 - Professional experience (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/EDF4087"
     },
     {
@@ -19092,7 +19092,7 @@
         "name": "Early childhood professional experience 3A ",
         "faculty": "Faculty of Education",
         "credit_points": "0",
-        "assessment_summary": "0 - Professional experience (%)",
+        "assessment_summary": "0 - Professional experience (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/EDF5053"
     },
     {
@@ -19100,7 +19100,7 @@
         "name": "Early childhood professional experience 4A",
         "faculty": "Faculty of Education",
         "credit_points": "0",
-        "assessment_summary": "0 - Professional experience (%)",
+        "assessment_summary": "0 - Professional experience (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/EDF5055"
     },
     {
@@ -19108,7 +19108,7 @@
         "name": "Early childhood professional experience 5B ",
         "faculty": "Faculty of Education",
         "credit_points": "0",
-        "assessment_summary": "0 - Professional experience (%)",
+        "assessment_summary": "0 - Professional experience (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/EDF5059"
     },
     {
@@ -19164,7 +19164,7 @@
         "name": "Supervised counselling placement A",
         "faculty": "Faculty of Education",
         "credit_points": "0",
-        "assessment_summary": "1 - Professional experience (%)",
+        "assessment_summary": "1 - Professional experience (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/EDF5066"
     },
     {
@@ -19172,7 +19172,7 @@
         "name": "Supervised counselling placement B",
         "faculty": "Faculty of Education",
         "credit_points": "0",
-        "assessment_summary": "1 - Professional experience (%)",
+        "assessment_summary": "1 - Professional experience (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/EDF5067"
     },
     {
@@ -19820,7 +19820,7 @@
         "name": "Contemporary psychological practice",
         "faculty": "Faculty of Education",
         "credit_points": "6",
-        "assessment_summary": "1 - Mid-semester review (2000 words or equivalent) (%); 2 - End-of-semester review (2000 words or equivalent) (%)",
+        "assessment_summary": "1 - Mid-semester review (2000 words or equivalent) (Pass/Fail)(0%); 2 - End-of-semester review (2000 words or equivalent) (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/EDF5567"
     },
     {
@@ -19828,7 +19828,7 @@
         "name": "Professional experience in psychology",
         "faculty": "Faculty of Education",
         "credit_points": "6",
-        "assessment_summary": "1 - Professional experience (%)",
+        "assessment_summary": "1 - Professional experience (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/EDF5568"
     },
     {
@@ -20060,7 +20060,7 @@
         "name": "Behaviour assessment and positive behaviour support",
         "faculty": "Faculty of Education",
         "credit_points": "6",
-        "assessment_summary": "2 - Behaviour support plan (2000 words or equivalent)(50%); 3 - Directed online learning activities(%); 1 - Functional behaviour assessment (2000 words or equivalent)(50%)",
+        "assessment_summary": "2 - Behaviour support plan (2000 words or equivalent)(50%); 3 - Directed online learning activities (Pass/Fail)(0%); 1 - Functional behaviour assessment (2000 words or equivalent)(50%)",
         "url": "https://handbook.monash.edu/2025/units/EDF5679"
     },
     {
@@ -20076,7 +20076,7 @@
         "name": "Concepts and principles of learning",
         "faculty": "Faculty of Education",
         "credit_points": "6",
-        "assessment_summary": "2 - Conditional discrimination project (2400 words or equivalent)(60%); 3 - Directed online learning activities(%); 1 - Multi-choice tests (1600 words or equivalent)(40%)",
+        "assessment_summary": "2 - Conditional discrimination project (2400 words or equivalent)(60%); 3 - Directed online learning activities (Pass/Fail)(0%); 1 - Multi-choice tests (1600 words or equivalent)(40%)",
         "url": "https://handbook.monash.edu/2025/units/EDF5684"
     },
     {
@@ -20092,7 +20092,7 @@
         "name": "Measurement, data analysis and experimental design",
         "faculty": "Faculty of Education",
         "credit_points": "6",
-        "assessment_summary": "2 - Case Study (2400 words or equivalent)(60%); 1 - Multi-choice tests (1600 words or equivalent)(40%); 3 - Directed online learning activities(%)",
+        "assessment_summary": "2 - Case Study (2400 words or equivalent)(60%); 1 - Multi-choice tests (1600 words or equivalent)(40%); 3 - Directed online learning activities (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/EDF5686"
     },
     {
@@ -20100,7 +20100,7 @@
         "name": "Evidence-based instructional design",
         "faculty": "Faculty of Education",
         "credit_points": "6",
-        "assessment_summary": "1 - Individual learning plan (2000 words or equivalent)(50%); 3 - Directed online learning activities(%); 2 - Skill acquisition procedure (2000 words or equivalent)(50%)",
+        "assessment_summary": "1 - Individual learning plan (2000 words or equivalent)(50%); 3 - Directed online learning activities (Pass/Fail)(0%); 2 - Skill acquisition procedure (2000 words or equivalent)(50%)",
         "url": "https://handbook.monash.edu/2025/units/EDF5687"
     },
     {
@@ -20108,7 +20108,7 @@
         "name": "Performance management and supervision",
         "faculty": "Faculty of Education",
         "credit_points": "6",
-        "assessment_summary": "1 - Performance checklist (1600 words or equivalent)(40%); 2 - Staff training plan (2400 words or equivalent)(60%); 3 - Directed online learning activities(%)",
+        "assessment_summary": "1 - Performance checklist (1600 words or equivalent)(40%); 2 - Staff training plan (2400 words or equivalent)(60%); 3 - Directed online learning activities (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/EDF5688"
     },
     {
@@ -20116,7 +20116,7 @@
         "name": "Diverse applications of behaviour analysis",
         "faculty": "Faculty of Education",
         "credit_points": "6",
-        "assessment_summary": "2 - Research synthesis (2400 words or equivalent)(60%); 1 - Diverse application review (1600 words or equivalent)(40%); 3 - Directed online learning activities(%)",
+        "assessment_summary": "2 - Research synthesis (2400 words or equivalent)(60%); 1 - Diverse application review (1600 words or equivalent)(40%); 3 - Directed online learning activities (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/EDF5689"
     },
     {
@@ -20156,7 +20156,7 @@
         "name": "Professional experience in inclusive education",
         "faculty": "Faculty of Education",
         "credit_points": "0",
-        "assessment_summary": "1 - Professional experience (%)",
+        "assessment_summary": "1 - Professional experience (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/EDF5700"
     },
     {
@@ -20164,7 +20164,7 @@
         "name": "Professional placement - teaching",
         "faculty": "Faculty of Education",
         "credit_points": "0",
-        "assessment_summary": "1 - This unit is not examinable (NE). (%)",
+        "assessment_summary": "1 - This unit is not examinable (NE). (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/EDF5709"
     },
     {
@@ -20172,7 +20172,7 @@
         "name": "Professional placement - observation",
         "faculty": "Faculty of Education",
         "credit_points": "0",
-        "assessment_summary": "1 - This unit is not examinable (NE). (%)",
+        "assessment_summary": "1 - This unit is not examinable (NE). (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/EDF5710"
     },
     {
@@ -20796,7 +20796,7 @@
         "name": "Early childhood professional experience 1A",
         "faculty": "Faculty of Education",
         "credit_points": "0",
-        "assessment_summary": "1 - Professional experience (%)",
+        "assessment_summary": "1 - Professional experience (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/EDF5880"
     },
     {
@@ -20804,7 +20804,7 @@
         "name": "Primary professional experience 1A",
         "faculty": "Faculty of Education",
         "credit_points": "0",
-        "assessment_summary": "1 - Professional experience (%)",
+        "assessment_summary": "1 - Professional experience (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/EDF5881"
     },
     {
@@ -20812,7 +20812,7 @@
         "name": "Secondary professional experience 1A",
         "faculty": "Faculty of Education",
         "credit_points": "0",
-        "assessment_summary": "1 - Professional experience (%)",
+        "assessment_summary": "1 - Professional experience (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/EDF5882"
     },
     {
@@ -20820,7 +20820,7 @@
         "name": "Early childhood professional experience 1B",
         "faculty": "Faculty of Education",
         "credit_points": "0",
-        "assessment_summary": "1 - Professional experience (%)",
+        "assessment_summary": "1 - Professional experience (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/EDF5883"
     },
     {
@@ -20828,7 +20828,7 @@
         "name": "Early childhood professional experience 1C",
         "faculty": "Faculty of Education",
         "credit_points": "0",
-        "assessment_summary": "1 - Professional experience (%)",
+        "assessment_summary": "1 - Professional experience (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/EDF5885"
     },
     {
@@ -20836,7 +20836,7 @@
         "name": "Primary professional experience 1B",
         "faculty": "Faculty of Education",
         "credit_points": "0",
-        "assessment_summary": "1 - Professional experience(%)",
+        "assessment_summary": "1 - Professional experience(Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/EDF5886"
     },
     {
@@ -20844,7 +20844,7 @@
         "name": "Secondary professional experience 1B",
         "faculty": "Faculty of Education",
         "credit_points": "0",
-        "assessment_summary": "1 - Professional experience (%)",
+        "assessment_summary": "1 - Professional experience (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/EDF5887"
     },
     {
@@ -20852,7 +20852,7 @@
         "name": "Early childhood professional experience 2A",
         "faculty": "Faculty of Education",
         "credit_points": "0",
-        "assessment_summary": "1 - Professional experience (%)",
+        "assessment_summary": "1 - Professional experience (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/EDF5888"
     },
     {
@@ -20860,7 +20860,7 @@
         "name": "Primary professional experience 2A",
         "faculty": "Faculty of Education",
         "credit_points": "0",
-        "assessment_summary": "1 - Professional experience (%)",
+        "assessment_summary": "1 - Professional experience (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/EDF5889"
     },
     {
@@ -20868,7 +20868,7 @@
         "name": "Primary professional experience 2B",
         "faculty": "Faculty of Education",
         "credit_points": "0",
-        "assessment_summary": "1 - Professional experience (%)",
+        "assessment_summary": "1 - Professional experience (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/EDF5890"
     },
     {
@@ -20876,7 +20876,7 @@
         "name": "Secondary professional experience 2A",
         "faculty": "Faculty of Education",
         "credit_points": "0",
-        "assessment_summary": "1 - Professional experience (%)",
+        "assessment_summary": "1 - Professional experience (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/EDF5891"
     },
     {
@@ -20884,7 +20884,7 @@
         "name": "Early childhood professional experience 2B",
         "faculty": "Faculty of Education",
         "credit_points": "0",
-        "assessment_summary": "1 - Professional experience (%)",
+        "assessment_summary": "1 - Professional experience (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/EDF5892"
     },
     {
@@ -20892,7 +20892,7 @@
         "name": "Primary professional experience 2C",
         "faculty": "Faculty of Education",
         "credit_points": "0",
-        "assessment_summary": "1 - Professional experience (%)",
+        "assessment_summary": "1 - Professional experience (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/EDF5893"
     },
     {
@@ -20900,7 +20900,7 @@
         "name": "Primary professional experience 2D",
         "faculty": "Faculty of Education",
         "credit_points": "0",
-        "assessment_summary": "1 - Professional experience (%)",
+        "assessment_summary": "1 - Professional experience (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/EDF5894"
     },
     {
@@ -20908,7 +20908,7 @@
         "name": "Secondary professional experience 2B",
         "faculty": "Faculty of Education",
         "credit_points": "0",
-        "assessment_summary": "1 - Professional experience (%)",
+        "assessment_summary": "1 - Professional experience (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/EDF5895"
     },
     {
@@ -21036,7 +21036,7 @@
         "name": "Engineering continuous professional development",
         "faculty": "Faculty of Engineering",
         "credit_points": "0",
-        "assessment_summary": "3 - CPD assessment (%); 1 - CPD experiences (%); 2 - Skills reflection report (%)",
+        "assessment_summary": "3 - CPD assessment (Pass/Fail)(0%); 1 - CPD experiences (Pass/Fail)(0%); 2 - Skills reflection report (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/ENG0001"
     },
     {
@@ -21052,7 +21052,7 @@
         "name": "Professional engineering continuous professional development",
         "faculty": "Faculty of Engineering",
         "credit_points": "0",
-        "assessment_summary": "3 - CPD assessment (%); 2 - Skills reflection report (%); 1 - CPD experiences (%)",
+        "assessment_summary": "3 - CPD assessment (Pass/Fail)(0%); 2 - Skills reflection report (Pass/Fail)(0%); 1 - CPD experiences (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/ENG0003"
     },
     {
@@ -21212,7 +21212,7 @@
         "name": "Final year project A",
         "faculty": "Faculty of Engineering",
         "credit_points": "6",
-        "assessment_summary": "1 - Milestone 1 - Launch (%); 2 - Milestone 2 - Confirmation (%); 3 - Milestone 3 - Initial paper (%)",
+        "assessment_summary": "1 - Milestone 1 - Launch (Pass/Fail)(0%); 2 - Milestone 2 - Confirmation (Pass/Fail)(0%); 3 - Milestone 3 - Initial paper (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/ENG4701"
     },
     {
@@ -21700,7 +21700,7 @@
         "name": "Biostatistics practical project: single unit",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "6",
-        "assessment_summary": "1 - Statistical analysis plan (600 words) (10%); 5 - Written project report (3,600 words) (60%); 4 - Written reflective report (10%); 2 - Oral presentation of results (15 mins presentation) (20%); 3 - Completion of 'Ethics and good research practice' online module (Pass/Fail) (%)",
+        "assessment_summary": "1 - Statistical analysis plan (600 words) (10%); 5 - Written project report (3,600 words) (60%); 4 - Written reflective report (10%); 2 - Oral presentation of results (15 mins presentation) (20%); 3 - Completion of 'Ethics and good research practice' online module (Pass/Fail) (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/EPM5015"
     },
     {
@@ -23588,7 +23588,7 @@
         "name": "Industry based learning seminar",
         "faculty": "Faculty of Information Technology",
         "credit_points": "0",
-        "assessment_summary": "1 - Reflections on this Week's Seminar(%)",
+        "assessment_summary": "1 - Reflections on this Week's Seminar (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/FIT2108"
     },
     {
@@ -24068,7 +24068,7 @@
         "name": "Final year software engineering project A",
         "faculty": "Faculty of Information Technology",
         "credit_points": "6",
-        "assessment_summary": "3 - Milestone 3 - Initial paper (%); 2 - Milestone 2 - Confirmation (%); 1 - Milestone 1 - Launch (%)",
+        "assessment_summary": "3 - Milestone 3 - Initial paper (Pass/Fail)(0%); 2 - Milestone 2 - Confirmation (Pass/Fail)(0%); 1 - Milestone 1 - Launch (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/FIT4701"
     },
     {
@@ -24844,7 +24844,7 @@
         "name": "Post mortem CT imaging",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "6",
-        "assessment_summary": "3 - Presentation proposal (%); 5 - Oral presentation (15 minutes, plus question time) (20%); 4 - Report (3200 words) (40%); 2 - Essay (1600 words) (20%); 1 - Workbooks (1600 words - 8 x 200 words) (20%)",
+        "assessment_summary": "3 - Presentation proposal (Pass/Fail)(0%); 5 - Oral presentation (15 minutes, plus question time) (20%); 4 - Report (3200 words) (40%); 2 - Essay (1600 words) (20%); 1 - Workbooks (1600 words - 8 x 200 words) (20%)",
         "url": "https://handbook.monash.edu/2025/units/FOR5020"
     },
     {
@@ -25404,7 +25404,7 @@
         "name": "Foundations of medical practice",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "24",
-        "assessment_summary": "1 - Portfolio (Written assignments x 6 and oral presentation -10 mins) (15,000 words total) Pass/Fail (%); 2 - Workbook (Online workbook and written reflection -3 hours and 1,500 words) Pass/Fail (%); 3 - Professionalism and Engagement tutor report (Continuous assessment across semester) Pass/Fail (%)",
+        "assessment_summary": "1 - Portfolio (Written assignments x 6 and oral presentation -10 mins) (15,000 words total) Pass/Fail (Pass/Fail)(0%); 2 - Workbook (Online workbook and written reflection -3 hours and 1,500 words) Pass/Fail (Pass/Fail)(0%); 3 - Professionalism and Engagement tutor report (Continuous assessment across semester) Pass/Fail (0%)",
         "url": "https://handbook.monash.edu/2025/units/GMA2100"
     },
     {
@@ -25412,7 +25412,7 @@
         "name": "Principles of medicine",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "24",
-        "assessment_summary": "1 - Written examination ( 5 x written papers - total 15 hours and 50 minutes) Pass/Fail (%); 2 - Clinical skills assessment (multi-station clinical skills exam over Sem 1 & 2 - 90 mins) Pass/Fail (%)",
+        "assessment_summary": "1 - Written examination ( 5 x written papers - total 15 hours and 50 minutes) Pass/Fail (0%); 2 - Clinical skills assessment (multi-station clinical skills exam over Sem 1 & 2 - 90 mins) Pass/Fail (0%)",
         "url": "https://handbook.monash.edu/2025/units/GMA2200"
     },
     {
@@ -25508,7 +25508,7 @@
         "name": "Genomics research project and thesis",
         "faculty": "Faculty of Science",
         "credit_points": "24",
-        "assessment_summary": "4 - Thesis(70%); 3 - Research report(20%); 2 - Literature review(10%); 1 - Research proposal(%)",
+        "assessment_summary": "4 - Thesis(70%); 3 - Research report(20%); 2 - Literature review(10%); 1 - Research proposal (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/GNA5900"
     },
     {
@@ -25780,7 +25780,7 @@
         "name": "Health Science research project",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "36",
-        "assessment_summary": "1 - Health Science Research Minor Thesis (15,000 words) (80%); 3 - Research Presentation (15 minutes) (10%); 2 - Methodology chapter (3000 words) (10%); 4 - Fortnightly supervisor meetings (%)",
+        "assessment_summary": "1 - Health Science Research Minor Thesis (15,000 words) (80%); 3 - Research Presentation (15 minutes) (10%); 2 - Methodology chapter (3000 words) (10%); 4 - Fortnightly supervisor meetings (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/HSC4100"
     },
     {
@@ -25788,7 +25788,7 @@
         "name": "Advanced studies in Health Science ",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "12",
-        "assessment_summary": "2 - Written critique (1200 words) (30%); 4 - Oral presentation (10 minutes presentation, 5 minute questions) (%); 3 - Literature review (3000 words) (40%); 1 - Statistical test (60 mins) (30%)",
+        "assessment_summary": "2 - Written critique (1200 words) (30%); 4 - Oral presentation (10 minutes presentation, 5 minute questions) (Pass/Fail)(0%); 3 - Literature review (3000 words) (40%); 1 - Statistical test (60 mins) (30%)",
         "url": "https://handbook.monash.edu/2025/units/HSC4200"
     },
     {
@@ -29020,7 +29020,7 @@
         "name": "Preparatory minor thesis",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "12",
-        "assessment_summary": "2 - Supervisory partnership agreement(0%); 3 - Oral presentation (20 minutes)(0%); 1 - Co-signed revised semester plan, including timeline and goal checkpoints(0%); 5 - Draft chapter(s) of the minor thesis* (10000 words equivalence).(%); 4 - Documented supervisory meetings(0%)",
+        "assessment_summary": "2 - Supervisory partnership agreement(0%); 3 - Oral presentation (20 minutes)(0%); 1 - Co-signed revised semester plan, including timeline and goal checkpoints(0%); 5 - Draft chapter(s) of the minor thesis* (10000 words equivalence).(Pass/Fail)(0%); 4 - Documented supervisory meetings(0%)",
         "url": "https://handbook.monash.edu/2025/units/MAP5001"
     },
     {
@@ -29924,7 +29924,7 @@
         "name": "Introduction to medical practice",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "24",
-        "assessment_summary": "2 - Online activities and quizzes (3 hours total) Pass/Fail (%); 1 - Portfolio (total 17,000 words) Pass/Fail (%); 3 - Demonstration of Professional behaviours and engagement Tutor report. Pass/Fail (%)",
+        "assessment_summary": "2 - Online activities and quizzes (3 hours total) Pass/Fail (0%); 1 - Portfolio (total 17,000 words) Pass/Fail (0%); 3 - Demonstration of Professional behaviours and engagement Tutor report. Pass/Fail (0%)",
         "url": "https://handbook.monash.edu/2025/units/MED1100"
     },
     {
@@ -29932,7 +29932,7 @@
         "name": "Principles of medicine 1",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "24",
-        "assessment_summary": "1 - Written examination (Total 12 hours) Pass/Fail (%); 2 - Clinical skills assessment (Total 120 mins) Pass/Fail (%)",
+        "assessment_summary": "1 - Written examination (Total 12 hours) Pass/Fail (0%); 2 - Clinical skills assessment (Total 120 mins) Pass/Fail (0%)",
         "url": "https://handbook.monash.edu/2025/units/MED1200"
     },
     {
@@ -29940,7 +29940,7 @@
         "name": "Foundations of medical practice",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "24",
-        "assessment_summary": "2 - On-line activities and quizzes  (6 hours) Pass/Fail (%); 3 - Professionalism and Engagement tutor report (Continuous assessment) Pass/Fail (%); 1 - Portfolio - Pass/Fail (%)",
+        "assessment_summary": "2 - On-line activities and quizzes  (6 hours) Pass/Fail (0%); 3 - Professionalism and Engagement tutor report (Continuous assessment) Pass/Fail (0%); 1 - Portfolio - Pass/Fail (0%)",
         "url": "https://handbook.monash.edu/2025/units/MED2100"
     },
     {
@@ -29948,7 +29948,7 @@
         "name": "Principles of medicine 2",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "24",
-        "assessment_summary": "3 - Fitness for practice - Pass/Fail (%); 1 - Written examination (5 x written papers - total 15 hours) Pass/Fail (%); 2 - Clinical skills assessment (Multi-station exam across semester 1 & 2, total 90 mins) Pass/Fail (%)",
+        "assessment_summary": "3 - Fitness for practice - Pass/Fail (0%); 1 - Written examination (5 x written papers - total 15 hours) Pass/Fail (0%); 2 - Clinical skills assessment (Multi-station exam across semester 1 & 2, total 90 mins) Pass/Fail 0%)",
         "url": "https://handbook.monash.edu/2025/units/MED2200"
     },
     {
@@ -29956,7 +29956,7 @@
         "name": "Research methods in medicine",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "0",
-        "assessment_summary": "1 - The knowledge and skills developed in this component of MED3051 are required to prepare students(%)",
+        "assessment_summary": "1 - The knowledge and skills developed in this component of MED3051 are required to prepare students (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/MED3010"
     },
     {
@@ -29972,7 +29972,7 @@
         "name": "Foundation clinical studies",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "24",
-        "assessment_summary": "5 - Portfolio (1,000 words) (%); 3 - Research skills written assignment (2,000 words) Pass/Fail (%); 4 - Pathology online examinations (4 x 1 hr, 4 x 25 items) Pass/Fail (%); 1 - Written examination (2 x 3 hrs, MCQs and EMQs - 100 items x 2 = 200 items) (100%); 2 - Clinical skills assessment (Multi-station clinical skills examination-110 mins) Pass/Fail (%)",
+        "assessment_summary": "5 - Portfolio (1,000 words) (Pass/Fail)(0%); 3 - Research skills written assignment (2,000 words) Pass/Fail (0%); 4 - Pathology online examinations (4 x 1 hr, 4 x 25 items) Pass/Fail (0%); 1 - Written examination (2 x 3 hrs, MCQs and EMQs - 100 items x 2 = 200 items) (100%); 2 - Clinical skills assessment (Multi-station clinical skills examination-110 mins) Pass/Fail (0%)",
         "url": "https://handbook.monash.edu/2025/units/MED3200"
     },
     {
@@ -29988,7 +29988,7 @@
         "name": "Integrated clinical studies",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "24",
-        "assessment_summary": "2 - Clinical skills assessment (Multi-station clinical skills examinations, 160 mins) Pass/Fail (%); 1 - Written examination (2 x 3 hrs, MCQs and EMQs - 100 items x 2 = 200 items) (100%); 3 - Clinical placement hurdle requirement - Pass/Fail (%)",
+        "assessment_summary": "2 - Clinical skills assessment (Multi-station clinical skills examinations, 160 mins) Pass/Fail (0%); 1 - Written examination (2 x 3 hrs, MCQs and EMQs - 100 items x 2 = 200 items) (100%); 3 - Clinical placement hurdle requirement - Pass/Fail (0%)",
         "url": "https://handbook.monash.edu/2025/units/MED4200"
     },
     {
@@ -29996,7 +29996,7 @@
         "name": "Medical science honours research skills",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "12",
-        "assessment_summary": "3 - Department oral presentation (25%); 2 - Literature review (7500 words) (75%); 1 - Progress report  (%)",
+        "assessment_summary": "3 - Department oral presentation (25%); 2 - Literature review (7500 words) (75%); 1 - Progress report  (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/MED4301"
     },
     {
@@ -30012,7 +30012,7 @@
         "name": "Applied studies in medical research and professional practice",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "12",
-        "assessment_summary": "3 - Student-Supervisor output agreement (1,000 words) (%); 2 - Online modules (10%); 1 - Demonstrate fitness for practice  (%); 5 - Executive summary (oral and written) (30%); 4 - Placement report (4,000 words equivalent)  (60%)",
+        "assessment_summary": "3 - Student-Supervisor output agreement (1,000 words) (Pass/Fail)(0%); 2 - Online modules (10%); 1 - Demonstrate fitness for practice  (Pass/Fail)(0%); 5 - Executive summary (oral and written) (30%); 4 - Placement report (4,000 words equivalent)  (60%)",
         "url": "https://handbook.monash.edu/2025/units/MED5101"
     },
     {
@@ -30020,7 +30020,7 @@
         "name": "Patient safety and preparation for practice",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "12",
-        "assessment_summary": "2 - Practical skills assessments (50 minutes) (45%); 1 - Exam (3 hours and 10 minutes) (45%); 5 - Simulated team scenario (%); 3 - Prescribing exam (3 hours and 10 minutes) (10%); 4 - Written assignments (2,000 words in total) (%); 6 - Demonstrate fitness for practice  (%)",
+        "assessment_summary": "2 - Practical skills assessments (50 minutes) (45%); 1 - Exam (3 hours and 10 minutes) (45%); 5 - Simulated team scenario (Pass/Fail)(0%); 3 - Prescribing exam (3 hours and 10 minutes) (10%); 4 - Written assignments (2,000 words in total) (Pass/Fail)(0%); 6 - Demonstrate fitness for practice  (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/MED5103"
     },
     {
@@ -30028,7 +30028,7 @@
         "name": "Advanced clinical practice",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "24",
-        "assessment_summary": "2 - Clinical assessment tasks  (35%); 3 - Work based procedural skills tasks (90 mins) (15%); 4 - Quizzes (45 mins) (10%); 5 - Supervisor assessment (Pre-intern appraisal)  (%); 1 - Observed Clinical Encounters (3 x 40 mins OCEs = 120 mins total) (40%); 6 - Clinical learning engagement recognition (CLEAR) (%)",
+        "assessment_summary": "2 - Clinical assessment tasks  (35%); 3 - Work based procedural skills tasks (90 mins) (15%); 4 - Quizzes (45 mins) (10%); 5 - Supervisor assessment (Pre-intern appraisal)  (Pass/Fail)(0%); 1 - Observed Clinical Encounters (3 x 40 mins OCEs = 120 mins total) (40%); 6 - Clinical learning engagement recognition (CLEAR) (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/MED5105"
     },
     {
@@ -31180,7 +31180,7 @@
         "name": "Mental health of the elderly",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "6",
-        "assessment_summary": "3 - Applied learning exercise (3,000 words)  (45%); 2 - Essay (3,000 words)  (45%); 4 - On-campus workshop / Alternative assessment  (10%); 1 - Participation in a minimum of 5 x Moodle discussions (%)",
+        "assessment_summary": "3 - Applied learning exercise (3,000 words)  (45%); 2 - Essay (3,000 words)  (45%); 4 - On-campus workshop / Alternative assessment  (10%); 1 - Participation in a minimum of 5 x Moodle discussions (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/MHS5101"
     },
     {
@@ -32316,7 +32316,7 @@
         "name": "Volunteering in practice",
         "faculty": "Office of the DVC Education and Senior VP",
         "credit_points": "6",
-        "assessment_summary": "2 - Practice journal (%); 1 - Pre-volunteering reflection (%); 3 - Impact presentation (%)",
+        "assessment_summary": "2 - Practice journal (Pass/Fail)(0%); 1 - Pre-volunteering reflection (Pass/Fail)(0%); 3 - Impact presentation (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/MON2000"
     },
     {
@@ -32380,7 +32380,7 @@
         "name": "Global health virtual practicum ",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "12",
-        "assessment_summary": "9 - 3 meetings between student and supervisor (%); 1 - Weekly monitoring & reflections (10 x 300 words - Total 3,000 words) (25%); 2 - Workplan (2,000 words) (25%); 4 - Project report (5,000 words) (40%); 7 - Placement interview (%); 3 - Oral presentation (20 mins) (10%); 8 - Completion of a project management and professionalism module (%); 6 - Placement application, including CV (%); 5 - Completion of a placement application module (%)",
+        "assessment_summary": "9 - 3 meetings between student and supervisor (Pass/Fail)(0%); 1 - Weekly monitoring & reflections (10 x 300 words - Total 3,000 words) (25%); 2 - Workplan (2,000 words) (25%); 4 - Project report (5,000 words) (40%); 7 - Placement interview (Pass/Fail)(0%); 3 - Oral presentation (20 mins) (10%); 8 - Completion of a project management and professionalism module (Pass/Fail)(0%); 6 - Placement application, including CV (Pass/Fail)(0%); 5 - Completion of a placement application module (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/MPH5003"
     },
     {
@@ -32948,7 +32948,7 @@
         "name": "Experimental investigations: Learning from the lab",
         "faculty": "Faculty of Pharmacy and Pharmaceutical Sciences",
         "credit_points": "6",
-        "assessment_summary": "5 - Oral presentation (10%); 1 - Workshop submissions (20%); 4 - Project outline (40%); 2 - Laboratory competency assessment (%); 3 - Laboratory Journal (30%)",
+        "assessment_summary": "5 - Oral presentation (10%); 1 - Workshop submissions (20%); 4 - Project outline (40%); 2 - Laboratory competency assessment (Pass/Fail)(0%); 3 - Laboratory Journal (30%)",
         "url": "https://handbook.monash.edu/2025/units/MPS5203"
     },
     {
@@ -32996,7 +32996,7 @@
         "name": "Professional placement and research project",
         "faculty": "Faculty of Pharmacy and Pharmaceutical Sciences",
         "credit_points": "24",
-        "assessment_summary": "3 - Thesis or report (50%); 2 - Thesis report proposal (10%); 5 - Reflection: placement culture and context - lessons learned (15%); 4 - Final presentation: project outcomes (20%); 6 - Professional placement (350 hours) (%); 1 - Scoping presentation: identification of a research or industry problem (5%)",
+        "assessment_summary": "3 - Thesis or report (50%); 2 - Thesis report proposal (10%); 5 - Reflection: placement culture and context - lessons learned (15%); 4 - Final presentation: project outcomes (20%); 6 - Professional placement (350 hours) (Pass/Fail)(0%); 1 - Scoping presentation: identification of a research or industry problem (5%)",
         "url": "https://handbook.monash.edu/2025/units/MPS5401"
     },
     {
@@ -34924,7 +34924,7 @@
         "name": "Clinical honours thesis 2: Framing a research proposal",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "12",
-        "assessment_summary": "2 - Oral presentation (15 minutes) (%); 1 - Research proposal (3,500 - 4,000 words) (%)",
+        "assessment_summary": "2 - Oral presentation (15 minutes) (Pass/Fail)(0%); 1 - Research proposal (3,500 - 4,000 words) (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/NUR4402"
     },
     {
@@ -34932,7 +34932,7 @@
         "name": "Clinical honours thesis 3: Conducting a research project",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "12",
-        "assessment_summary": "2 - Oral presentation (15 minutes) (%); 1 - Research report (3,500 - 4,000 words) (%)",
+        "assessment_summary": "2 - Oral presentation (15 minutes) (Pass/Fail)(0%); 1 - Research report (3,500 - 4,000 words) (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/NUR4403"
     },
     {
@@ -34948,7 +34948,7 @@
         "name": "Contemporary nursing practice 2",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "12",
-        "assessment_summary": "1 - Drug calculation test (60 minutes) (%); 3 - Clinical performance (240 hours) (30%); 2 - Report (2,500 words) (30%); 4 - Scheduled final assessment (examination) (130 minutes) (40%)",
+        "assessment_summary": "1 - Drug calculation test (60 minutes) (Pass/Fail)(0%); 3 - Clinical performance (240 hours) (30%); 2 - Report (2,500 words) (30%); 4 - Scheduled final assessment (examination) (130 minutes) (40%)",
         "url": "https://handbook.monash.edu/2025/units/NUR5002"
     },
     {
@@ -34956,7 +34956,7 @@
         "name": "Contemporary nursing practice 3",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "12",
-        "assessment_summary": "1 - Essay (2,500 - 3,000 words)  (30%); 3 - Clinical Placement (Total 200 hours)  (30%); 4 - Interprofessional Learning (IPL) Workshop (8 hours)  (%); 5 - Examination ( 2 hours 30 minutes)  (30%); 2 - Oral Presentation ( 15 minutes)  (10%)",
+        "assessment_summary": "1 - Essay (2,500 - 3,000 words)  (30%); 3 - Clinical Placement (Total 200 hours)  (30%); 4 - Interprofessional Learning (IPL) Workshop (8 hours)  (Pass/Fail)(0%); 5 - Examination ( 2 hours 30 minutes)  (30%); 2 - Oral Presentation ( 15 minutes)  (10%)",
         "url": "https://handbook.monash.edu/2025/units/NUR5003"
     },
     {
@@ -35020,7 +35020,7 @@
         "name": "Fostering therapeutic interactions in mental health nursing practice",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "6",
-        "assessment_summary": "3 - Clinical portfolio (Pass/Fail) (%); 1 - Essay and forum posting  (2,000 words) (40%); 2 - Essay and multimedia communication (10 minute video + 1000 word written reflection) (60%)",
+        "assessment_summary": "3 - Clinical portfolio (Pass/Fail) (Pass/Fail)(0%); 1 - Essay and forum posting  (2,000 words) (40%); 2 - Essay and multimedia communication (10 minute video + 1000 word written reflection) (60%)",
         "url": "https://handbook.monash.edu/2025/units/NUR5013"
     },
     {
@@ -35044,7 +35044,7 @@
         "name": "Cancer nursing 1",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "12",
-        "assessment_summary": "3 - Case study (2,000 words) (40%); 5 - Clinical performance appraisal (%); 1 - Concept map (750 - 1000 words) (25%); 2 - Presentation (recorded - approx. 15 mins) (35%); 4 - Clinical competencies  (%)",
+        "assessment_summary": "3 - Case study (2,000 words) (40%); 5 - Clinical performance appraisal (Pass/Fail)(0%); 1 - Concept map (750 - 1000 words) (25%); 2 - Presentation (recorded - approx. 15 mins) (35%); 4 - Clinical competencies  (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/NUR5016"
     },
     {
@@ -35052,7 +35052,7 @@
         "name": "Cancer nursing 2",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "12",
-        "assessment_summary": "1 - Essay critical analysis (3,000 words) (50%); 4 - Clinical performance appraisal (%); 2 - Report - critical review (2,500 words) (50%); 3 - Clinical competencies  (%)",
+        "assessment_summary": "1 - Essay critical analysis (3,000 words) (50%); 4 - Clinical performance appraisal (Pass/Fail)(0%); 2 - Report - critical review (2,500 words) (50%); 3 - Clinical competencies  (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/NUR5017"
     },
     {
@@ -35068,7 +35068,7 @@
         "name": "Neuroscience nursing",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "12",
-        "assessment_summary": "1 - Clinical competency assessment and performance Appraisal (Pass/Fail) (%); 2 - Case study (2,000 word equivalence) (30%); 3 - Policy and practice review (3,000 words) (40%); 4 - Media communication (2,000 word equivalence) (30%)",
+        "assessment_summary": "1 - Clinical competency assessment and performance Appraisal (Pass/Fail) (0%); 2 - Case study (2,000 word equivalence) (30%); 3 - Policy and practice review (3,000 words) (40%); 4 - Media communication (2,000 word equivalence) (30%)",
         "url": "https://handbook.monash.edu/2025/units/NUR5019"
     },
     {
@@ -35084,7 +35084,7 @@
         "name": "Medical surgical nursing 1",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "12",
-        "assessment_summary": "4 - Clinical competencies Pass/Fail (%); 3 - Case study & analysis (3,000 words) (45%); 1 - Care plan and analysis (2,000 words) (35%); 2 - Clinical information poster (1,000 words) (20%)",
+        "assessment_summary": "4 - Clinical competencies Pass/Fail (0%); 3 - Case study & analysis (3,000 words) (45%); 1 - Care plan and analysis (2,000 words) (35%); 2 - Clinical information poster (1,000 words) (20%)",
         "url": "https://handbook.monash.edu/2025/units/NUR5031"
     },
     {
@@ -35092,7 +35092,7 @@
         "name": "Medical surgical nursing 2",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "12",
-        "assessment_summary": "4 - Clinical competencies (1,500 word equivalence) Pass/Fail (%); 2 - Concept map and presentation (1,500 words and 5-minute presentation) (30%); 3 - Complex care management plan (3,000 words) (40%); 1 - Comparative report (3,000 words)  (30%)",
+        "assessment_summary": "4 - Clinical competencies (1,500 word equivalence) Pass/Fail (0%); 2 - Concept map and presentation (1,500 words and 5-minute presentation) (30%); 3 - Complex care management plan (3,000 words) (40%); 1 - Comparative report (3,000 words)  (30%)",
         "url": "https://handbook.monash.edu/2025/units/NUR5032"
     },
     {
@@ -35132,7 +35132,7 @@
         "name": "Therapeutic medication management (Prescribing)",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "12",
-        "assessment_summary": "2 - Portfolio (2,500 words) (35%); 3 - Report (Approx. 5,000 words) (45%); 1 - Mid-semester on-line examination (1 hour and 10 mins reading time - 1,000 words equivalent) (20%); 4 - Prescriber student online quizzes (Pass/Fail) (%)",
+        "assessment_summary": "2 - Portfolio (2,500 words) (35%); 3 - Report (Approx. 5,000 words) (45%); 1 - Mid-semester on-line examination (1 hour and 10 mins reading time - 1,000 words equivalent) (20%); 4 - Prescriber student online quizzes (Pass/Fail) (0%)",
         "url": "https://handbook.monash.edu/2025/units/NUR5208"
     },
     {
@@ -35164,7 +35164,7 @@
         "name": "Mental health nursing concepts and practice",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "12",
-        "assessment_summary": "3 - Care plan (2,000 words) (40%); 2 - Case study report (2,000 words) (40%); 4 - Clinical portfolio (Pass/Fail) (%); 1 - Proposal (1,200 words) (20%)",
+        "assessment_summary": "3 - Care plan (2,000 words) (40%); 2 - Case study report (2,000 words) (40%); 4 - Clinical portfolio (Pass/Fail) (0%); 1 - Proposal (1,200 words) (20%)",
         "url": "https://handbook.monash.edu/2025/units/NUR5215"
     },
     {
@@ -35188,7 +35188,7 @@
         "name": "Foundations of cardiac nursing",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "12",
-        "assessment_summary": "1 - Concept map (1500-word equivalent) (25%); 4 - Clinical Portfolio (%); 2 - Case Study (3000 words)  (40%); 3 - Final scheduled assessment (Examination) (2 hours 10 minutes) (35%)",
+        "assessment_summary": "1 - Concept map (1500-word equivalent) (25%); 4 - Clinical Portfolio (Pass/Fail)(0%); 2 - Case Study (3000 words)  (40%); 3 - Final scheduled assessment (Examination) (2 hours 10 minutes) (35%)",
         "url": "https://handbook.monash.edu/2025/units/NUR5300"
     },
     {
@@ -35196,7 +35196,7 @@
         "name": "Advanced cardiac nursing care",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "12",
-        "assessment_summary": "3 - Final scheduled assessment (eExamination) (2 hours 10 mins) (30%); 1 - Presentation (15 min oral) (20%); 4 - Clinical portfolio (pass/fail) (%); 2 - Care plan (3,000 words) (50%)",
+        "assessment_summary": "3 - Final scheduled assessment (eExamination) (2 hours 10 mins) (30%); 1 - Presentation (15 min oral) (20%); 4 - Clinical portfolio (pass/fail) (0%); 2 - Care plan (3,000 words) (50%)",
         "url": "https://handbook.monash.edu/2025/units/NUR5302"
     },
     {
@@ -35204,7 +35204,7 @@
         "name": "Advanced cardiac nursing",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "6",
-        "assessment_summary": "1 - Written assignment (2,000 words) (45%); 3 - Clinical performance appraisal (Pass/Fail) (%); 2 - Written examination (2 hours and 10 mins) (55%); 4 - Clinical competencies (Pass/Fail) (%)",
+        "assessment_summary": "1 - Written assignment (2,000 words) (45%); 3 - Clinical performance appraisal (Pass/Fail) (0%); 2 - Written examination (2 hours and 10 mins) (55%); 4 - Clinical competencies (Pass/Fail) (0%)",
         "url": "https://handbook.monash.edu/2025/units/NUR5310"
     },
     {
@@ -35276,7 +35276,7 @@
         "name": "Nurse practitioner essentials",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "0",
-        "assessment_summary": "3 - CPD (Continuing Professional Development) Log (%); 1 - Workplace assessments (WPAs) - clinical and professional (pass/fail) (%); 4 - Nurse Practitioner Standards for Practice - clinical and professional (pass/fail) (%); 5 - OSCA (objective structured clinical assessment) (pass/fail) (%); 2 - Clinical Encounters x 2 (pass/fail) (%)",
+        "assessment_summary": "3 - CPD (Continuing Professional Development) Log (Pass/Fail)(0%); 1 - Workplace assessments (WPAs) - clinical and professional (pass/fail) (0%); 4 - Nurse Practitioner Standards for Practice - clinical and professional (pass/fail) (0%); 5 - OSCA (objective structured clinical assessment) (pass/fail) (0%); 2 - Clinical Encounters x 2 (pass/fail) (0%)",
         "url": "https://handbook.monash.edu/2025/units/NUR5600"
     },
     {
@@ -35284,7 +35284,7 @@
         "name": "Paediatric nursing 1",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "12",
-        "assessment_summary": "4 - Clinical skill assessment (Pass/Fail) (%); 2 - Case study analysis (3,000 words equivalent) (45%); 1 - Quiz (30 mins x 1,000 word equivalent) (10%); 5 - Clinical performance appraisal (Pass/Fail) (%); 3 - Final Scheduled Assessment (Examination) (2 hours and 10 mins examination) (45%)",
+        "assessment_summary": "4 - Clinical skill assessment (Pass/Fail) (0%); 2 - Case study analysis (3,000 words equivalent) (45%); 1 - Quiz (30 mins x 1,000 word equivalent) (10%); 5 - Clinical performance appraisal (Pass/Fail) (0%); 3 - Final Scheduled Assessment (Examination) (2 hours and 10 mins examination) (45%)",
         "url": "https://handbook.monash.edu/2025/units/NUR5701"
     },
     {
@@ -35292,7 +35292,7 @@
         "name": "Paediatric nursing 2",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "12",
-        "assessment_summary": "4 - Clinical performance appraisal (pass/fail) (%); 3 - Clinical skills assessments (pass/fail) (%); 2 - Audio-visual presentation (2,500 word equivalent) (40%); 1 - Written case study (3,000 words) (60%)",
+        "assessment_summary": "4 - Clinical performance appraisal (pass/fail) (0%); 3 - Clinical skills assessments (pass/fail) (0%); 2 - Audio-visual presentation (2,500 word equivalent) (40%); 1 - Written case study (3,000 words) (60%)",
         "url": "https://handbook.monash.edu/2025/units/NUR5702"
     },
     {
@@ -35308,7 +35308,7 @@
         "name": "Perioperative nursing 1",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "12",
-        "assessment_summary": "2 - Report (2,000 words) (30%); 3 - Case study (3,000 words) (50%); 5 - Clinical appraisal (Pass/Fail) (%); 4 - Clinical skills assessment (Pass/Fail) (%); 1 - Oral presentation (1,500 words) (20%)",
+        "assessment_summary": "2 - Report (2,000 words) (30%); 3 - Case study (3,000 words) (50%); 5 - Clinical appraisal (Pass/Fail) (0%); 4 - Clinical skills assessment (Pass/Fail) (0%); 1 - Oral presentation (1,500 words) (20%)",
         "url": "https://handbook.monash.edu/2025/units/NUR5710"
     },
     {
@@ -35316,7 +35316,7 @@
         "name": "Perioperative nursing 2",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "12",
-        "assessment_summary": "5 - Clinical appraisal (Pass/Fail) (%); 3 - Patient vignettes portfolio (3,000 words) (50%); 2 - Resource development project (1,500 words) (25%); 4 - Clinical skills assessment  (Pass/Fail) (%); 1 - Poster presentation  (1,500 words) (25%)",
+        "assessment_summary": "5 - Clinical appraisal (Pass/Fail) (0%); 3 - Patient vignettes portfolio (3,000 words) (50%); 2 - Resource development project (1,500 words) (25%); 4 - Clinical skills assessment  (Pass/Fail) (0%); 1 - Poster presentation  (1,500 words) (25%)",
         "url": "https://handbook.monash.edu/2025/units/NUR5711"
     },
     {
@@ -35340,7 +35340,7 @@
         "name": "Intensive care nursing 1",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "12",
-        "assessment_summary": "3 - Examination (Case studies  with SAQs - 2 hours and 10 mins) (35%); 1 - Critical review (1,500 words) (30%); 2 - Report (2,500 words) (35%); 4 - Clinical case review and clinical performance appraisal (Pass/Fail) (%)",
+        "assessment_summary": "3 - Examination (Case studies  with SAQs - 2 hours and 10 mins) (35%); 1 - Critical review (1,500 words) (30%); 2 - Report (2,500 words) (35%); 4 - Clinical case review and clinical performance appraisal (Pass/Fail) (0%)",
         "url": "https://handbook.monash.edu/2025/units/NUR5923"
     },
     {
@@ -35348,7 +35348,7 @@
         "name": "Intensive care nursing 2",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "12",
-        "assessment_summary": "1 - Presentation (Poster & recorded oral presentation - 3,000 word equivalent) (60%); 2 - Examination (Case studies with SAQs) (40%); 3 - Clinical case review and clinical performance appraisal (Pass/Fail) (%)",
+        "assessment_summary": "1 - Presentation (Poster & recorded oral presentation - 3,000 word equivalent) (60%); 2 - Examination (Case studies with SAQs) (40%); 3 - Clinical case review and clinical performance appraisal (Pass/Fail) (0%)",
         "url": "https://handbook.monash.edu/2025/units/NUR5924"
     },
     {
@@ -35356,7 +35356,7 @@
         "name": "Emergency nursing 1",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "12",
-        "assessment_summary": "4 - Clinical performance appraisal (Pass/Fail) (%); 2 - Final Scheduled Assessment (Exam - 2 hours and 10 mins)  (40%); 3 - Clinical assessments (Pass/Fail) (%); 1 -   Patient portfolio (2,100 words + 10 min video) (60%)",
+        "assessment_summary": "4 - Clinical performance appraisal (Pass/Fail) (0%); 2 - Final Scheduled Assessment (Exam - 2 hours and 10 mins)  (40%); 3 - Clinical assessments (Pass/Fail) (0%); 1 -   Patient portfolio (2,100 words + 10 min video) (60%)",
         "url": "https://handbook.monash.edu/2025/units/NUR5925"
     },
     {
@@ -35364,7 +35364,7 @@
         "name": "Emergency nursing 2",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "12",
-        "assessment_summary": "1 - Case study analysis (1,350) (20%); 2 - Critical review  (40%); 5 - Clinical performance appraisal (Pass/Fail) (%); 3 - Final scheduled assessment (Exam - 2 hours and 10 mins)  (40%); 4 - Clinical assessments (Pass/Fail) (%)",
+        "assessment_summary": "1 - Case study analysis (1,350) (20%); 2 - Critical review  (40%); 5 - Clinical performance appraisal (Pass/Fail) (0%); 3 - Final scheduled assessment (Exam - 2 hours and 10 mins)  (40%); 4 - Clinical assessments (Pass/Fail) (0%)",
         "url": "https://handbook.monash.edu/2025/units/NUR5926"
     },
     {
@@ -35380,7 +35380,7 @@
         "name": "Evaluating the evidence: Nutrition and population health",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "12",
-        "assessment_summary": "1 - Analysis of Indigenous nutrition program (Group oral presentation - 15 mins, approx. 500 words) (25%); 2 - Mid-semester quiz (MCQ/EMQ - 20 marks, 40 mins.) (10%); 3 - Critical analysis of a scientific paper (2,000 words) (20%); 5 - Allies in Indigenous Health - First Steps (Pass/Fail) (%); 4 - Analytical essay (Part 1-approx. 2,500 words 20%; Part 2-essay 2,500 words, 25%) (45%)",
+        "assessment_summary": "1 - Analysis of Indigenous nutrition program (Group oral presentation - 15 mins, approx. 500 words) (25%); 2 - Mid-semester quiz (MCQ/EMQ - 20 marks, 40 mins.) (10%); 3 - Critical analysis of a scientific paper (2,000 words) (20%); 5 - Allies in Indigenous Health - First Steps (Pass/Fail) (0%); 4 - Analytical essay (Part 1-approx. 2,500 words 20%; Part 2-essay 2,500 words, 25%) (45%)",
         "url": "https://handbook.monash.edu/2025/units/NUT1002"
     },
     {
@@ -35452,7 +35452,7 @@
         "name": "Nutrition throughout lifecycle",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "6",
-        "assessment_summary": "4 - Field visits (8 hours x 2 visits) Pass/Fail (%); 3 - Final examination (2 hours + 10 mins reading time) (40%); 2 - Poster (1,200 word maximum + 5 mins maximum recorded video presentation) (30%); 1 - Oral presentation (25 mins) (30%)",
+        "assessment_summary": "4 - Field visits (8 hours x 2 visits) Pass/Fail (0%); 3 - Final examination (2 hours + 10 mins reading time) (40%); 2 - Poster (1,200 word maximum + 5 mins maximum recorded video presentation) (30%); 1 - Oral presentation (25 mins) (30%)",
         "url": "https://handbook.monash.edu/2025/units/NUT1028"
     },
     {
@@ -35460,7 +35460,7 @@
         "name": "Assessment of nutritional status",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "6",
-        "assessment_summary": "2 - Demonstration (Objective Structure Practical Exam - 15 min/station, 30 mins each student) (20%); 3 - Written report 2 (Group - 3,000 words) (40%); 4 - Field visit (attendance - 6 visits x 8 hours each) (Pass/Fail) (%); 1 - Report (4 x reports 600 words each) (40%)",
+        "assessment_summary": "2 - Demonstration (Objective Structure Practical Exam - 15 min/station, 30 mins each student) (20%); 3 - Written report 2 (Group - 3,000 words) (40%); 4 - Field visit (attendance - 6 visits x 8 hours each) (Pass/Fail) (0%); 1 - Report (4 x reports 600 words each) (40%)",
         "url": "https://handbook.monash.edu/2025/units/NUT1029"
     },
     {
@@ -35540,7 +35540,7 @@
         "name": "Food preparation, safety and service",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "12",
-        "assessment_summary": "1 - Portfolio (1,200 words)  (20%); 3 - Report (2500 Words) and Video (12 mins/ group) (50%); 2 - Reports (2,100 words limit) (30%); 4 - Professional Performance (Field Visit:  24 hrs (8hrs/ Visit x 3 Visits) Pass/Fail (%)",
+        "assessment_summary": "1 - Portfolio (1,200 words)  (20%); 3 - Report (2500 Words) and Video (12 mins/ group) (50%); 2 - Reports (2,100 words limit) (30%); 4 - Professional Performance (Field Visit:  24 hrs (8hrs/ Visit x 3 Visits) Pass/Fail (0%)",
         "url": "https://handbook.monash.edu/2025/units/NUT2022"
     },
     {
@@ -35548,7 +35548,7 @@
         "name": "Nutrition and chronic diseases",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "6",
-        "assessment_summary": "3 - Final exam (1 hour and 30 mins + 10 mins reading time) (30%); 1 - Report (2,500 words limit) (40%); 2 - Plan (1,800 words limit) (30%); 4 - Clinical field visit and attachment (Attendance 8 visits x 8 hours each) Pass/Fail (%)",
+        "assessment_summary": "3 - Final exam (1 hour and 30 mins + 10 mins reading time) (30%); 1 - Report (2,500 words limit) (40%); 2 - Plan (1,800 words limit) (30%); 4 - Clinical field visit and attachment (Attendance 8 visits x 8 hours each) Pass/Fail (0%)",
         "url": "https://handbook.monash.edu/2025/units/NUT2023"
     },
     {
@@ -35556,7 +35556,7 @@
         "name": "Internship 1",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "12",
-        "assessment_summary": "1 - Professional performance (20%); 4 - Healthcare placement (10 weeks, 40 hours per week) (%); 2 - Oral presentation (20 min group) (20%); 3 - Report and reflection (3,600 words) (60%)",
+        "assessment_summary": "1 - Professional performance (20%); 4 - Healthcare placement (10 weeks, 40 hours per week) (Pass/Fail)(0%); 2 - Oral presentation (20 min group) (20%); 3 - Report and reflection (3,600 words) (60%)",
         "url": "https://handbook.monash.edu/2025/units/NUT2024"
     },
     {
@@ -35572,7 +35572,7 @@
         "name": "Community nutrition and health promotion",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "12",
-        "assessment_summary": "1 - Project: Community nutrition (Proposal-600 words; Protocol-1,200 words; Oral presentation-15 mins) (35%); 2 - Reflection: Individual (900 words) (15%); 3 - Project: Heath promotion (Communique-600 words; Client Ed.-600 words; Oral presentation-15 mins) (30%); 5 - Field visit (Pass/Fail) (%); 4 - Reflection - Individual (1,200 words) (20%)",
+        "assessment_summary": "1 - Project: Community nutrition (Proposal-600 words; Protocol-1,200 words; Oral presentation-15 mins) (35%); 2 - Reflection: Individual (900 words) (15%); 3 - Project: Heath promotion (Communique-600 words; Client Ed.-600 words; Oral presentation-15 mins) (30%); 5 - Field visit (Pass/Fail) (0%); 4 - Reflection - Individual (1,200 words) (20%)",
         "url": "https://handbook.monash.edu/2025/units/NUT2026"
     },
     {
@@ -35684,7 +35684,7 @@
         "name": "Work placement",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "12",
-        "assessment_summary": "2 - Project report (1,500 words) (50%); 3 - Project presentation (10 minutes) with reflective account (1,000 words) (20%); 1 - Project proposal (1,500 words) (30%); 4 - Supervisor Reports (%)",
+        "assessment_summary": "2 - Project report (1,500 words) (50%); 3 - Project presentation (10 minutes) with reflective account (1,000 words) (20%); 1 - Project proposal (1,500 words) (30%); 4 - Supervisor Reports (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/NUT3007"
     },
     {
@@ -35740,7 +35740,7 @@
         "name": "Foundations of dietetic practice",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "12",
-        "assessment_summary": "3 - Examination (2 hours and 10 minutes) (30%); 2 - Nutrition group education (2000 words + 20min video recording) (20%); 4 - Indigenous Health module   (%); 1 - Professional portfolio (6,000 words) (50%)",
+        "assessment_summary": "3 - Examination (2 hours and 10 minutes) (30%); 2 - Nutrition group education (2000 words + 20min video recording) (20%); 4 - Indigenous Health module (Pass/Fail)(0%); 1 - Professional portfolio (6,000 words) (50%)",
         "url": "https://handbook.monash.edu/2025/units/NUT4001"
     },
     {
@@ -35748,7 +35748,7 @@
         "name": "Introduction to nutrition and dietetics practice",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "12",
-        "assessment_summary": "4 - Critical reflection (1,000 words) Pass grade only (%); 3 - Quizzes (Continuous through the semester) (30%); 2 - Structured clinical oral exam (20 minutes) (30%); 5 - Personal reflection (1,000 words) Pass grade only (%); 1 - Case study (6,000 words) (40%)",
+        "assessment_summary": "4 - Critical reflection (1,000 words) Pass grade only (0%); 3 - Quizzes (Continuous through the semester) (30%); 2 - Structured clinical oral exam (20 minutes) (30%); 5 - Personal reflection (1,000 words) Pass grade only (0%); 1 - Case study (6,000 words) (40%)",
         "url": "https://handbook.monash.edu/2025/units/NUT5001"
     },
     {
@@ -35756,7 +35756,7 @@
         "name": "Professional practice: Community and population health and food systems placement",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "12",
-        "assessment_summary": "6 - Food systems portfolio (%); 1 - Professional practice portfolio (%); 3 - Poster and oral seminar presentation  (%); 5 - Report/placement deliverable (%); 2 - Proposal (2,000 words) (%); 4 - Structured oral exam (%)",
+        "assessment_summary": "6 - Food systems portfolio (Pass/Fail)(0%); 1 - Professional practice portfolio (Pass/Fail)(0%); 3 - Poster and oral seminar presentation  (Pass/Fail)(0%); 5 - Report/placement deliverable (Pass/Fail)(0%); 2 - Proposal (2,000 words) (Pass/Fail)(0%); 4 - Structured oral exam (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/NUT5002"
     },
     {
@@ -35772,7 +35772,7 @@
         "name": "Food systems for nutrition and dietetic practice",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "12",
-        "assessment_summary": "3 - Business plan proposal (3,000 words and 5 min video, group 4-5 students)(40%); 4 - Organisational food systems portfolio (minimum 4 activities)(%); 1 - Eating experience plan (1,500 words, individual) (30%); 2 - Menu assessment plan and report (2,000 words, individual) (30%)",
+        "assessment_summary": "3 - Business plan proposal (3,000 words and 5 min video, group 4-5 students)(40%); 4 - Organisational food systems portfolio (minimum 4 activities) (Pass/Fail)(0%); 1 - Eating experience plan (1,500 words, individual) (30%); 2 - Menu assessment plan and report (2,000 words, individual) (30%)",
         "url": "https://handbook.monash.edu/2025/units/NUT5004"
     },
     {
@@ -35780,7 +35780,7 @@
         "name": "Professional practice: Individual case management and food systems",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "12",
-        "assessment_summary": "1 - Professional practice portfolio (Pass/Fail) (%); 2 - Food systems portfolio (Pass/Fail) (%)",
+        "assessment_summary": "1 - Professional practice portfolio (Pass/Fail) (0%); 2 - Food systems portfolio (Pass/Fail) (0%)",
         "url": "https://handbook.monash.edu/2025/units/NUT5005"
     },
     {
@@ -35788,7 +35788,7 @@
         "name": "Professional practice: Research and employability  ",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "12",
-        "assessment_summary": "2 - Multimedia communication (300 words) (30%); 4 - Case study analysis and reflection - Pass/Fail (%); 1 - Article (6,000 words) (50%); 3 - Oral presentation (15 mins plus 5 min question time) (20%)",
+        "assessment_summary": "2 - Multimedia communication (300 words) (30%); 4 - Case study analysis and reflection - Pass/Fail (0%); 1 - Article (6,000 words) (50%); 3 - Oral presentation (15 mins plus 5 min question time) (20%)",
         "url": "https://handbook.monash.edu/2025/units/NUT5006"
     },
     {
@@ -35812,7 +35812,7 @@
         "name": "Foundations of occupational therapy practice",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "6",
-        "assessment_summary": "2 - Report (3,500 words) (40%); 3 - Oral presentation (20 minutes total (15 mins presentation and 5 mins questions) (35%); 1 - Report (2,500 words) (25%); 4 - Reflection (500 - 750 words) Pass/Fail (%)",
+        "assessment_summary": "2 - Report (3,500 words) (40%); 3 - Oral presentation (20 minutes total (15 mins presentation and 5 mins questions) (35%); 1 - Report (2,500 words) (25%); 4 - Reflection (500 - 750 words) Pass/Fail (0%)",
         "url": "https://handbook.monash.edu/2025/units/OCC1022"
     },
     {
@@ -35820,7 +35820,7 @@
         "name": "Human occupation and development",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "12",
-        "assessment_summary": "1 - Individual written essay (2,000 words) (20%); 5 - Individual Written Exam (2 hours and 10 minutes) (35%); 3 - Individual written report (1,500 words) (15%); 2 - Group oral presentation (20 mins. presentation) (10%); 4 - Group written essay (2,000 words) (20%); 6 - Participation in community fielddwork - reflective journal (500 words) (ass/Fail) (%)",
+        "assessment_summary": "1 - Individual written essay (2,000 words) (20%); 5 - Individual Written Exam (2 hours and 10 minutes) (35%); 3 - Individual written report (1,500 words) (15%); 2 - Group oral presentation (20 mins. presentation) (10%); 4 - Group written essay (2,000 words) (20%); 6 - Participation in community fielddwork - reflective journal (500 words) (Pass/Fail) (0%)",
         "url": "https://handbook.monash.edu/2025/units/OCC1042"
     },
     {
@@ -35852,7 +35852,7 @@
         "name": "Enabling occupation: Performance challenges 1A",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "12",
-        "assessment_summary": "7 - Portfolio (%); 3 - Office / workplace assessment assignment (1,500 words)  (10%); 8 - Professional performance (simulated placement activities) Pass/Fail (%); 2 - Critical evaluation of an orthosis (1,000 words and submission of orthosis)  (10%); 1 - 2 x case scenario oral presentations (8 minutes each)  (10%); 4 - One x 1.5 hours short answers and MCQ BMA exam  (20%); 6 - Simulated clinical fieldwork workbook & case presentation (3,000 words)10 minutes oral presentation (30%); 5 - One x 1.5 hours short answer and MCQ OT theory exam (20%)",
+        "assessment_summary": "7 - Portfolio (Pass/Fail)(0%); 3 - Office / workplace assessment assignment (1,500 words)  (10%); 8 - Professional performance (simulated placement activities) Pass/Fail (0%); 2 - Critical evaluation of an orthosis (1,000 words and submission of orthosis)  (10%); 1 - 2 x case scenario oral presentations (8 minutes each)  (10%); 4 - One x 1.5 hours short answers and MCQ BMA exam  (20%); 6 - Simulated clinical fieldwork workbook & case presentation (3,000 words)10 minutes oral presentation (30%); 5 - One x 1.5 hours short answer and MCQ OT theory exam (20%)",
         "url": "https://handbook.monash.edu/2025/units/OCC2020"
     },
     {
@@ -35876,7 +35876,7 @@
         "name": "Enabling occupation: Performance challenges 1B",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "12",
-        "assessment_summary": "2 - Reflection (%); 3 - Exams (2 x 20%) (40%); 4 - Oral presentation  (40%); 1 - Report and group facilitation (20%)",
+        "assessment_summary": "2 - Reflection (Pass/Fail)(0%); 3 - Exams (2 x 20%) (40%); 4 - Oral presentation  (40%); 1 - Report and group facilitation (20%)",
         "url": "https://handbook.monash.edu/2025/units/OCC3031"
     },
     {
@@ -35956,7 +35956,7 @@
         "name": "Participatory community practice 2: Implementation",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "12",
-        "assessment_summary": "5 - Fieldwork placement (22 days) (%); 3 - Report (6,000 words) (50%); 2 - Oral presentation (30mins) (20%); 4 - Reflection (1,000 words total) (%); 1 - Report (3,000 words) (30%)",
+        "assessment_summary": "5 - Fieldwork placement (22 days) (Pass/Fail)(0%); 3 - Report (6,000 words) (50%); 2 - Oral presentation (30mins) (20%); 4 - Reflection (1,000 words total) (Pass/Fail)(0%); 1 - Report (3,000 words) (30%)",
         "url": "https://handbook.monash.edu/2025/units/OCC4071"
     },
     {
@@ -35972,7 +35972,7 @@
         "name": "Advanced professional practice",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "12",
-        "assessment_summary": "3 - Satisfactory completion of fieldwork placement (Pass/Fail) (%); 1 - Professional development plan (1,500 words) (Pass/Fail) (%); 2 - Reflective portfolio (LinkedIn profile and 20 mins presentation) (Pass/Fail) (%)",
+        "assessment_summary": "3 - Satisfactory completion of fieldwork placement (Pass/Fail) (0%); 1 - Professional development plan (1,500 words) (Pass/Fail) (0%); 2 - Reflective portfolio (LinkedIn profile and 20 mins presentation) (Pass/Fail) (0%)",
         "url": "https://handbook.monash.edu/2025/units/OCC4082"
     },
     {
@@ -35980,7 +35980,7 @@
         "name": "Occupational therapy honours research project 2",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "12",
-        "assessment_summary": "3 - Research thesis with embedded manuscript (Thesis 8,000-10,000 words. Must be in APA thesis format) (100%); 2 - Ethics application and approval - Pass/Fail (%); 1 - Fieldwork student practice evaluation (completed standard evaluation form) Pass/Fail (%)",
+        "assessment_summary": "3 - Research thesis with embedded manuscript (Thesis 8,000-10,000 words. Must be in APA thesis format) (100%); 2 - Ethics application and approval - Pass/Fail (0%); 1 - Fieldwork student practice evaluation (completed standard evaluation form) Pass/Fail (0%)",
         "url": "https://handbook.monash.edu/2025/units/OCC4091"
     },
     {
@@ -35996,7 +35996,7 @@
         "name": "Enabling occupation 2",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "12",
-        "assessment_summary": "3 - Written report (4,500 words group report & 500 word individual reflection) (30%); 2 - Oral group presentation (20 mins x 3 person group) (25%); 4 - Applied oral exam with peer discussion  (25 mins individual oral presentation & peer review 10 mins) (45%); 5 - Allies in Indigenous Health (Pass/Fail) (%); 1 - Successful completion of fieldwork (Pass/Fail) (%)",
+        "assessment_summary": "3 - Written report (4,500 words group report & 500 word individual reflection) (30%); 2 - Oral group presentation (20 mins x 3 person group) (25%); 4 - Applied oral exam with peer discussion  (25 mins individual oral presentation & peer review 10 mins) (45%); 5 - Allies in Indigenous Health (Pass/Fail) (0%); 1 - Successful completion of fieldwork (Pass/Fail) (0%)",
         "url": "https://handbook.monash.edu/2025/units/OCC5050"
     },
     {
@@ -36004,7 +36004,7 @@
         "name": "Enabling occupation 3",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "12",
-        "assessment_summary": "4 - Report (3,600 words per student)  (30%); 1 - Essay (3,600 words)  (30%); 2 - Oral presentation (20 minutes, 10 minutes per student) (15%); 5 - Fieldwork (Pass/Fail) (%); 3 - Oral presentation (90 minutes preparation time, 15 minutes presentation, 5 minutes questions) (25%)",
+        "assessment_summary": "4 - Report (3,600 words per student)  (30%); 1 - Essay (3,600 words)  (30%); 2 - Oral presentation (20 minutes, 10 minutes per student) (15%); 5 - Fieldwork (Pass/Fail) (0%); 3 - Oral presentation (90 minutes preparation time, 15 minutes presentation, 5 minutes questions) (25%)",
         "url": "https://handbook.monash.edu/2025/units/OCC5060"
     },
     {
@@ -36012,7 +36012,7 @@
         "name": "Transition to practice",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "12",
-        "assessment_summary": "1 - Learning contract (1,000 word)  (10%); 2 - Scoping review (3,000 words) (30%); 3 - Conference abstract, conference poster, oral presentation & report (60%); 4 - Fieldwork (9 weeks) Pass/Fail (%)",
+        "assessment_summary": "1 - Learning contract (1,000 word)  (10%); 2 - Scoping review (3,000 words) (30%); 3 - Conference abstract, conference poster, oral presentation & report (60%); 4 - Fieldwork (9 weeks) Pass/Fail (0%)",
         "url": "https://handbook.monash.edu/2025/units/OCC5070"
     },
     {
@@ -36116,7 +36116,7 @@
         "name": "Introductory clinical practice",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "0",
-        "assessment_summary": "3 - Log book submission (8 log book entries) (%); 2 - Placement (8 shifts) Pass/Fail (%); 1 - Compliance (all documents must be submitted by the faculty wide compliance deadline) Pass/Fail (%)",
+        "assessment_summary": "3 - Log book submission (8 log book entries) (Pass/Fail)(0%); 2 - Placement (8 shifts) Pass/Fail (0%); 1 - Compliance (all documents must be submitted by the faculty wide compliance deadline) Pass/Fail (0%)",
         "url": "https://handbook.monash.edu/2025/units/PAR1010"
     },
     {
@@ -36132,7 +36132,7 @@
         "name": "Foundations of paramedic practice 2",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "6",
-        "assessment_summary": "3 - Practical scenario exam (25 mins including reading time) (Pass/Fail) (%); 4 - Final exam (2 hours and 10 mins including reading time) (40%); 1 - Mid-semester MCQ exam (1 hour including reading time) (10%); 2 - Case study analysis (2,000 words and 10 min video) (50%)",
+        "assessment_summary": "3 - Practical scenario exam (25 mins including reading time) (Pass/Fail) (0%); 4 - Final exam (2 hours and 10 mins including reading time) (40%); 1 - Mid-semester MCQ exam (1 hour including reading time) (10%); 2 - Case study analysis (2,000 words and 10 min video) (50%)",
         "url": "https://handbook.monash.edu/2025/units/PAR1012"
     },
     {
@@ -36172,7 +36172,7 @@
         "name": "Paramedic advanced life support",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "6",
-        "assessment_summary": "1 - In semester quiz (60 MCQs x 60 minutes) Pass/Fail (%); 4 - End of semester practical exam (20 minutes) Pass/Fail (%); 2 - Clinical portfolio (5 minute video + 2,000 word case study) (60%); 3 - End of semester written exam (2 hours and 10 minutes) (40%)",
+        "assessment_summary": "1 - In semester quiz (60 MCQs x 60 minutes) Pass/Fail (0%); 4 - End of semester practical exam (20 minutes) Pass/Fail (0%); 2 - Clinical portfolio (5 minute video + 2,000 word case study) (60%); 3 - End of semester written exam (2 hours and 10 minutes) (40%)",
         "url": "https://handbook.monash.edu/2025/units/PAR2011"
     },
     {
@@ -36180,7 +36180,7 @@
         "name": "Paramedic management of cardiovascular and respiratory conditions",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "12",
-        "assessment_summary": "4 - End of year practical assessment (20 mins practical scenario exam) (%); 3 - Mid-year written exam (2 hours and 10 mins) (30%); 1 - Case study (2,000 words) (15%); 2 - Reflection on practice (1,500 words) (15%); 5 - End of year written exam (2 hours 10\u00a0mins) (40%)",
+        "assessment_summary": "4 - End of year practical assessment (20 mins practical scenario exam) (Pass/Fail)(0%); 3 - Mid-year written exam (2 hours and 10 mins) (30%); 1 - Case study (2,000 words) (15%); 2 - Reflection on practice (1,500 words) (15%); 5 - End of year written exam (2 hours 10\u00a0mins) (40%)",
         "url": "https://handbook.monash.edu/2025/units/PAR2013"
     },
     {
@@ -36220,7 +36220,7 @@
         "name": "Paramedic management of medical conditions",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "6",
-        "assessment_summary": "3 - Written exam (2 hrs and 10 mins) (40%); 4 - Practical assessment (20 mins) (Pass/Fail) (%); 1 - Clinical portfolio (12 mins video submission and 500 word reflection) (30%); 2 - Critical analysis (2,000 words) (30%)",
+        "assessment_summary": "3 - Written exam (2 hrs and 10 mins) (40%); 4 - Practical assessment (20 mins) (Pass/Fail) (0%); 1 - Clinical portfolio (12 mins video submission and 500 word reflection) (30%); 2 - Critical analysis (2,000 words) (30%)",
         "url": "https://handbook.monash.edu/2025/units/PAR3011"
     },
     {
@@ -36268,7 +36268,7 @@
         "name": "Integrated clinical practice",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "12",
-        "assessment_summary": "3 - Simulation self-critiques (1 x 1,000 words & 1 x 5-10 mins audio diary reflection) Pass/fail (%); 1 - Case study (1,500 words) Pass/fail (%); 4 - Scenario day attendances ( 4 days) Pass/fail (%); 6 - Log books (1 page per shift) Pass/fail (%); 5 - Clinical placements (16 x AV, 12 x hospital) Pass/fail (%); 2 - Case study (2 x 10 mins presentations) Pass/fail (%)",
+        "assessment_summary": "3 - Simulation self-critiques (1 x 1,000 words & 1 x 5-10 mins audio diary reflection) Pass/fail (0%); 1 - Case study (1,500 words) Pass/fail (0%); 4 - Scenario day attendances ( 4 days) Pass/fail (0%); 6 - Log books (1 page per shift) Pass/fail (0%); 5 - Clinical placements (16 x AV, 12 x hospital) Pass/fail (0%); 2 - Case study (2 x 10 mins presentations) Pass/fail (0%)",
         "url": "https://handbook.monash.edu/2025/units/PAR3033"
     },
     {
@@ -36300,7 +36300,7 @@
         "name": "Paramedic practitioner essentials",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "0",
-        "assessment_summary": "3 - Capability framework portfolio - Pass/Fail (%); 2 - Supervised clinical encounters (750 words per encounter) Pass/Fail (%); 1 - Clinical mentorship portfolio  (1,000 words equivalent) Pass/Fail (%)",
+        "assessment_summary": "3 - Capability framework portfolio - Pass/Fail (0%); 2 - Supervised clinical encounters (750 words per encounter) Pass/Fail (0%); 1 - Clinical mentorship portfolio  (1,000 words equivalent) Pass/Fail (0%)",
         "url": "https://handbook.monash.edu/2025/units/PAR5106"
     },
     {
@@ -36556,7 +36556,7 @@
         "name": "Professional experience placement",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "6",
-        "assessment_summary": "5 - Placement summary (5 min oral presentation + 600 words) (30%); 1 - Student supervisor agreement (completion of template) Pass/Fail (%); 3 - Placement proposal (1,500 words) (35%); 2 - Preparation for placement (1 hour) (10%); 4 - Placement progress reflection (1,000 words) (25%)",
+        "assessment_summary": "5 - Placement summary (5 min oral presentation + 600 words) (30%); 1 - Student supervisor agreement (completion of template) Pass/Fail (0%); 3 - Placement proposal (1,500 words) (35%); 2 - Preparation for placement (1 hour) (10%); 4 - Placement progress reflection (1,000 words) (25%)",
         "url": "https://handbook.monash.edu/2025/units/PBH3014"
     },
     {
@@ -36644,7 +36644,7 @@
         "name": "Professional practice portfolio",
         "faculty": "Faculty of Pharmacy and Pharmaceutical Sciences",
         "credit_points": "6",
-        "assessment_summary": "1 - Written reflection (%); 4 - Submission of a professional practice portfolio (%); 2 - Learning Plan (%); 3 - Satisfactory participation and completion of online discussions (%)",
+        "assessment_summary": "1 - Written reflection (Pass/Fail)(0%); 4 - Submission of a professional practice portfolio (Pass/Fail)(0%); 2 - Learning Plan (Pass/Fail)(0%); 3 - Satisfactory participation and completion of online discussions (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/PGC5119"
     },
     {
@@ -36716,7 +36716,7 @@
         "name": "Action in pharmacology research project",
         "faculty": "Faculty of Science",
         "credit_points": "6",
-        "assessment_summary": "2 - Assessment Task 2: Seminar 1(10%); 6 - Assessment Task 6: Assessment of laboratory / research work(20%); 1 - Assessment Task 1: Progress report - Satisfactory / Non satisfactory(%); 4 - Assessment Task 4: Seminar 2(10%); 5 - Assessment Task 5: Final written report(50%); 3 - Assessment Task 3: Literature review(10%)",
+        "assessment_summary": "2 - Assessment Task 2: Seminar 1(10%); 6 - Assessment Task 6: Assessment of laboratory / research work(20%); 1 - Assessment Task 1: Progress report - Satisfactory / Non satisfactory (Pass/Fail)(0%); 4 - Assessment Task 4: Seminar 2(10%); 5 - Assessment Task 5: Final written report(50%); 3 - Assessment Task 3: Literature review(10%)",
         "url": "https://handbook.monash.edu/2025/units/PHA3990"
     },
     {
@@ -36964,7 +36964,7 @@
         "name": "Professional practice 4",
         "faculty": "Faculty of Pharmacy and Pharmaceutical Sciences",
         "credit_points": "12",
-        "assessment_summary": "1 - MyPharm engagement (15%); 8 - Students Delivering Presentations: A Showcase of Knowledge and Skills (Team) (10%); 9 - Placement (%); 7 - Application of evidence to complex patient care (Individual) (15%); 4 - Evidence synthesis (Team) (15%); 6 - Health Economic assessment report (Individual) (15%); 3 - In-semester quiz 2 (9%); 5 - In-semester quiz 3 (10%); 2 - In-semester quiz 1 (11%)",
+        "assessment_summary": "1 - MyPharm engagement (15%); 8 - Students Delivering Presentations: A Showcase of Knowledge and Skills (Team) (10%); 9 - Placement (Pass/Fail)(0%); 7 - Application of evidence to complex patient care (Individual) (15%); 4 - Evidence synthesis (Team) (15%); 6 - Health Economic assessment report (Individual) (15%); 3 - In-semester quiz 2 (9%); 5 - In-semester quiz 3 (10%); 2 - In-semester quiz 1 (11%)",
         "url": "https://handbook.monash.edu/2025/units/PHR2012"
     },
     {
@@ -37028,7 +37028,7 @@
         "name": "Student experiential placements 1",
         "faculty": "Faculty of Pharmacy and Pharmaceutical Sciences",
         "credit_points": "6",
-        "assessment_summary": "1 - StEPs attendance (%); 2 - MyPharm engagement (%); 3 - Pharmaceutical Calculations Assessment (%); 4 - Team Case Discussion (%)",
+        "assessment_summary": "1 - StEPs attendance (Pass/Fail)(0%); 2 - MyPharm engagement (Pass/Fail)(0%); 3 - Pharmaceutical Calculations Assessment (Pass/Fail)(0%); 4 - Team Case Discussion (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/PHR3062"
     },
     {
@@ -37060,7 +37060,7 @@
         "name": "Student experiential placements 2",
         "faculty": "Faculty of Pharmacy and Pharmaceutical Sciences",
         "credit_points": "12",
-        "assessment_summary": "1 - Assessment will comprise 100% in semester assessment.  (%)",
+        "assessment_summary": "1 - Assessment will comprise 100% in semester assessment. (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/PHR4061"
     },
     {
@@ -37068,7 +37068,7 @@
         "name": "Inquiry and innovation methods",
         "faculty": "Faculty of Pharmacy and Pharmaceutical Sciences",
         "credit_points": "6",
-        "assessment_summary": "1 - Moodle quiz  - Introduction to research (%); 3 - Moodle quiz - Scientific writing (%); 5 -  Moodle quiz - Literature review (%); 4 - Short Course - ICH Good Clinical Practice E6 (R2) (%); 2 -  Moodle quiz - Study design (%); 7 -  Individual research proposal (%); 6 -  Moodle quiz - Statistics  (%); 8 - Group report (%)",
+        "assessment_summary": "1 - Moodle quiz  - Introduction to research (Pass/Fail)(0%); 3 - Moodle quiz - Scientific writing (Pass/Fail)(0%); 5 -  Moodle quiz - Literature review (Pass/Fail)(0%); 4 - Short Course - ICH Good Clinical Practice E6 (R2) (Pass/Fail)(0%); 2 -  Moodle quiz - Study design (Pass/Fail)(0%); 7 -  Individual research proposal (Pass/Fail)(0%); 6 -  Moodle quiz - Statistics  (Pass/Fail)(0%); 8 - Group report (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/PHR5052"
     },
     {
@@ -37076,7 +37076,7 @@
         "name": "Applied pharmacy practice 1",
         "faculty": "Faculty of Pharmacy and Pharmaceutical Sciences",
         "credit_points": "6",
-        "assessment_summary": "1 - Satisfactory participation and completion of online discussion block 1  (%); 5 - Satisfactory completion of online multiple choice assessment  (%); 6 - Satisfactory completion and submission of Part A of learning portfolio  (%); 4 - Satisfactory in-person participation at Seminar 2 (%); 2 - Satisfactory participation and completion of online discussion blocks 2-3 (%); 3 - Satisfactory in-person participation at Seminar 1  (%)",
+        "assessment_summary": "1 - Satisfactory participation and completion of online discussion block 1  (Pass/Fail)(0%); 5 - Satisfactory completion of online multiple choice assessment  (Pass/Fail)(0%); 6 - Satisfactory completion and submission of Part A of learning portfolio  (Pass/Fail)(0%); 4 - Satisfactory in-person participation at Seminar 2 (Pass/Fail)(0%); 2 - Satisfactory participation and completion of online discussion blocks 2-3 (Pass/Fail)(0%); 3 - Satisfactory in-person participation at Seminar 1  (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/PHR5061"
     },
     {
@@ -37084,7 +37084,7 @@
         "name": "Applied pharmacy practice 2",
         "faculty": "Faculty of Pharmacy and Pharmaceutical Sciences",
         "credit_points": "6",
-        "assessment_summary": "3 - Satisfactory in-person participation at Seminar 4  (%); 2 - Satisfactory in-person participation at Seminar 3  (%); 1 - Satisfactory participation and completion of online discussion blocks 4-6 (%); 4 - Satisfactory completion and submission of Part B of learning portfolio (%)",
+        "assessment_summary": "3 - Satisfactory in-person participation at Seminar 4  (Pass/Fail)(0%); 2 - Satisfactory in-person participation at Seminar 3  (Pass/Fail)(0%); 1 - Satisfactory participation and completion of online discussion blocks 4-6 (Pass/Fail)(0%); 4 - Satisfactory completion and submission of Part B of learning portfolio (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/PHR5062"
     },
     {
@@ -37092,7 +37092,7 @@
         "name": "Inquiry and innovation projects",
         "faculty": "Faculty of Pharmacy and Pharmaceutical Sciences",
         "credit_points": "12",
-        "assessment_summary": "1 - Assessment will comprise 100% in semester assessment. (%)",
+        "assessment_summary": "1 - Assessment will comprise 100% in semester assessment. (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/PHR5151"
     },
     {
@@ -37100,7 +37100,7 @@
         "name": "Foundation practice 1",
         "faculty": "Faculty of Pharmacy and Pharmaceutical Sciences",
         "credit_points": "6",
-        "assessment_summary": "3 - Satisfactory completion and submission of a written reflection addressing individual learning needs  (%); 5 - Satisfactory completion and submission of an initial project proposal draft (%); 6 - Satisfactory completion and submission of a final project proposal (%); 4 - Satisfactory completion and submission of a research skills activity  (%); 2 - Completion of at least 380 hours of supervised practice  (%); 1 - Satisfactory completion of workplace activities agreed in the Workplace Learning Plan  (%)",
+        "assessment_summary": "3 - Satisfactory completion and submission of a written reflection addressing individual learning needs (Pass/Fail)(0%); 5 - Satisfactory completion and submission of an initial project proposal draft (Pass/Fail)(0%); 6 - Satisfactory completion and submission of a final project proposal (Pass/Fail)(0%); 4 - Satisfactory completion and submission of a research skills activity  (Pass/Fail)(0%); 2 - Completion of at least 380 hours of supervised practice  (Pass/Fail)(0%); 1 - Satisfactory completion of workplace activities agreed in the Workplace Learning Plan  (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/PHR5161"
     },
     {
@@ -37108,7 +37108,7 @@
         "name": "Foundation practice 2",
         "faculty": "Faculty of Pharmacy and Pharmaceutical Sciences",
         "credit_points": "6",
-        "assessment_summary": "4 - Satisfactory completion and submission of a project poster (%); 2 - Completion of at least 380 hours of supervised practice  (%); 1 - Satisfactory completion of workplace activities agreed in the Workplace Learning Plan (%); 3 - Satisfactory completion and submission of an online interview activity  (%); 5 - Continuing professional development learning plan and written reflection (%)",
+        "assessment_summary": "4 - Satisfactory completion and submission of a project poster (Pass/Fail)(0%); 2 - Completion of at least 380 hours of supervised practice  (Pass/Fail)(0%); 1 - Satisfactory completion of workplace activities agreed in the Workplace Learning Plan (Pass/Fail)(0%); 3 - Satisfactory completion and submission of an online interview activity  (Pass/Fail)(0%); 5 - Continuing professional development learning plan and written reflection (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/PHR5162"
     },
     {
@@ -37116,7 +37116,7 @@
         "name": "Inquiry and innovation communication",
         "faculty": "Faculty of Pharmacy and Pharmaceutical Sciences",
         "credit_points": "6",
-        "assessment_summary": "1 - Assessment will comprise 100% in semester assessment. (%)",
+        "assessment_summary": "1 - Assessment will comprise 100% in semester assessment. (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/PHR5252"
     },
     {
@@ -37580,7 +37580,7 @@
         "name": "Podiatry clinical practice 1 ",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "6",
-        "assessment_summary": "1 - Portfolio: Clinical skills and communication (3,000 word equivalence) Pass/Fail (%); 2 - Demonstration: Professional Performance (Observed and assessed during placement) Pass/Fail (%)",
+        "assessment_summary": "1 - Portfolio: Clinical skills and communication (3,000 word equivalence) Pass/Fail (0%); 2 - Demonstration: Professional Performance (Observed and assessed during placement) Pass/Fail (0%)",
         "url": "https://handbook.monash.edu/2025/units/POD5210"
     },
     {
@@ -37588,7 +37588,7 @@
         "name": "Podiatry clinical practice 2",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "6",
-        "assessment_summary": "2 - Demonstration: Professional performance - Pass/Fail (%); 1 - Portfolio: Clinical skills and communication (3,000 word equivalence) - Pass/Fail (%)",
+        "assessment_summary": "2 - Demonstration: Professional performance - Pass/Fail (0%); 1 - Portfolio: Clinical skills and communication (3,000 word equivalence) - Pass/Fail (0%)",
         "url": "https://handbook.monash.edu/2025/units/POD5220"
     },
     {
@@ -37596,7 +37596,7 @@
         "name": "Podiatry clinical practice 3",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "6",
-        "assessment_summary": "1 - Portfolio: Clinical skills and communication (3,000 word equivalence) - Pass/Fail (%); 2 - Demonstration: Professional performance (Observed and assessed in placement) - Pass/Fail (%)",
+        "assessment_summary": "1 - Portfolio: Clinical skills and communication (3,000 word equivalence) - Pass/Fail (0%); 2 - Demonstration: Professional performance (Observed and assessed in placement) - Pass/Fail (0%)",
         "url": "https://handbook.monash.edu/2025/units/POD5230"
     },
     {
@@ -37604,7 +37604,7 @@
         "name": "Podiatry clinical practice 4",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "6",
-        "assessment_summary": "1 - Portfolio: Clinical skills and Communication - Pass/Fail (%); 2 - Demonstration: Professional Performance - Pass/Fail (%); 3 - Objective Structured Clinical Examination (5 x 15 mins clinical skills assessments) - Pass/Fail (%)",
+        "assessment_summary": "1 - Portfolio: Clinical skills and Communication - Pass/Fail (0%); 2 - Demonstration: Professional Performance - Pass/Fail (0%); 3 - Objective Structured Clinical Examination (5 x 15 mins clinical skills assessments) - Pass/Fail (0%)",
         "url": "https://handbook.monash.edu/2025/units/POD5240"
     },
     {
@@ -37612,7 +37612,7 @@
         "name": "Advanced podiatry practice",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "12",
-        "assessment_summary": "1 - Group oral presentation (20 mins with 5 mins Q&A) (50%); 3 - Practical exam (30 mins approx.) (%); 2 - Portfolio (4 x 1,000 words approx. = total 4,000 words) (50%)",
+        "assessment_summary": "1 - Group oral presentation (20 mins with 5 mins Q&A) (50%); 3 - Practical exam (30 mins approx.) (0%); 2 - Portfolio (4 x 1,000 words approx. = total 4,000 words) (50%)",
         "url": "https://handbook.monash.edu/2025/units/POD5301"
     },
     {
@@ -37620,7 +37620,7 @@
         "name": "Podiatry clinical practice 5",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "6",
-        "assessment_summary": "3 - Complex case assessment, and management and review (%); 1 - Portfolio: Clinical skills and communication (%); 2 - Demonstration: Professional performance (%)",
+        "assessment_summary": "3 - Complex case assessment, and management and review (Pass/Fail)(0%); 1 - Portfolio: Clinical skills and communication (Pass/Fail)(0%); 2 - Demonstration: Professional performance (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/POD5350"
     },
     {
@@ -37628,7 +37628,7 @@
         "name": "Podiatry clinical practice 6",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "6",
-        "assessment_summary": "1 - Portfolio: Clinical skills and communication (Pass/Fail)(%); 2 - Demonstration: Professional performance (Pass/Fail)(%); 3 - Complex case assessment, and management and review (Pass/Fail)(%)",
+        "assessment_summary": "1 - Portfolio: Clinical skills and communication (Pass/Fail)(0%); 2 - Demonstration: Professional performance (Pass/Fail)(0%); 3 - Complex case assessment, and management and review (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/POD5360"
     },
     {
@@ -37636,7 +37636,7 @@
         "name": "Podiatry clinical practice 7",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "6",
-        "assessment_summary": "2 - Quality improvement portfolio (10 min presentation and 5 min Q&A) (50%); 1 - Portfolio: Clinical skills and communication (%); 3 - Viva (3 x 10 min stations) (50%)",
+        "assessment_summary": "2 - Quality improvement portfolio (10 min presentation and 5 min Q&A) (50%); 1 - Portfolio: Clinical skills and communication (Pass/Fail)(0%); 3 - Viva (3 x 10 min stations) (50%)",
         "url": "https://handbook.monash.edu/2025/units/POD5370"
     },
     {
@@ -37956,7 +37956,7 @@
         "name": "Psychological science in practice",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "6",
-        "assessment_summary": "1 - Written reflection (Total up to 4,500 words) - Pass/Fail (%); 3 - Professional practice evaluation (2-4 pages form) - Pass/Fail (%); 2 - Oral presentation (3 mins) - Pass/Fail (%)",
+        "assessment_summary": "1 - Written reflection (Total up to 4,500 words) - Pass/Fail (0%); 3 - Professional practice evaluation (2-4 pages form) - Pass/Fail (0%); 2 - Oral presentation (3 mins) - Pass/Fail (0%)",
         "url": "https://handbook.monash.edu/2025/units/PSY3034"
     },
     {
@@ -38076,7 +38076,7 @@
         "name": "Final honours psychology",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "0",
-        "assessment_summary": "1 - Research thesis (8,000 to 12,000 words) (%)",
+        "assessment_summary": "1 - Research thesis (8,000 to 12,000 words) (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/PSY4000"
     },
     {
@@ -38132,7 +38132,7 @@
         "name": "Psychology honours: Research project",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "24",
-        "assessment_summary": "1 - Research proposal (1,500 words) (20%); 5 - Research competencies portfolio (Pass/Fail) (%); 3 - Communication of results (10 mins oral presentation) (10%); 4 - Graduate attribute assessment (Pass/Fail) (%); 2 - Research thesis (8,000 - 10,000 words) (70%)",
+        "assessment_summary": "1 - Research proposal (1,500 words) (20%); 5 - Research competencies portfolio (Pass/Fail) (0%); 3 - Communication of results (10 mins oral presentation) (10%); 4 - Graduate attribute assessment (Pass/Fail) (0%); 2 - Research thesis (8,000 - 10,000 words) (70%)",
         "url": "https://handbook.monash.edu/2025/units/PSY4100"
     },
     {
@@ -38316,7 +38316,7 @@
         "name": "Psychology manuscript: Project pre-registration and planning",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "6",
-        "assessment_summary": "1 - Pre-registration: Research proposal (1,000 - 1,500 words) (60%); 3 - Ethics application (1,500 - 2,000 words, not including appendices) (40%); 2 - Journal manuscript milestone 1: Introduction (1,500 - 2,000 words) Pass/Fail (%)",
+        "assessment_summary": "1 - Pre-registration: Research proposal (1,000 - 1,500 words) (60%); 3 - Ethics application (1,500 - 2,000 words, not including appendices) (40%); 2 - Journal manuscript milestone 1: Introduction (1,500 - 2,000 words) Pass/Fail (0%)",
         "url": "https://handbook.monash.edu/2025/units/PSY4412"
     },
     {
@@ -38324,7 +38324,7 @@
         "name": "Psychology manuscript: Data collection and processing",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "6",
-        "assessment_summary": "1 - Project management: MUHREC ethics approval (%); 3 - Pre-registration: Data analysis plan (1,500 - 2,000 words) (60%); 4 - Graduate attributes: Interactive oral assessment (10 mins) and reflection (400-500 words) (40%); 2 - Journal manuscript milestone 2: Method (1,000 - 1,500 words) (%)",
+        "assessment_summary": "1 - Project management: MUHREC ethics approval (Pass/Fail)(0%); 3 - Pre-registration: Data analysis plan (1,500 - 2,000 words) (60%); 4 - Graduate attributes: Interactive oral assessment (10 mins) and reflection (400-500 words) (40%); 2 - Journal manuscript milestone 2: Method (1,000 - 1,500 words) (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/PSY4413"
     },
     {
@@ -38332,7 +38332,7 @@
         "name": "Psychology manuscript",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "6",
-        "assessment_summary": "1 - Research portfolio (%); 3 - Journal manuscript (7,000 - 8,000 words) (%); 2 - Journal manuscript milestone 3: Results (1,500 - 2,500 words) (%)",
+        "assessment_summary": "1 - Research portfolio (Pass/Fail)(0%); 3 - Journal manuscript (7,000 - 8,000 words) (Pass/Fail)(0%); 2 - Journal manuscript milestone 3: Results (1,500 - 2,500 words) (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/PSY4414"
     },
     {
@@ -38436,7 +38436,7 @@
         "name": "Psychological assessment",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "6",
-        "assessment_summary": "1 - Critical review:  Psychological Measure Evaluation (Double-sided A4 handout) - Pass/Fail (%); 2 - Skills Demonstration : Administration and Scoring of Intellectual and Memory Assessment - Pass/Fail (%); 4 - Psychological assessment report (2,000 words) - Pass/Fail (%); 3 - Summary: Interpretation of the Personality Assessment Tool (500 word count limit) - Pass/Fail (%)",
+        "assessment_summary": "1 - Critical review:  Psychological Measure Evaluation (Double-sided A4 handout) - Pass/Fail (0%); 2 - Skills Demonstration : Administration and Scoring of Intellectual and Memory Assessment - Pass/Fail (0%); 4 - Psychological assessment report (2,000 words) - Pass/Fail (0%); 3 - Summary: Interpretation of the Personality Assessment Tool (500 word count limit) - Pass/Fail (0%)",
         "url": "https://handbook.monash.edu/2025/units/PSY5102"
     },
     {
@@ -38444,7 +38444,7 @@
         "name": "Ethical, legal and professional practice.",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "6",
-        "assessment_summary": "2 - Case study analysis (2,000 words not including references) - Pass/Fail (%); 3 - Personal reflective journal (250 - 350 words per week x 12 weeks) - Pass/Fail  (%); 4 - Case study analysis and reflection : Allies in Indigenous Health (6 - 8 hours)- Pass/Fail (%); 1 - Skills demonstration: Consent and confidentiality (Video -20 mins) - Pass/Fail (%)",
+        "assessment_summary": "2 - Case study analysis (2,000 words not including references) - Pass/Fail (0%); 3 - Personal reflective journal (250 - 350 words per week x 12 weeks) - Pass/Fail  (0%); 4 - Case study analysis and reflection : Allies in Indigenous Health (6 - 8 hours)- Pass/Fail (0%); 1 - Skills demonstration: Consent and confidentiality (Video -20 mins) - Pass/Fail (0%)",
         "url": "https://handbook.monash.edu/2025/units/PSY5103"
     },
     {
@@ -38452,7 +38452,7 @@
         "name": "Cognitive and behavioural therapies: Processes and applications A",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "6",
-        "assessment_summary": "2 - Skills demonstration: Reviewing homework (5 mins per student) (%); 3 - Skills demonstration and reflection: Sharing a formulation (20 min video, 500 word reflection) (%); 1 - Skills demonstration and reflection: Guided discovery (500 words) (%)",
+        "assessment_summary": "2 - Skills demonstration: Reviewing homework (5 mins per student) (Pass/Fail)(0%); 3 - Skills demonstration and reflection: Sharing a formulation (20 min video, 500 word reflection) (Pass/Fail)(0%); 1 - Skills demonstration and reflection: Guided discovery (500 words) (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/PSY5104"
     },
     {
@@ -38460,7 +38460,7 @@
         "name": "Clinical developmental psychology",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "6",
-        "assessment_summary": "2 - Skills demonstration: WISC-V Administration and interpretation (1,500 words) - Pass/Fail (%); 1 - Formulation report (1,000 words) - Pass/Fail (%); 3 - Critical reflection: Observation visit - Pass/Fail (%)",
+        "assessment_summary": "2 - Skills demonstration: WISC-V Administration and interpretation (1,500 words) - Pass/Fail (0%); 1 - Formulation report (1,000 words) - Pass/Fail (0%); 3 - Critical reflection: Observation visit - Pass/Fail (0%)",
         "url": "https://handbook.monash.edu/2025/units/PSY5105"
     },
     {
@@ -38468,7 +38468,7 @@
         "name": "Psychopathology A",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "6",
-        "assessment_summary": "1 - Client evaluation report & mental status examination (written submission max. 1000 words) Pass/Fail (%); 2 - Psychopathology evaluation report (written submission 2000 words and 4 pages maximum) Pass/Fail (%); 3 - Demonstration & reflection: Clinical interviewing skills  ( written - 500-750 words) Pass/Fail (%)",
+        "assessment_summary": "1 - Client evaluation report & mental status examination (written submission max. 1000 words) Pass/Fail (0%); 2 - Psychopathology evaluation report (written submission 2000 words and 4 pages maximum) Pass/Fail (0%); 3 - Demonstration & reflection: Clinical interviewing skills  ( written - 500-750 words) Pass/Fail (0%)",
         "url": "https://handbook.monash.edu/2025/units/PSY5106"
     },
     {
@@ -38476,7 +38476,7 @@
         "name": "Psychopathology B",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "6",
-        "assessment_summary": "1 - Psychopharmacology report - Pass/Fail (%); 2 - Clinical skills demonstration and Gibbs reflection - Pass/Fail (%); 3 - Diagnostic assessment and report based on DSM 5 criteria - Pass/Fail (%)",
+        "assessment_summary": "1 - Psychopharmacology report - Pass/Fail (0%); 2 - Clinical skills demonstration and Gibbs reflection - Pass/Fail (0%); 3 - Diagnostic assessment and report based on DSM 5 criteria - Pass/Fail (0%)",
         "url": "https://handbook.monash.edu/2025/units/PSY5107"
     },
     {
@@ -38484,7 +38484,7 @@
         "name": "Cognitive and behavioural therapies: Processes and applications B",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "6",
-        "assessment_summary": "3 - Portfolio: Therapy resources for clinical practice (20 pages) - Pass/Fail (%); 1 - Worksheet: Evidence-based interventions (1-page) - Pass/Fail (%); 4 - Skills demonstration: Delivery of a psychological intervention - Pass/Fail (%); 2 - Formulation and treatment plan (750 words) - Pass/Fail (%)",
+        "assessment_summary": "3 - Portfolio: Therapy resources for clinical practice (20 pages) - Pass/Fail (0%); 1 - Worksheet: Evidence-based interventions (1-page) - Pass/Fail (0%); 4 - Skills demonstration: Delivery of a psychological intervention - Pass/Fail (0%); 2 - Formulation and treatment plan (750 words) - Pass/Fail (0%)",
         "url": "https://handbook.monash.edu/2025/units/PSY5109"
     },
     {
@@ -38492,7 +38492,7 @@
         "name": "Clinical psychology research proposal",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "6",
-        "assessment_summary": "2 - Research proposal (maximum 2,500 words) - Pass/Fail (%); 1 - Skills demonstration - Pass/Fail (%)",
+        "assessment_summary": "2 - Research proposal (maximum 2,500 words) - Pass/Fail (0%); 1 - Skills demonstration - Pass/Fail (0%)",
         "url": "https://handbook.monash.edu/2025/units/PSY5110"
     },
     {
@@ -38500,7 +38500,7 @@
         "name": "Advanced clinical practice",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "6",
-        "assessment_summary": "2 - Case evaluation: Clinical interpretation of Neuropsychology Assessment - Pass/Fail (%); 3 - Skills demonstration: Advanced Clinical Interventions - Pass/Fail (%); 4 - Professional development plan - Pass/Fail (%); 1 - Reflective journal - Pass/Fail (%)",
+        "assessment_summary": "2 - Case evaluation: Clinical interpretation of Neuropsychology Assessment - Pass/Fail (0%); 3 - Skills demonstration: Advanced Clinical Interventions - Pass/Fail (0%); 4 - Professional development plan - Pass/Fail (0%); 1 - Reflective journal - Pass/Fail (0%)",
         "url": "https://handbook.monash.edu/2025/units/PSY5204"
     },
     {
@@ -38508,7 +38508,7 @@
         "name": "Introductory placement and case analysis",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "6",
-        "assessment_summary": "5 - Placement compliance portfolio - Pass/Fail (%); 2 - Case analysis presentation (20 mins oral presentation) - Pass/Fail (%); 3 - Placement reviews - Mid-placement (1 hour interview) - Pass/Fail (%); 4 - Placement reviews - End-placement review (1 hour interview) - Pass/Fail (%); 1 - OSCE Intervention Skills 1 (50 mins session) - Pass/Fail (%)",
+        "assessment_summary": "5 - Placement compliance portfolio - Pass/Fail (0%); 2 - Case analysis presentation (20 mins oral presentation) - Pass/Fail (0%); 3 - Placement reviews - Mid-placement (1 hour interview) - Pass/Fail (0%); 4 - Placement reviews - End-placement review (1 hour interview) - Pass/Fail (0%); 1 - OSCE Intervention Skills 1 (50 mins session) - Pass/Fail (0%)",
         "url": "https://handbook.monash.edu/2025/units/PSY5205"
     },
     {
@@ -38516,7 +38516,7 @@
         "name": "Intermediate placement and case analysis",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "6",
-        "assessment_summary": "8 - Clinical placement - Pass/Fail (%); 5 - Placement compliance portfolio: Placement contract (1 hour interview) - Pass/Fail (%); 3 - Placement compliance portfolio - Pass/Fail (%); 6 - Placement compliance portfolio: Supervision logbook (30 mins per week) - Pass/Fail (%); 4 - Placement compliance portfolio: Mandatory compliance documents - Pass/Fail (%); 1 - Placement reviews - Mid-placement (1 hour interview) - Pass/Fail (%); 7 - Placement compliance portfolio: Placement diary (1 hour per week) - Pass/Fail (%); 2 - Placement reviews - End-placement (1 hour interview) - Pass/Fail (%)",
+        "assessment_summary": "8 - Clinical placement - Pass/Fail (0%); 5 - Placement compliance portfolio: Placement contract (1 hour interview) - Pass/Fail (0%); 3 - Placement compliance portfolio - Pass/Fail (0%); 6 - Placement compliance portfolio: Supervision logbook (30 mins per week) - Pass/Fail (0%); 4 - Placement compliance portfolio: Mandatory compliance documents - Pass/Fail (0%); 1 - Placement reviews - Mid-placement (1 hour interview) - Pass/Fail (0%); 7 - Placement compliance portfolio: Placement diary (1 hour per week) - Pass/Fail (0%); 2 - Placement reviews - End-placement (1 hour interview) - Pass/Fail (0%)",
         "url": "https://handbook.monash.edu/2025/units/PSY5206"
     },
     {
@@ -38524,7 +38524,7 @@
         "name": "Health psychology and behavioural medicine",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "6",
-        "assessment_summary": "2 - Case study analysis and reflection (2,500 words) - Pass/Fail (%); 1 - Clinical Formulation and Treatment Plan (1,000 words) - Pass/Fail (%)",
+        "assessment_summary": "2 - Case study analysis and reflection (2,500 words) - Pass/Fail (0%); 1 - Clinical Formulation and Treatment Plan (1,000 words) - Pass/Fail (0%)",
         "url": "https://handbook.monash.edu/2025/units/PSY5207"
     },
     {
@@ -38532,7 +38532,7 @@
         "name": "Clinical psychology research methods",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "6",
-        "assessment_summary": "2 - Research Plan (1,750 words) Pass/Fail (%); 1 - Workbooks (8 workbooks x 60 mins each) Pass/Fail (%)",
+        "assessment_summary": "2 - Research Plan (1,750 words) Pass/Fail (0%); 1 - Workbooks (8 workbooks x 60 mins each) Pass/Fail (0%)",
         "url": "https://handbook.monash.edu/2025/units/PSY5210"
     },
     {
@@ -38548,7 +38548,7 @@
         "name": "Advanced placement and case analysis",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "6",
-        "assessment_summary": "4 - Placement compliance portfolio - Pass/Fail (%); 3 - Placement reviews - Pass/Fail (%); 5 - Mandatory compliance documents - Pass/Fail (%); 1 - OSCE intervention skills 2 (50 mins session) - Pass/Fail (%); 2 - Case analysis presentation (20 mins oral presentation) - Pass/Fail (%)",
+        "assessment_summary": "4 - Placement compliance portfolio - Pass/Fail (0%); 3 - Placement reviews - Pass/Fail (0%); 5 - Mandatory compliance documents - Pass/Fail (0%); 1 - OSCE intervention skills 2 (50 mins session) - Pass/Fail (0%); 2 - Case analysis presentation (20 mins oral presentation) - Pass/Fail (0%)",
         "url": "https://handbook.monash.edu/2025/units/PSY5301"
     },
     {
@@ -38556,7 +38556,7 @@
         "name": "Psychopathology 2",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "6",
-        "assessment_summary": "2 - Practice workbook (2,500 words - 50%) and oral exam (10 mins - 10%) (60%); 3 - Skills demonstration of clinical interview (20 mins) and report      (%); 1 - Group case presentation (45 minutes presentation + 15 minutes Q & A)       (40%)",
+        "assessment_summary": "2 - Practice workbook (2,500 words - 50%) and oral exam (10 mins - 10%) (60%); 3 - Skills demonstration of clinical interview (20 mins) and report (Pass/Fail)(0%); 1 - Group case presentation (45 minutes presentation + 15 minutes Q & A)       (40%)",
         "url": "https://handbook.monash.edu/2025/units/PSY5405"
     },
     {
@@ -38676,7 +38676,7 @@
         "name": "Recovery of function and rehabilitation after brain injury",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "0",
-        "assessment_summary": "2 - Mid-semester Rehabilitation Skills(60%); 1 - Evaluating Rehabilitation Studies(%); 0 - Case Study Report and Class Presentation(40%)",
+        "assessment_summary": "2 - Mid-semester Rehabilitation Skills(60%); 1 - Evaluating Rehabilitation Studies (Pass/Fail)(0%); 0 - Case Study Report and Class Presentation(40%)",
         "url": "https://handbook.monash.edu/2025/units/PSY6203"
     },
     {
@@ -38780,7 +38780,7 @@
         "name": "Physiotherapy 1",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "24",
-        "assessment_summary": "10 - Online summative research tests (5%); 4 - Applied anatomy assessments (2 x 1 hour online) (10%); 9 - Group oral presentation (10%); 6 - Physiotherapy theory: In-semester test (e-Assessment x 1 hour online) (5%); 12 - End semester written exam (2 hours online) (20%); 3 - Physiology summative tests (2 x 1 hour online) (10%); 5 - Allies 1\u20135 x critical reflections (400 words each plus a reflection on student learning x 500 words) (5%); 8 - Skills mastery checklist - Pass/Fail (%); 1 - Reflective portfolio - Pass/Fail (%); 11 - CBL learning and performance (10%); 7 - Team building video assignment  (5%); 2 - IPE Tutorial Preparation \u2013 10 x Weekly open book MCQ tests (15 mins) (5%); 13 - OSCE (15%)",
+        "assessment_summary": "10 - Online summative research tests (5%); 4 - Applied anatomy assessments (2 x 1 hour online) (10%); 9 - Group oral presentation (10%); 6 - Physiotherapy theory: In-semester test (e-Assessment x 1 hour online) (5%); 12 - End semester written exam (2 hours online) (20%); 3 - Physiology summative tests (2 x 1 hour online) (10%); 5 - Allies 1\u20135 x critical reflections (400 words each plus a reflection on student learning x 500 words) (5%); 8 - Skills mastery checklist - Pass/Fail (0%); 1 - Reflective portfolio - Pass/Fail (0%); 11 - CBL learning and performance (10%); 7 - Team building video assignment  (5%); 2 - IPE Tutorial Preparation \u2013 10 x Weekly open book MCQ tests (15 mins) (5%); 13 - OSCE (15%)",
         "url": "https://handbook.monash.edu/2025/units/PTY1011"
     },
     {
@@ -38788,7 +38788,7 @@
         "name": "Physiotherapy 2",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "24",
-        "assessment_summary": "9 - OSCE (25%); 10 - Skills Mastery Video task portfolio (%); 6 - Online research activities (10%); 8 - Written Examination (2 hours online) (20%); 5 - CBL Learning and Performance (10%); 2 - Applied Anatomy Assessments (2 x 1 hour online)  (10%); 1 - Formative assessment tasks: Online learning tasks and videos (%); 11 - Submission of mandatory documentation (immunisation) in alignment with Course Requirements (%); 4 - Reflective Portfolio (1500 words) (%); 3 - Physiology Assessments (2 x 1 hour online)  (10%); 7 - Changing my own health assignment (2000 words) (15%)",
+        "assessment_summary": "9 - OSCE (25%); 10 - Skills Mastery Video task portfolio (Pass/Fail)(0%); 6 - Online research activities (10%); 8 - Written Examination (2 hours online) (20%); 5 - CBL Learning and Performance (10%); 2 - Applied Anatomy Assessments (2 x 1 hour online)  (10%); 1 - Formative assessment tasks: Online learning tasks and videos (Pass/Fail)(0%); 11 - Submission of mandatory documentation (immunisation) in alignment with Course Requirements (Pass/Fail)(0%); 4 - Reflective Portfolio (1500 words) (Pass/Fail)(0%); 3 - Physiology Assessments (2 x 1 hour online)  (10%); 7 - Changing my own health assignment (2000 words) (15%)",
         "url": "https://handbook.monash.edu/2025/units/PTY1022"
     },
     {
@@ -38796,7 +38796,7 @@
         "name": "Physiotherapy 3",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "24",
-        "assessment_summary": "3 - Research activities (15%); 6 - CBL learning and performance  (10%); 5 - Physiology assessment Parts 1 (45 mins) & 2 (45 mins) (10%); 1 - Written Examination - Part A (45 minss) & Part B (2 hours 10 mins) (25%); 4 - Anatomy assessment - Part 1 (45 mins) and  Part 2 (45 mins) (10%); 2 - OSCE (1 hour) (30%); 7 - Skills mastery portfolio - Pass/Fail (%)",
+        "assessment_summary": "3 - Research activities (15%); 6 - CBL learning and performance  (10%); 5 - Physiology assessment Parts 1 (45 mins) & 2 (45 mins) (10%); 1 - Written Examination - Part A (45 minss) & Part B (2 hours 10 mins) (25%); 4 - Anatomy assessment - Part 1 (45 mins) and  Part 2 (45 mins) (10%); 2 - OSCE (1 hour) (30%); 7 - Skills mastery portfolio - Pass/Fail (0%)",
         "url": "https://handbook.monash.edu/2025/units/PTY2031"
     },
     {
@@ -38804,7 +38804,7 @@
         "name": "Physiotherapy 4",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "24",
-        "assessment_summary": "9 - OSCE (1 hour practical exam) (30%); 8 - Research assignment (group work - 4,500 words) (10%); 3 - Applied physiology assessment (2 x 1 hour online invigilated quizzes) (5%); 6 - Case-based learning (11 weeks x 500 words plus professional performance/contribution) (5%); 4 - Neuro-physiotherapy theory quiz (1 x 1.5 hour online invigilated quiz) (10%); 5 - Neuro-physiotherapy theory exam (1 x 2.5 hour invigilated exam + 10 mins reading time) (15%); 7 - Research online activities (every two week - total 2 hours) (5%); 2 - Applied anatomy assessment (2 x 1 hour online invigilated quizzes) (5%); 10 - Video skills mastery (200 words x 4 video tasks) (%); 1 - Health Promotion assignment (1,000 words), Pamphlet  (500 words) and 10 minute presentation) (15%)",
+        "assessment_summary": "9 - OSCE (1 hour practical exam) (30%); 8 - Research assignment (group work - 4,500 words) (10%); 3 - Applied physiology assessment (2 x 1 hour online invigilated quizzes) (5%); 6 - Case-based learning (11 weeks x 500 words plus professional performance/contribution) (5%); 4 - Neuro-physiotherapy theory quiz (1 x 1.5 hour online invigilated quiz) (10%); 5 - Neuro-physiotherapy theory exam (1 x 2.5 hour invigilated exam + 10 mins reading time) (15%); 7 - Research online activities (every two week - total 2 hours) (5%); 2 - Applied anatomy assessment (2 x 1 hour online invigilated quizzes) (5%); 10 - Video skills mastery (200 words x 4 video tasks) (Pass/Fail)(0%); 1 - Health Promotion assignment (1,000 words), Pamphlet  (500 words) and 10 minute presentation) (15%)",
         "url": "https://handbook.monash.edu/2025/units/PTY2042"
     },
     {
@@ -38812,7 +38812,7 @@
         "name": "Physiotherapy 5",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "24",
-        "assessment_summary": "4 - Written examination (30%); 2 - Research Activities (5%); 3 - Applied Anatomy Assessment (10%); 1 - Clinical Scenario Assignment (20%); 5 - OSCE (35%); 6 - Simulation Activities (%)",
+        "assessment_summary": "4 - Written examination (30%); 2 - Research Activities (5%); 3 - Applied Anatomy Assessment (10%); 1 - Clinical Scenario Assignment (20%); 5 - OSCE (35%); 6 - Simulation Activities (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/PTY3051"
     },
     {
@@ -38820,7 +38820,7 @@
         "name": "Physiotherapy 6A: Clinical",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "6",
-        "assessment_summary": "2 - Declaration of learning needs discussion (%); 4 - Student self-evaluation using Assessment of Physiotherapy Practice (APP) (%); 5 - Professional skills (45%) Client assessment and management (55%)  (100%); 1 - Attendance and professional conduct in line with Faculty Clinical Placement Handbook (%); 3 - Clinical Log Survey (%); 6 - Valid police check, WWC check, first aid certificate and annual CPR update (%)",
+        "assessment_summary": "2 - Declaration of learning needs discussion (Pass/Fail)(0%); 4 - Student self-evaluation using Assessment of Physiotherapy Practice (APP) (Pass/Fail)(0%); 5 - Professional skills (45%) Client assessment and management (55%)  (100%); 1 - Attendance and professional conduct in line with Faculty Clinical Placement Handbook (Pass/Fail)(0%); 3 - Clinical Log Survey (Pass/Fail)(0%); 6 - Valid police check, WWC check, first aid certificate and annual CPR update (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/PTY3162"
     },
     {
@@ -38828,7 +38828,7 @@
         "name": "Physiotherapy 6B: Clinical",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "6",
-        "assessment_summary": "1 - Attendance and professional conduct in line with Faculty Clinical Placement Handbook (%); 6 - Valid police check, WWC check, first aid certificate and annual CPR update (%); 3 - Clinical Log Survey (%); 2 - Declaration of learning needs discussion (%); 5 - Professional skills (45%) Client assessment and management (55%)  (100%); 4 - Student self-evaluation using Assessment of Physiotherapy Practice (APP) (%)",
+        "assessment_summary": "1 - Attendance and professional conduct in line with Faculty Clinical Placement Handbook (Pass/Fail)(0%); 6 - Valid police check, WWC check, first aid certificate and annual CPR update (Pass/Fail)(0%); 3 - Clinical Log Survey (Pass/Fail)(0%); 2 - Declaration of learning needs discussion (Pass/Fail)(0%); 5 - Professional skills (45%) Client assessment and management (55%)  (100%); 4 - Student self-evaluation using Assessment of Physiotherapy Practice (APP) (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/PTY3262"
     },
     {
@@ -38836,7 +38836,7 @@
         "name": "Clinical placement",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "6",
-        "assessment_summary": "2 - Clinical Practice Guideline Portfolio - Pass/Fail (%); 4 - Quality improvement activity proposal (1,500 words equivalence) Pass/Fail (%); 1 - Professional practice plan (2 x 750 words equivalence) Pass/Fail (%); 3 - Good Clinical Practice (GCP) certification (100 MCQs spread across 12 modules) Pass/Fail (%)",
+        "assessment_summary": "2 - Clinical Practice Guideline Portfolio - Pass/Fail (0%); 4 - Quality improvement activity proposal (1,500 words equivalence) Pass/Fail (0%); 1 - Professional practice plan (2 x 750 words equivalence) Pass/Fail (0%); 3 - Good Clinical Practice (GCP) certification (100 MCQs spread across 12 modules) Pass/Fail (0%)",
         "url": "https://handbook.monash.edu/2025/units/PTY3462"
     },
     {
@@ -38852,7 +38852,7 @@
         "name": "Honours systematic review",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "12",
-        "assessment_summary": "2 - Weekly quizzes (Summative) (25%); 1 - Systematic review (Summative) (75%); 3 - Professional behaviour in communication (Written or verbal) with department staff (%)",
+        "assessment_summary": "2 - Weekly quizzes (Summative) (25%); 1 - Systematic review (Summative) (75%); 3 - Professional behaviour in communication (Written or verbal) with department staff (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/PTY4010"
     },
     {
@@ -38860,7 +38860,7 @@
         "name": "Honours research proposal",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "12",
-        "assessment_summary": "2 - Weekly quizzes (50%); 3 - Ethics application (%); 1 - Research proposal (50%); 4 - Professional behaviour in communication (written or verbal) with department staff (0%)",
+        "assessment_summary": "2 - Weekly quizzes (50%); 3 - Ethics application (Pass/Fail)(0%); 1 - Research proposal (50%); 4 - Professional behaviour in communication (written or verbal) with department staff (0%)",
         "url": "https://handbook.monash.edu/2025/units/PTY4020"
     },
     {
@@ -38868,7 +38868,7 @@
         "name": "Honours thesis",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "24",
-        "assessment_summary": "3 - Professional behaviour in communication (written or verbal) with department staff (%); 1 - Thesis submission (Summative) (100%); 2 - Presentation to peers (%)",
+        "assessment_summary": "3 - Professional behaviour in communication (written or verbal) with department staff (Pass/Fail)(0%); 1 - Thesis submission (Summative) (100%); 2 - Presentation to peers (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/PTY4030"
     },
     {
@@ -38876,7 +38876,7 @@
         "name": "Physiotherapy 7A: Clinical",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "6",
-        "assessment_summary": "3 - Learning needs form (%); 1 - Professional skills (45%) Client assessment and management (55%)  (100%); 5 - Valid police check, WWC check, first aid certificate and annual CPR update (%); 2 - Attendance and professional conduct in line with Faculty Clinical Placement Handbook (%); 4 - Clinical log to enable tracking for accreditation purposes (%)",
+        "assessment_summary": "3 - Learning needs form (Pass/Fail)(0%); 1 - Professional skills (45%) Client assessment and management (55%)  (100%); 5 - Valid police check, WWC check, first aid certificate and annual CPR update (Pass/Fail)(0%); 2 - Attendance and professional conduct in line with Faculty Clinical Placement Handbook (Pass/Fail)(0%); 4 - Clinical log to enable tracking for accreditation purposes (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/PTY4171"
     },
     {
@@ -38884,7 +38884,7 @@
         "name": "Physiotherapy 7B: Clinical",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "6",
-        "assessment_summary": "5 - Valid police check, WWC check, first aid certificate and annual CPR update (%); 1 - Professional skills (45%) Client assessment and management (55%) (%); 2 - Attendance and professional conduct in line with Faculty Clinical Placement Handbook (%); 3 - Learning needs form for students (%); 4 - Clinical log to enable tracking for accreditation purpose (%)",
+        "assessment_summary": "5 - Valid police check, WWC check, first aid certificate and annual CPR update (Pass/Fail)(0%); 1 - Professional skills (45%) Client assessment and management (55%) (100%); 2 - Attendance and professional conduct in line with Faculty Clinical Placement Handbook (Pass/Fail)(0%); 3 - Learning needs form for students (Pass/Fail)(0%); 4 - Clinical log to enable tracking for accreditation purpose (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/PTY4172"
     },
     {
@@ -38892,7 +38892,7 @@
         "name": "Physiotherapy 8A: Clinical",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "6",
-        "assessment_summary": "2 - Attendance and professional conduct in line with Faculty Clinical Placement Handbook (%); 1 - Professional skills (45%) Client assessment and management (55%)  (%); 3 - Valid police check, WWC check, first aid certificate and annual CPR update (%)",
+        "assessment_summary": "2 - Attendance and professional conduct in line with Faculty Clinical Placement Handbook (Pass/Fail)(0%); 1 - Professional skills (45%) Client assessment and management (55%)  (100%); 3 - Valid police check, WWC check, first aid certificate and annual CPR update (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/PTY4281"
     },
     {
@@ -38908,7 +38908,7 @@
         "name": "Physiotherapy 8C: Campus",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "24",
-        "assessment_summary": "2 - Research project proposal (20%); 8 - Written examination (3 hours) (30%); 3 - Research skills seminar (10-15 minutes) (5%); 6 - Conference Abstract (300 words) (non-weighted) (%); 5 - Critical analysis (3500 words) (20%); 4 - Research project poster (1,000 words) (20%); 1 - Case study analysis and reflection (Allies II)  (%); 7 - Research project oral presentation (15 - 20 minutes)  (5%)",
+        "assessment_summary": "2 - Research project proposal (20%); 8 - Written examination (3 hours) (30%); 3 - Research skills seminar (10-15 minutes) (5%); 6 - Conference Abstract (300 words) (non-weighted) (Pass/Fail)(0%); 5 - Critical analysis (3500 words) (20%); 4 - Research project poster (1,000 words) (20%); 1 - Case study analysis and reflection (Allies II)  (Pass/Fail)(0%); 7 - Research project oral presentation (15 - 20 minutes)  (5%)",
         "url": "https://handbook.monash.edu/2025/units/PTY4283"
     },
     {
@@ -38916,7 +38916,7 @@
         "name": "Enhancing skills in paediatric physiotherapy",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "6",
-        "assessment_summary": "1 - Online quizzes x 4 (35%); 2 - Exam (MCQ and short answers) (1 hour) (20%); 5 - Attendance requirement (face to face day, available also via video footage) (%); 3 - Clinical Guideline activity (1,000 words) (15%); 4 - Guided paediatric case study (2,000 words) (30%); 6 - Contribution to 4 x discussion boards (one per module) (%)",
+        "assessment_summary": "1 - Online quizzes x 4 (35%); 2 - Exam (MCQ and short answers) (1 hour) (20%); 5 - Attendance requirement (face to face day, available also via video footage) (Pass/Fail)(0%); 3 - Clinical Guideline activity (1,000 words) (15%); 4 - Guided paediatric case study (2,000 words) (30%); 6 - Contribution to 4 x discussion boards (one per module) (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/PTY5100"
     },
     {
@@ -38924,7 +38924,7 @@
         "name": "Advancing skills in paediatric physiotherapy: Cerebral palsy",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "6",
-        "assessment_summary": "5 - Attendance requirement (Face to face day, available also via video footage) (%); 1 - Online quizzes x 4 (35%); 6 - Contribution to 4 x discussion boards (One per module, as per unit guide) (%); 3 - Clinical Guideline activity (1,000 words) (15%); 2 - Online exam (MCQ and short answers) (1 hour) (20%); 4 - Guided paediatric case study (2,000 words) (30%)",
+        "assessment_summary": "5 - Attendance requirement (Face to face day, available also via video footage) (Pass/Fail)(0%); 1 - Online quizzes x 4 (35%); 6 - Contribution to 4 x discussion boards (One per module, as per unit guide) (Pass/Fail)(0%); 3 - Clinical Guideline activity (1,000 words) (15%); 2 - Online exam (MCQ and short answers) (1 hour) (20%); 4 - Guided paediatric case study (2,000 words) (30%)",
         "url": "https://handbook.monash.edu/2025/units/PTY5101"
     },
     {
@@ -38940,7 +38940,7 @@
         "name": "Advancing skills in paediatric physiotherapy: Complex and chronic conditions",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "6",
-        "assessment_summary": "4 - Clinical practice assignment (1,000 words) (15%); 2 - Online examination (20%); 1 - 4 x secure online quizzes (Summative) (35%); 5 - Contribution to 4 x discussion boards (%); 3 - Guided case study assignment (2,000 words) (30%)",
+        "assessment_summary": "4 - Clinical practice assignment (1,000 words) (15%); 2 - Online examination (20%); 1 - 4 x secure online quizzes (Summative) (35%); 5 - Contribution to 4 x discussion boards (Pass/Fail)(0%); 3 - Guided case study assignment (2,000 words) (30%)",
         "url": "https://handbook.monash.edu/2025/units/PTY5104"
     },
     {
@@ -38948,7 +38948,7 @@
         "name": "Advanced physiotherapy clinical skills and project",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "12",
-        "assessment_summary": "7 - Attendance requirement (individualised clinical experience; >80%) (%); 5 -  Project poster (400 - 600 words) (20%); 4 - Project Oral (10 minutes)  (10%); 2 - Professional portfolio (1,000 words) (10%); 1 - Contribution to 4 x discussion boards (%); 6 - Project report (2,500 to 3,000 words)  (35%); 3 -  Clinical Practice Journal (2,000 words)  (25%)",
+        "assessment_summary": "7 - Attendance requirement (individualised clinical experience; >80%) (Pass/Fail)(0%); 5 -  Project poster (400 - 600 words) (20%); 4 - Project Oral (10 minutes)  (10%); 2 - Professional portfolio (1,000 words) (10%); 1 - Contribution to 4 x discussion boards (Pass/Fail)(0%); 6 - Project report (2,500 to 3,000 words)  (35%); 3 -  Clinical Practice Journal (2,000 words)  (25%)",
         "url": "https://handbook.monash.edu/2025/units/PTY5105"
     },
     {
@@ -38956,7 +38956,7 @@
         "name": "Foundations of physiotherapy",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "12",
-        "assessment_summary": "1 - Exercise Prescription and Program Design Case Study  (25%); 4 - Research activities (5%); 5 - Applied Anatomy Assessment (15%); 6 - Written exam (2.5 hours) (25%); 2 - Determinants of Health presentation (15 minute group presentation) (10%); 8 - Valid police check, WWC check and annual CPR update documents (%); 3 - Program of health enhancement (1,200 words) (10%); 7 - Work integrated learning portfolio (1,200 words) (10%)",
+        "assessment_summary": "1 - Exercise Prescription and Program Design Case Study  (25%); 4 - Research activities (5%); 5 - Applied Anatomy Assessment (15%); 6 - Written exam (2.5 hours) (25%); 2 - Determinants of Health presentation (15 minute group presentation) (10%); 8 - Valid police check, WWC check and annual CPR update documents (Pass/Fail)(0%); 3 - Program of health enhancement (1,200 words) (10%); 7 - Work integrated learning portfolio (1,200 words) (10%)",
         "url": "https://handbook.monash.edu/2025/units/PTY5106"
     },
     {
@@ -38972,7 +38972,7 @@
         "name": "Neurological physiotherapy",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "12",
-        "assessment_summary": "1 - Report (1,800 words) (15%); 6 - Portfolio (600 words) (%); 4 - Exam ( 3 hours 10 mins) (30%); 3 - Test (90 mins) (15%); 2 - Tests (2 x 30 mins each) (10%); 5 - Objective structured clinical examination (OSCE) (60 mins total) (30%)",
+        "assessment_summary": "1 - Report (1,800 words) (15%); 6 - Portfolio (600 words) (Pass/Fail)(0%); 4 - Exam ( 3 hours 10 mins) (30%); 3 - Test (90 mins) (15%); 2 - Tests (2 x 30 mins each) (10%); 5 - Objective structured clinical examination (OSCE) (60 mins total) (30%)",
         "url": "https://handbook.monash.edu/2025/units/PTY5108"
     },
     {
@@ -39028,7 +39028,7 @@
         "name": "Applied research in physiotherapy",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "12",
-        "assessment_summary": "1 - Research project proposal (3,000 words equivalence)  (25%); 3 - Research poster (3,000 words equivalent) (25%); 5 - Professional conduct - Ethical conduct of research, contribution to peer feedback (%); 2 - Research project report (3,500 words)  (30%); 4 - Oral presentation (2,000 words equivalent) (20%)",
+        "assessment_summary": "1 - Research project proposal (3,000 words equivalence)  (25%); 3 - Research poster (3,000 words equivalent) (25%); 5 - Professional conduct - Ethical conduct of research, contribution to peer feedback (Pass/Fail)(0%); 2 - Research project report (3,500 words)  (30%); 4 - Oral presentation (2,000 words equivalent) (20%)",
         "url": "https://handbook.monash.edu/2025/units/PTY5302"
     },
     {
@@ -39260,7 +39260,7 @@
         "name": "Research in medical imaging",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "24",
-        "assessment_summary": "6 - Scientific poster (maximum 500 words) (5%); 1 - Research plan (maximum 1,500 words) (%); 5 - Scientific abstract (maximum 250 words) (5%); 7 - Oral presentation (maximum 15 mins) (20%); 2 - Annotated bibliography (maximum 1,500 words) (10%); 3 - Structural skeleton (maximum 1,500 words) (10%); 4 - Article (3,000 - 5,000 words) (50%)",
+        "assessment_summary": "6 - Scientific poster (maximum 500 words) (5%); 1 - Research plan (maximum 1,500 words) (Pass/Fail)(0%); 5 - Scientific abstract (maximum 250 words) (5%); 7 - Oral presentation (maximum 15 mins) (20%); 2 - Annotated bibliography (maximum 1,500 words) (10%); 3 - Structural skeleton (maximum 1,500 words) (10%); 4 - Article (3,000 - 5,000 words) (50%)",
         "url": "https://handbook.monash.edu/2025/units/RAD4070"
     },
     {
@@ -39548,7 +39548,7 @@
         "name": "Advanced practice in allied health",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "12",
-        "assessment_summary": "1 - Critical appraisal (3,500 words) (35%); 5 - Viva voce assessment (20 mins) (20%); 3 - Case studies (1,500 words) (20%); 2 - Clinical portfolio (3,000 words) (25%); 4 - Professional capability assessment  (%)",
+        "assessment_summary": "1 - Critical appraisal (3,500 words) (35%); 5 - Viva voce assessment (20 mins) (20%); 3 - Case studies (1,500 words) (20%); 2 - Clinical portfolio (3,000 words) (25%); 4 - Professional capability assessment  (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/RTP5002"
     },
     {
@@ -39676,7 +39676,7 @@
         "name": "Radiation therapy science 8",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "6",
-        "assessment_summary": "2 - Evidence based literature review article (3,000 words) (40%); 4 - Engagement task 1: Annotated Bibliography (500 words) (%); 6 - Written reflection (Allies in indigenous) (500 words) (%); 3 - Literature review summary Oral presentation (110 minutes) (20%); 1 - Research plan (2,000 words) (40%); 5 - Engagement task 2: Structural skeleton (750 words) (%)",
+        "assessment_summary": "2 - Evidence based literature review article (3,000 words) (40%); 4 - Engagement task 1: Annotated Bibliography (500 words) (Pass/Fail)(0%); 6 - Written reflection (Allies in indigenous) (500 words) (Pass/Fail)(0%); 3 - Literature review summary Oral presentation (110 minutes) (20%); 1 - Research plan (2,000 words) (40%); 5 - Engagement task 2: Structural skeleton (750 words) (Pass/Fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/RTS5105"
     },
     {
@@ -39692,7 +39692,7 @@
         "name": "Radiation therapy science and professional practice ",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "24",
-        "assessment_summary": "8 - Valid police check, WWC check, first aid certificate, Hand Hygiene, OH&S Checklist (%); 5 - 4 x 20 minute non-invigilated quizzes (10%); 4 - End of year Online Objective Structured Clinical Assessment (Moderation) (2 hours) (25%); 6 - Online case study presentation (20 minutes) (10%); 7 - Attendance, clinical progress tracking form and professional conduct (%); 1 - Clinical Skills Assessments (10%); 2 - Professional Portfolio (Full-year situational analysis) (3,000 words)  (15%); 3 - Clinical workbook assessments (30%)",
+        "assessment_summary": "8 - Valid police check, WWC check, first aid certificate, Hand Hygiene, OH&S Checklist (Pass/Fail)(0%); 5 - 4 x 20 minute non-invigilated quizzes (10%); 4 - End of year Online Objective Structured Clinical Assessment (Moderation) (2 hours) (25%); 6 - Online case study presentation (20 minutes) (10%); 7 - Attendance, clinical progress tracking form and professional conduct (Pass/Fail)(0%); 1 - Clinical Skills Assessments (10%); 2 - Professional Portfolio (Full-year situational analysis) (3,000 words)  (15%); 3 - Clinical workbook assessments (30%)",
         "url": "https://handbook.monash.edu/2025/units/RTS5111"
     },
     {
@@ -40308,7 +40308,7 @@
         "name": "Sonographic professional skills and sonography of the breast and thyroid",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "6",
-        "assessment_summary": "5 - Case study analysis and reflection  (20%); 2 - Combined theory and Image recognition examination (100 mins)  (45%); 3 - Compulsory attainment of a requisite number of ultrasound examinations (%); 4 - Clinical Skills assessment (25 mins)  (10%); 1 - Journal Part A - Medico legal (1500 words) (15%), Journal Part B - Ethics (1000 words) (10%) (25%)",
+        "assessment_summary": "5 - Case study analysis and reflection  (20%); 2 - Combined theory and Image recognition examination (100 mins)  (45%); 3 - Compulsory attainment of a requisite number of ultrasound examinations (Pass/Fail)(0%); 4 - Clinical Skills assessment (25 mins)  (10%); 1 - Journal Part A - Medico legal (1500 words) (15%), Journal Part B - Ethics (1000 words) (10%) (25%)",
         "url": "https://handbook.monash.edu/2025/units/SON5020"
     },
     {
@@ -40316,7 +40316,7 @@
         "name": "Sonographic abdominal imaging",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "6",
-        "assessment_summary": "1 - Theory examination (130 mins)  (40%); 5 - Compulsory attainment of a requisite number of ultrasound examinations  (%); 4 - Clinical Skills assessment (30 mins) (10%); 3 - Two structured reports (1,500 words each)  (30%); 2 - Image Recognition examination (70 mins) (20%)",
+        "assessment_summary": "1 - Theory examination (130 mins)  (40%); 5 - Compulsory attainment of a requisite number of ultrasound examinations  (Pass/Fail)(0%); 4 - Clinical Skills assessment (30 mins) (10%); 3 - Two structured reports (1,500 words each)  (30%); 2 - Image Recognition examination (70 mins) (20%)",
         "url": "https://handbook.monash.edu/2025/units/SON5021"
     },
     {
@@ -40324,7 +40324,7 @@
         "name": "Sonographic imaging of the reproductive system",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "6",
-        "assessment_summary": "4 - Clinical Skills assessment  (10%); 2 - Image recognition examination (70 mins)  (20%); 3 - Two Structured reports (1,500 words each)  (30%); 5 - Compulsory attainment of a requisite number of ultrasound examinations  (%); 1 - Theory examination (130 mins)  (40%)",
+        "assessment_summary": "4 - Clinical Skills assessment  (10%); 2 - Image recognition examination (70 mins)  (20%); 3 - Two Structured reports (1,500 words each)  (30%); 5 - Compulsory attainment of a requisite number of ultrasound examinations  (Pass/Fail)(0%); 1 - Theory examination (130 mins)  (40%)",
         "url": "https://handbook.monash.edu/2025/units/SON5022"
     },
     {
@@ -40332,7 +40332,7 @@
         "name": "Obstetric sonography",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "6",
-        "assessment_summary": "2 - Image recognition examination (70 mins)  (20%); 5 - Compulsory attainment of a requisite number of ultrasound examination s (%); 1 - Theory examinaiton (130 mins)  (40%); 3 - Two Structured reports  (1,500 words each)  (30%); 4 - Clinical Skills assessment  (10%)",
+        "assessment_summary": "2 - Image recognition examination (70 mins)  (20%); 5 - Compulsory attainment of a requisite number of ultrasound examination s (Pass/Fail)(0%); 1 - Theory examinaiton (130 mins)  (40%); 3 - Two Structured reports  (1,500 words each)  (30%); 4 - Clinical Skills assessment  (10%)",
         "url": "https://handbook.monash.edu/2025/units/SON5023"
     },
     {
@@ -40340,7 +40340,7 @@
         "name": "Musculoskeletal, neonatal and paediatric sonography",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "6",
-        "assessment_summary": "5 - Compulsory attainment of a requisite number of ultrasound examination  (%); 3 - Two Structured reports (1,500 words each) (30%); 4 - Clinical Skills assessment (5 mins) (10%); 2 - Image recognition examination (70 mins)  (20%); 1 - Theory examination (130 mins)  (40%)",
+        "assessment_summary": "5 - Compulsory attainment of a requisite number of ultrasound examination  (Pass/Fail)(0%); 3 - Two Structured reports (1,500 words each) (30%); 4 - Clinical Skills assessment (5 mins) (10%); 2 - Image recognition examination (70 mins)  (20%); 1 - Theory examination (130 mins)  (40%)",
         "url": "https://handbook.monash.edu/2025/units/SON5024"
     },
     {
@@ -40348,7 +40348,7 @@
         "name": "Sonographic vascular and postoperative imaging",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "6",
-        "assessment_summary": "4 - Clinical Skills assessment  (10%); 2 - Image recognition examination (70 mins)  (20%); 5 - Compulsory attainment of a requisite number of ultrasound examinations  (%); 1 - Theory examination (130 mins)  (40%); 3 - Two Structured reports (1,500 words each)  (30%)",
+        "assessment_summary": "4 - Clinical Skills assessment  (10%); 2 - Image recognition examination (70 mins)  (20%); 5 - Compulsory attainment of a requisite number of ultrasound examinations  (Pass/Fail)(0%); 1 - Theory examination (130 mins)  (40%); 3 - Two Structured reports (1,500 words each)  (30%)",
         "url": "https://handbook.monash.edu/2025/units/SON5025"
     },
     {
@@ -40508,7 +40508,7 @@
         "name": "Preparation for supervised social work practice",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "0",
-        "assessment_summary": "1 - Curriculum Vitae (1,500 words) (Pass Grade Only) (%)",
+        "assessment_summary": "1 - Curriculum Vitae (1,500 words) (Pass Grade Only) (0%)",
         "url": "https://handbook.monash.edu/2025/units/SWM5003"
     },
     {
@@ -40524,7 +40524,7 @@
         "name": "Supervised professional practice 1",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "18",
-        "assessment_summary": "1 - Learning agreement (1,500 words) (Pass/fail)(%); 5 - Critical reflection 2 (Pass/fail)(%); 2 - Mid placement report (1,500 words) (Pass/fail)(%); 4 - Critical reflection 1 (1,500 words) (Pass/fail)(%); 6 - Critical reflection 3 (1,500 words) (Pass/fail)(%); 9 - Placement hours timesheets (500 words) (Pass/fail)(%); 8 - Supervision hours timesheet (500 words) (Pass/fail)(%); 7 - Supervision record (1,500 words) (Pass/fail)(%); 3 - End of placement report (1,500 words) (Pass/fail)(%)",
+        "assessment_summary": "1 - Learning agreement (1,500 words) (Pass/fail)(0%); 5 - Critical reflection 2 (Pass/fail)(0%); 2 - Mid placement report (1,500 words) (Pass/fail)(0%); 4 - Critical reflection 1 (1,500 words) (Pass/fail)(0%); 6 - Critical reflection 3 (1,500 words) (Pass/fail)(0%); 9 - Placement hours timesheets (500 words) (Pass/fail)(0%); 8 - Supervision hours timesheet (500 words) (Pass/fail)(0%); 7 - Supervision record (1,500 words) (Pass/fail)(0%); 3 - End of placement report (1,500 words) (Pass/fail)(0%)",
         "url": "https://handbook.monash.edu/2025/units/SWM5005"
     },
     {
@@ -40532,7 +40532,7 @@
         "name": "Assessment and Intervention: Working with groups and communities",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "6",
-        "assessment_summary": "3 - Case study with reflection (%); 2 - Community development intervention plan (3,000 words)(50%); 1 - Development of group intervention plan (3,000 words)(50%)",
+        "assessment_summary": "3 - Case study with reflection (Pass/Fail)(0%); 2 - Community development intervention plan (3,000 words)(50%); 1 - Development of group intervention plan (3,000 words)(50%)",
         "url": "https://handbook.monash.edu/2025/units/SWM5006"
     },
     {
@@ -40540,7 +40540,7 @@
         "name": "Supervised professional practice 2",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "18",
-        "assessment_summary": "4 - Critical reflection 1 (1,500 words) (Pass/Fail) (%); 3 - The end-of-placement report (1,500 words) (Pass/Fail) (%); 6 - Critical reflection 3 (1,500 words) (Pass/Fail) (%); 2 - Mid-placement report (1,500 words) (Pass/Fail) (%); 7 - Supervision records (1,500 words) (Pass/Fail) (%); 5 - Critical reflection 2 (1,500 words) (Pass/Fail) (%); 1 - Learning agreement (1,500 words) (Pass/Fail) (%); 8 - Supervision hours timesheet (500 words) (Pass/Fail) (%); 9 - Placement hours timesheets (500 words) (Pass/Fail) (%)",
+        "assessment_summary": "4 - Critical reflection 1 (1,500 words) (Pass/Fail) (0%); 3 - The end-of-placement report (1,500 words) (Pass/Fail) (0%); 6 - Critical reflection 3 (1,500 words) (Pass/Fail) (0%); 2 - Mid-placement report (1,500 words) (Pass/Fail) (0%); 7 - Supervision records (1,500 words) (Pass/Fail) (0%); 5 - Critical reflection 2 (1,500 words) (Pass/Fail) (0%); 1 - Learning agreement (1,500 words) (Pass/Fail) (0%); 8 - Supervision hours timesheet (500 words) (Pass/Fail) (0%); 9 - Placement hours timesheets (500 words) (Pass/Fail) (0%)",
         "url": "https://handbook.monash.edu/2025/units/SWM5007"
     },
     {
@@ -40548,7 +40548,7 @@
         "name": "Orientation to practice",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "6",
-        "assessment_summary": "2 - Case study analysis (Written analysis of social work ethics in action - 2,500 words) (40%); 4 - Curriculum Vitae (1,500 words) - Pass/Fail (%); 1 - Professional portfolio (Online module quizzes & written reflection - 1,500 words) (40%); 3 - Critical reflection of AT2 (Critical reflection - 1,000 words) (20%)",
+        "assessment_summary": "2 - Case study analysis (Written analysis of social work ethics in action - 2,500 words) (40%); 4 - Curriculum Vitae (1,500 words) - Pass/Fail (0%); 1 - Professional portfolio (Online module quizzes & written reflection - 1,500 words) (40%); 3 - Critical reflection of AT2 (Critical reflection - 1,000 words) (20%)",
         "url": "https://handbook.monash.edu/2025/units/SWM5100"
     },
     {
@@ -40556,7 +40556,7 @@
         "name": "Supervised professional practice 1",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "12",
-        "assessment_summary": "2 - Mid-placement report (1,000 words) - Pass/Fail (%); 3 - End of placement report (1,500 words) - Pass/Fail (%); 1 - Learning Agreement  (1,000 words) - Pass/Fail (%)",
+        "assessment_summary": "2 - Mid-placement report (1,000 words) - Pass/Fail (0%); 3 - End of placement report (1,500 words) - Pass/Fail (0%); 1 - Learning Agreement  (1,000 words) - Pass/Fail (0%)",
         "url": "https://handbook.monash.edu/2025/units/SWM5103"
     },
     {
@@ -40604,7 +40604,7 @@
         "name": "Social work practice in health and mental health",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "6",
-        "assessment_summary": "1 - Case-study analysis and reflection (iSAP) (2,500 word equivalent) (60%); 2 - Care plan (40%); 3 - Case study with reflection (Pass/Fail) - (in 4 blocks) in Allies in Indigenous Health II module) (%)",
+        "assessment_summary": "1 - Case-study analysis and reflection (iSAP) (2,500 word equivalent) (60%); 2 - Care plan (40%); 3 - Case study with reflection (Pass/Fail) - (in 4 blocks) in Allies in Indigenous Health II module) (0%)",
         "url": "https://handbook.monash.edu/2025/units/SWM5119"
     },
     {
@@ -40892,7 +40892,7 @@
         "name": "Research methods in clinical and translational medicine",
         "faculty": "Faculty of Medicine, Nursing and Health Sciences",
         "credit_points": "12",
-        "assessment_summary": "2 - Ethics: Essay (2,000 words)(30%); 4 - Discipline specific: Quiz series (4 x quizzes x 10 MCQs)(16%); 5 - Discipline specific: Poster and oral presentation (5 mins oral presentation with 5 mins Q&A)(24%); 1 - Test: Induction to working with humans and animals (75 MCQs) (PGO)(%); 3 - Statistics: Applied assignment (40 SAQs)(30%)",
+        "assessment_summary": "2 - Ethics: Essay (2,000 words)(30%); 4 - Discipline specific: Quiz series (4 x quizzes x 10 MCQs)(16%); 5 - Discipline specific: Poster and oral presentation (5 mins oral presentation with 5 mins Q&A)(24%); 1 - Test: Induction to working with humans and animals (75 MCQs) (PGO)(0%); 3 - Statistics: Applied assignment (40 SAQs)(30%)",
         "url": "https://handbook.monash.edu/2025/units/TRM5003"
     },
     {

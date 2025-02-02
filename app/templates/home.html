@@ -17,7 +17,7 @@
     <div id="unitsGrid" class="units-grid">
       {% if units %}
         {% for unit in units %}
-          <div class="unit-card" data-code="{{ unit.code }}" data-name="{{ unit.name }}">
+          <div class="unit-card" data-code="{{ unit.code }}" data-name="{{ unit.name }}" data-faculty="{{ unit.faculty }}">
             <h2>{{ unit.code }} - {{ unit.name }}</h2>
             <p>{{ unit.description }}</p>
             <p>{{ unit.faculty }}</p>

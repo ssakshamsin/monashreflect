@@ -7,6 +7,10 @@
         <div class="stats-card">
             <h2>Your Statistics</h2>
             <p>Total Reviews: {{ reviews.total }}</p>
+            {% set vote_stats = current_user.get_total_votes() %}
+            <p>Total Votes Received: {{ vote_stats.total }}</p>
+            <p>👍 Upvotes: {{ vote_stats.upvotes }}</p>
+            <p>👎 Downvotes: {{ vote_stats.downvotes }}</p>
             <p>Member Since: {{ current_user.timestamp.strftime('%Y-%m-%d') }}</p>
         </div>
 

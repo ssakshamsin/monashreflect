@@ -6,7 +6,8 @@ function filterUnits() {
     unitCards.forEach(card => { // for each card 
       const code = card.dataset.code.toLowerCase(); //we get its code and name 
       const name = card.dataset.name.toLowerCase();
-      if (code.includes(filter) || name.includes(filter)) { //and check if it includes what we have typed
+      const faculty = card.dataset.faculty.toLowerCase();
+      if (code.includes(filter) || name.includes(filter) || faculty.includes(filter)) { //and check if it includes what we have typed
         card.style.display = ''; // if it is display
       } else {
         card.style.display = 'none'; // do not display 
