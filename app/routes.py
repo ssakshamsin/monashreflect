@@ -68,7 +68,7 @@ def unit(code):
                              per_page=current_app.config['REVIEWS_PER_PAGE'])
     
 
-    for review in reviews:
+    for review in reviews.items:
         review.user_vote = review.get_vote_status(current_user) if current_user.is_authenticated else None
     
     return render_template('unit.html', unit=unit, reviews=reviews, sort=sort, form=form)
