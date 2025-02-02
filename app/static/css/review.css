@@ -54,6 +54,7 @@
     color: #333; /* Default text color */
 }
 
+
 .form-control::placeholder {
     color: #aaa; /* Placeholder text color */
     font-style: italic;
@@ -105,4 +106,156 @@
 .form-control{
     min-height: 60px;
     max-height: 120px;
+}
+
+
+/* Review Header */
+.review-header {
+    display: flex;
+    justify-content: space-between; /* Align meta and actions on opposite ends */
+    align-items: center; /* Vertically align items */
+    margin-bottom: 0.5rem; /* Space below the header */
+}
+
+.review-meta {
+    display: flex;
+    align-items: center; /* Align author and date horizontally */
+    gap: 0.75rem; /* Space between author and date */
+}
+
+.review-author {
+    font-weight: bold;
+    color: var(--primary-color); /* Highlight the author's name */
+}
+
+.review-date {
+    font-size: 0.9rem;
+    color: #666; /* Subtle gray for the date */
+}
+
+/* Review Actions */
+.review-actions {
+    display: flex;
+    gap: 0.5rem; /* Space between buttons */
+}
+
+.btn-edit,
+.btn-delete {
+    font-size: 0.8rem; /* Smaller font size for compact buttons */
+    padding: 0.25rem 0.5rem; /* Reduced padding for smaller buttons */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-edit {
+    background-color: #f0f8ff; /* Light blue background */
+    color: #007bff; /* Blue text */
+    border: 1px solid #007bff; /* Blue border */
+}
+
+.btn-edit:hover {
+    background-color: #007bff; /* Darker blue background on hover */
+    color: white; /* White text on hover */
+}
+
+.btn-delete {
+    background-color: #fff3f3; /* Light red background */
+    color: #dc3545; /* Red text */
+    border: 1px solid #dc3545; /* Red border */
+}
+
+.btn-delete:hover {
+    background-color: #dc3545; /* Darker red background on hover */
+    color: white; /* White text on hover */
+}
+
+
+/* Review Content Container */
+.review-content-container {
+    display: flex;
+    align-items: flex-start; /* Align items at the top */
+    gap: 1rem; /* Space between review text and voting buttons */
+}
+
+/* Review Text */
+.review-text {
+    flex-grow: 1; /* Allow the review text to take up most of the space */
+    line-height: 1.6; /* Improve readability */
+    color: var(--text-color);
+    padding-top: 0.8rem;
+
+}
+
+/* Review Votes */
+.review-votes {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem; /* Space between upvote and downvote buttons */
+    align-items: center; /* Center the buttons vertically */
+}
+
+.vote-btn {
+    font-size: 1rem;
+    padding: 0.25rem 0.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    display: flex;
+    align-items: center; /* Align icon and text horizontally */
+    gap: 0.25rem; /* Space between icon and vote count */
+}
+
+.vote-btn.upvote {
+    background-color: #e6f7ff; /* Light blue background */
+    color: #007bff; /* Blue text */
+}
+
+.vote-btn.upvote.active {
+    background-color: #007bff; /* Darker blue background */
+    color: white; /* White text */
+}
+
+.vote-btn.downvote {
+    background-color: #fff3f3; /* Light red background */
+    color: #dc3545; /* Red text */
+}
+
+.vote-btn.downvote.active {
+    background-color: #dc3545; /* Darker red background */
+    color: white; /* White text */
+}
+
+.vote-count {
+    font-size: 0.9rem;
+}
+
+.vote-btn {
+    font-size: 0.9rem;
+    padding: 0.25rem 0.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.vote-btn.upvote {
+    background-color: #e6f7ff; /* Light blue background */
+    color: #007bff; /* Blue text */
+}
+
+.vote-btn.upvote.active {
+    background-color: #007bff; /* Darker blue background */
+    color: white; /* White text */
+}
+
+.vote-btn.downvote {
+    background-color: #fff3f3; /* Light red background */
+    color: #dc3545; /* Red text */
+}
+
+.vote-btn.downvote.active {
+    background-color: #dc3545; /* Darker red background */
+    color: white; /* White text */
 }
