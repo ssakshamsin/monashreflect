@@ -26,3 +26,4 @@ WTForms
 zipp
 Pillow
 Gunicorn
+psycopg2-binary
