@@ -12,25 +12,29 @@ main {
     padding: 20px; /* Optional: Add padding for spacing */
 }
 
-/* Footer styling remains unchanged */
+/* Footer styling */
 .footer {
     background-color: #202930;
     color: white;
     padding: 2rem 0;
     margin-top: 0; /* Remove any top margin */
+    text-align: center; /* Center all content inside the footer */
 }
 
 .footer-container {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 0 auto; /* Center the container horizontally */
     display: flex;
-    justify-content: space-between;
+    justify-content: center; /* Center items horizontally */
     gap: 2rem;
     padding: 0 20px;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
 }
 
 .footer-section {
-    flex: 1;
+    flex: 1; /* Allow sections to grow and fill space */
+    min-width: 200px; /* Prevent sections from becoming too narrow */
+    text-align: center; /* Center text inside each section */
 }
 
 .footer-section h3 {
@@ -41,6 +45,7 @@ main {
 .footer-section ul {
     list-style: none;
     padding: 0;
+    margin: 0; /* Remove default margins */
 }
 
 .footer-section ul li {
@@ -58,14 +63,8 @@ main {
 }
 
 .footer-bottom {
-    text-align: center;
+    text-align: center; /* Center the copyright text */
     margin-top: 2rem;
     font-size: 0.875rem;
     color: rgba(255, 255, 255, 0.7);
 }
-
-.guidelines-container{
-    gap: 1rem;
-    padding: 20px;
-}
-
