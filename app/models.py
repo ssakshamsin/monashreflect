@@ -174,7 +174,7 @@ class Assessment(db.Model):
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
     unit_code = db.Column(db.String(20), db.ForeignKey('unit.code'), nullable=False)
     number = db.Column(db.Integer, nullable=False)
-    name = db.Column(db.String(255), nullable=False)
+    name = db.Column(db.Text, nullable=False)
     weight = db.Column(db.Integer, nullable=False)
 
     unit = db.relationship("Unit", backref=db.backref("assessments", lazy=True))
