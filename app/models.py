@@ -26,14 +26,14 @@ def set_sqlite_pragma(dbapi_connection, connection_record):
 
 class User(UserMixin, db.Model):
     id = db.Column(db.Integer, primary_key=True)
-    username = db.Column(db.String(64), unique=True, nullable=False)
-    password_hash = db.Column(db.String(128))
+    username = db.Column(db.String(128), unique=True, nullable=False)
+    password_hash = db.Column(db.String(512))
     timestamp = db.Column(db.DateTime, default=datetime.utcnow)
     is_verified = db.Column(db.Boolean, default=False)
     is_admin = db.Column(db.Boolean, default=False)
     is_deleted = db.Column(db.Boolean, default=False)
     reviews = db.relationship("Review", back_populates="user", foreign_keys="Review.user_id")
-    profile_pic = db.Column(db.String(120), default='default.jpg')
+    profile_pic = db.Column(db.String(255), default='default.jpg')
 
     login_attempts = db.Column(db.Integer, default=0)
     locked_until = db.Column(db.DateTime)
