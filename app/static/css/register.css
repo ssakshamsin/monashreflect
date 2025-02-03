@@ -121,3 +121,41 @@
         padding: 0.5rem; /* Further reduced padding */
     }
 }
+
+/* Dark Mode Auth Form */
+.dark-mode .auth-form {
+    background-color: #1F2937; /* Dark background */
+    color: #ffffff; /* Light text */
+    border-color: #374151; /* Darker border */
+}
+
+.dark-mode .form-control {
+    background-color: #374151;
+    border-color: #4B5563;
+    color: #ffffff;
+}
+
+.dark-mode .form-control:focus {
+    border-color: #2563EB;
+    box-shadow: 0 0 5px rgba(37, 99, 235, 0.5);
+}
+
+.dark-mode .btn-primary {
+    background-color: #2563EB;
+}
+
+.dark-mode .btn-primary:hover {
+    background-color: #1D4ED8;
+}
+
+.dark-mode .new-user {
+    color: #9CA3AF;
+}
+
+.dark-mode .new-user a {
+    color: #2563EB;
+}
+
+.dark-mode .new-user a:hover {
+    color: #1D4ED8;
+}

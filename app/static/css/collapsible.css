@@ -19,7 +19,6 @@
   background-color: var(--background-color);
   border: none;
   cursor: pointer;
-  transition: background-color 0.3s ease;
 }
 
 .collapsible-header:hover {

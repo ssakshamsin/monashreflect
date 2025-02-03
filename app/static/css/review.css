@@ -259,3 +259,80 @@
     background-color: #dc3545; /* Darker red background */
     color: white; /* White text */
 }
+
+/* Dark Mode Review Form */
+.dark-mode .review-form-section {
+    background-color: #1F2937; /* Dark background */
+    border-color: #374151; /* Darker border */
+    color: #ffffff; /* Light text */
+}
+
+.dark-mode .form-control {
+    background-color: #374151; /* Dark input background */
+    border-color: #4B5563; /* Darker border */
+    color: #ffffff; /* White text */
+}
+
+.dark-mode .form-control::placeholder {
+    color: #9CA3AF; /* Lighter gray for readability */
+}
+
+.dark-mode .btn-primary {
+    background-color: #2563EB; /* Brighter blue */
+}
+
+.dark-mode .btn-primary:hover {
+    background-color: #1D4ED8; /* Slightly darker blue on hover */
+}
+
+/* Dark Mode Reviews */
+.dark-mode .review-content-container {
+    background-color: #1F2937; /* Darker background */
+    border-color: #374151; /* Darker borders */
+    color: #ffffff; /* Light text */
+}
+
+.dark-mode .review-text {
+    color: #E5E7EB; /* Slightly off-white for readability */
+}
+
+.dark-mode .review-date {
+    color: #9CA3AF; /* Muted gray for date text */
+}
+
+.dark-mode .btn-edit {
+    background-color: #1E3A8A; /* Deep blue */
+    color: white;
+}
+
+.dark-mode .btn-edit:hover {
+    background-color: #2563EB;
+}
+
+.dark-mode .btn-delete {
+    background-color: #7F1D1D; /* Dark red */
+    color: white;
+}
+
+.dark-mode .btn-delete:hover {
+    background-color: #DC2626;
+}
+
+/* Dark Mode Voting Buttons */
+.dark-mode .vote-btn.upvote {
+    background-color: #1E40AF; /* Deep blue */
+    color: white;
+}
+
+.dark-mode .vote-btn.upvote.active {
+    background-color: #2563EB;
+}
+
+.dark-mode .vote-btn.downvote {
+    background-color: #7F1D1D; /* Dark red */
+    color: white;
+}
+
+.dark-mode .vote-btn.downvote.active {
+    background-color: #DC2626;
+}

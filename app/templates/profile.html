@@ -33,6 +33,10 @@
         profilePic.src = originalSrc;  // Restore original picture
         fileInput.value = "";  // Reset file input
     });
+    
+    if (document.querySelector(".error")) {
+        profileUpdateForm.classList.remove("hidden");
+    }
 });
 </script>
     <div class="profile-section">

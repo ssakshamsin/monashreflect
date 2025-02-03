@@ -319,3 +319,44 @@ input[type="file"] {
         height: 120px;
     }
 }
+
+
+.dark-mode {
+    --primary-color: #1E3A8A; /* Deep blue */
+    --secondary-color: #1E40AF;
+    --background-color: #121212;
+    --text-color: #E5E7EB;
+    --border-color: #374151;
+}
+
+/* Toggle Switch */
+.dark-mode-toggle {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dark-mode-toggle:hover {
+    background: var(--secondary-color);
+}
+
+/* Dark Mode Navigation */
+.dark-mode nav {
+    background-color: #1e2125; /* Dark background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.dark-mode .nav-links a {
+    color: #ffffff; /* Light text for contrast */
+    background-color: transparent;
+}
+
+.dark-mode .nav-links a:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Slight hover effect */
+}
