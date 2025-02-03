@@ -1,0 +1,115 @@
+/* Navigation Bar */
+nav {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    padding: 0.75rem 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav-container {
+    display: flex;
+    justify-content: space-between; /* Align logo and nav-links */
+    align-items: center; /* Vertically center items */
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--primary-color);
+    text-decoration: none;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 1rem; /* Consistent spacing between links and button */
+    align-items: center; /* Vertically center items */
+  }
+  
+  .nav-links a,
+  .nav-links button {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover,
+  .nav-links button:hover {
+    color: var(--primary-color);
+  }
+  
+  /* Dark Mode Toggle Button */
+  .dark-mode-toggle {
+    background: var(--primary-color); /* Primary color for the button */
+    color: white; /* White text for contrast */
+    border: none; /* Remove default button border */
+    padding: 8px 12px; /* Padding for the button */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor for interactivity */
+    font-size: 1rem; /* Font size for the button */
+    transition: background 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .dark-mode-toggle:hover {
+    background: var(--secondary-color); /* Secondary color on hover */
+  }
+  
+  /* Dark Mode Styles */
+  body.dark-mode {
+    --background-color: #1e2125; /* Dark background */
+    --text-color: #ffffff; /* Light text */
+    --primary-color: #bb86fc; /* Purple primary color */
+    --secondary-color: #9c27b0; /* Darker purple secondary color */
+    --border-color: #333; /* Dark border color */
+  }
+  
+  body:not(.dark-mode) {
+    --background-color: #ffffff; /* Light background */
+    --text-color: #000000; /* Dark text */
+    --primary-color: #007bff; /* Blue primary color */
+    --secondary-color: #0056b3; /* Darker blue secondary color */
+    --border-color: #ddd; /* Light border color */
+  }
+  
+  /* Dark Mode Navigation */
+  .dark-mode nav {
+    background-color: #1e2125; /* Dark background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  }
+  
+  .dark-mode .nav-links a {
+    color: #ffffff; /* Light text for contrast */
+  }
+  
+  .dark-mode .nav-links a:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Slight hover effect */
+  }
+
+/* Responsive Design for Mobile Screens */
+@media (max-width: 768px) {
+    .nav-container {
+      flex-direction: column; /* Stack items vertically */
+      align-items: flex-start; /* Align items to the left */
+    }
+  
+    .nav-links {
+      flex-direction: column; /* Stack links vertically */
+      width: 100%; /* Take full width */
+      gap: 0.5rem; /* Reduce spacing between items */
+        flex-wrap: nowrap;
+    }
+  
+    .nav-links a,
+    .nav-links button {
+      width: 100%; /* Make links and button full-width */
+      text-align: left; /* Align text to the left */
+      padding: 0.5rem; /* Add padding for better touch targets */
+      border-radius: 5px; /* Rounded corners */
+    }
+  
+    .logo {
+      margin-bottom: 0.75rem; /* Add spacing below the logo */
+    }
+  }
+  
+  

@@ -160,3 +160,12 @@
     border: 1px solid var(--border-color);
     color: var(--text-color);
 }
+
+.assessment-grid{
+    padding-left: 20px;
+}
+
+.assesssment-name{
+    font-size: 0.9rem;
+
+}

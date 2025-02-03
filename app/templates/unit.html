@@ -21,7 +21,7 @@
                     {% if unit.assessments %}
                         {% for assessment in unit.assessments|sort(attribute='number') %}
                             <div class="assessment-card">
-                                <h3 class="assessment-name">{{ assessment.name }}</h3>
+                                <h4>{{ assessment.name }}</h4>
                                 <div class="assessment-weight">
                                     <span class="weight-text">{{ assessment.weight }}%</span>
                                 </div>

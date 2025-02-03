@@ -44,7 +44,11 @@
         <img src="{{ current_user.get_profile_pic_url() }}" alt="Profile Picture" class="profile-pic">
         <div class="profile-pic-overlay">Edit Profile</div>
         </div>
+        <div class="name-container">
         <h1>{{ current_user.username }}'s Profile</h1>
+        
+        <a class = "logout-photo" href="{{ url_for('auth.logout') }}"><img class="logout-photo" src="{{ url_for('static', filename='pictures/logout.png') }}" alt="Logout"></a>
+        </div>
         
     <div class="profile-update-form hidden">
         <h2>Update Profile</h2>
@@ -88,8 +92,8 @@
                             <a href="{{ url_for('main.unit', code=review.unit.code) }}">
                                 {{ review.unit.code }} - {{ review.unit.name }}
                             </a>
-                            <span class="review-date">{{ review.timestamp.strftime('%Y-%m-%d') }}</span>
                         </div>
+                        <span class="review-date">{{ review.timestamp.strftime('%Y-%m-%d') }}</span>
                         <div class="review-rating">
                             {% for _ in range(review.rating) %}⭐{% endfor %}
                         </div>

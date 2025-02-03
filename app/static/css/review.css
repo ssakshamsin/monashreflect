@@ -114,7 +114,6 @@
     display: flex;
     justify-content: space-between; /* Align meta and actions on opposite ends */
     align-items: center; /* Vertically align items */
-    margin-bottom: 0.5rem; /* Space below the header */
 }
 
 .review-meta {

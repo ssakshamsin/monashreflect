@@ -29,6 +29,15 @@
     color: #fff;
   }
   
+  #goodVotes{
+    color: #28a745; /* Green for Good */
+  }
+
+  #badVotes{
+    color: #dc3545; /* Red for Bad */
+  }
+
+  
   .bad-button {
     background-color: #dc3545; /* Red for Bad */
     color: #fff;

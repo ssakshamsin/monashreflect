@@ -7,45 +7,50 @@
   <meta name="csrf-token" content="{{ csrf_token() }}">
   <title>{% block title %}Unit Reviews{% endblock %}</title>
   <link rel="stylesheet" href="{{ url_for('static', filename='/css/style.css') }}">
-  <script>
-    if (localStorage.getItem("dark-mode") === "enabled") {
-        document.body.classList.add("dark-mode");}</script>
-  <script>document.addEventListener("DOMContentLoaded", function () {
-    const toggleButton = document.createElement("button");
-    toggleButton.innerText = "Dark Mode";
-    toggleButton.classList.add("dark-mode-toggle");
-    document.body.appendChild(toggleButton);
-    if (localStorage.getItem("dark-mode") === "enabled") {
-        document.body.classList.add("dark-mode");
-        toggleButton.innerText = "Light Mode";
-    }
 
-    toggleButton.addEventListener("click", function () {
-        document.body.classList.toggle("dark-mode");
-        const isDarkMode = document.body.classList.contains("dark-mode");
-        localStorage.setItem("dark-mode", isDarkMode ? "enabled" : "disabled");
-        toggleButton.innerText = isDarkMode ? "Light Mode" : "Dark Mode";
-    });
-  });</script>
 </head>
 <body>
-  <!-- Navigation -->
-  <nav>
+    <nav>
     <div class="nav-container">
-      <a href="{{ url_for('main.landing') }}" class="logo">MonReviews</a>
-      <div class="nav-links">
+        <a href="{{ url_for('main.home') }}" class="logo">MonReviews</a>
+        <div class="nav-links">
         {% if current_user.is_authenticated %}
-          <a href="{{ url_for('main.profile') }}">Profile</a>
-          <a href="{{ url_for('auth.logout') }}">Logout</a>
+            <a href="{{ url_for('main.profile') }}">Profile</a>
+            <!-- <a href="{{ url_for('auth.logout') }}">Logout</a> -->
         {% else %}
-          <a href="{{ url_for('auth.login') }}">Login</a>
-          <a href="{{ url_for('auth.register') }}">Register</a>
-          <!-- <button class="btn btn-primary mobile-only" id="login-register-toggle">Login/Register</button> -->
+            <a href="{{ url_for('auth.login') }}">Login</a>
+            <a href="{{ url_for('auth.register') }}">Register</a>
         {% endif %}
-      </div>
-
+        <!-- Dark Mode Toggle Button -->
+            <button id="dark-mode-toggle" class="dark-mode-toggle">
+                <span id="dark-mode-icon">🌙</span> <!-- Default icon: Moon -->
+            </button>
+        </div>
     </div>
-  </nav>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+        const toggleButton = document.getElementById("dark-mode-toggle");
+        const icon = document.getElementById("dark-mode-icon");
+        // Check if dark mode is enabled in localStorage
+        if (localStorage.getItem("dark-mode") === "enabled") {
+            document.body.classList.add("dark-mode");
+            icon.textContent = "☀️"; // Sun icon for light mode
+        } else {
+            icon.textContent = "🌙"; // Moon icon for dark mode
+        }
+
+        // Add click event listener to toggle dark mode
+        toggleButton.addEventListener("click", function () {
+            document.body.classList.toggle("dark-mode");
+            const isDarkMode = document.body.classList.contains("dark-mode");
+
+            // Update localStorage and icon
+            localStorage.setItem("dark-mode", isDarkMode ? "enabled" : "disabled");
+            icon.textContent = isDarkMode ? "☀️" : "🌙";
+        });
+        });
+    </script>
+    </nav>
 
   <!-- Main Content -->
   <main>
