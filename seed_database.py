@@ -8,21 +8,36 @@ import re
 with open("monash_units_updated.json", "r") as f:
     units_data = json.load(f)
 
-
 def parse_assessments(assessment_summary):
     """Parses assessment_summary into structured data."""
     assessments = []
-    if assessment_summary and "No assessment data available" not in assessment_summary:
-        parts = assessment_summary.split("; ")
-        for part in parts:
-            match = re.match(r"(\d+)\s*-\s*(.*?)\((\d+)%\)", part)
-            if match:
-                number, name, weight = match.groups()
-                assessments.append({
-                    "number": int(number),
-                    "name": name.strip(),
-                    "weight": int(weight)
-                })
+    
+    if not assessment_summary or "No assessment data available" in assessment_summary:
+        return assessments
+
+    # Try extracting detailed assessments first
+    parts = assessment_summary.split("; ")
+    for part in parts:
+        match = re.match(r"(\d+)\s*-\s*(.*?)\((\d+)%\)", part)
+        if match:
+            number, name, weight = match.groups()
+            assessments.append({
+                "number": int(number),
+                "name": name.strip(),
+                "weight": int(weight)
+            })
+    
+    # If no structured assessments were found, check for a single summary
+    if not assessments:
+        match = re.search(r"(\d+)%\s*(.*)", assessment_summary)
+        if match:
+            weight, name = match.groups()
+            assessments.append({
+                "number": 1,  # Default to 1 since no explicit numbering
+                "name": name.strip(),
+                "weight": 100  # Default to 100% if no weight specified
+            })
+    
     return assessments
 
 def seed_database():
@@ -63,29 +78,25 @@ def seed_database():
         user = User(
             username='testuser',
             password_hash=generate_password_hash('password123'),
-            is_verified=True
+            is_verified=True,
+            is_admin=False
         )
         db.session.add(user)
+        user2 = User(
+            username='pikabro',
+            password_hash=generate_password_hash('RedGreenBlue(22)'),
+            is_verified=True,
+            is_admin=True
+        )
+        db.session.add(user2)
         
-        # Create sample reviews
-        reviews = [
-            Review(
-                content='Great introductory unit! The concepts were well explained.',
-                rating=5,
-                timestamp=datetime.utcnow(),
-                user_id=1,
-                unit_id=1
-            ),
-            Review(
-                content='Challenging but rewarding. Good foundation for advanced topics.',
-                rating=4,
-                timestamp=datetime.utcnow(),
-                user_id=1,
-                unit_id=2
-            )
-        ]
-        db.session.add_all(reviews)
-        
+        user3 = User(
+            username='comingthruu',
+            password_hash=generate_password_hash('RedGreenBlue(22)'),
+            is_verified=True,
+            is_admin=True
+        )
+        db.session.add(user3)
         db.session.commit()
 
 if __name__ == '__main__':

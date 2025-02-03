@@ -30,9 +30,9 @@ class RegistrationForm(FlaskForm):
             raise ValidationError('This username is already taken.')
 
 class ReviewForm(FlaskForm):
-    content = TextAreaField('Review', validators=[DataRequired(), Length(min=10, max=1000)])
+    content = TextAreaField('Review', validators=[DataRequired(), Length(min=3, max=1000)])
     rating = SelectField('Rating', choices=[(str(i), str(i)) for i in range(1, 6)], 
-                        validators=[DataRequired()])
+                        validators=[DataRequired(message="Please select a rating.")])
     anonymous = BooleanField('Post Anonymously')
     submit = SubmitField('Submit Review')
 
@@ -44,7 +44,7 @@ class SearchForm(FlaskForm):
 class UpdateProfileForm(FlaskForm):
     username = StringField('Username', validators=[DataRequired(), Length(min=2, max=20)])
     profile_pic = FileField('Profile Picture', 
-                          validators=[FileAllowed(['jpg', 'png', 'jpeg'], 'Images only!')])
+                          validators=[FileAllowed(['jpg', 'png', 'jpeg', 'gif'], 'Images only!')])
     submit = SubmitField('Update')
 
     def validate_username(self, username):

@@ -69,7 +69,7 @@ def login():
     form = LoginForm()
     if form.validate_on_submit():
         user = User.query.filter_by(username=form.username.data).first()
-        if user is None or not user.check_password(form.password.data):
+        if user is None or not user.check_password(form.password.data) or user.is_deleted:
             flash('Invalid username or password')
             return redirect(url_for('auth.login'))
         
@@ -267,6 +267,16 @@ def profile():
         error_out=False
     )
     return render_template('profile.html', user=current_user, reviews=reviews, form=form)
+
+
+@main.route('/profile/delete', methods=['POST'])
+@login_required
+def delete_account():
+    current_user.soft_delete()
+    logout_user()
+    flash('Your account has been deactivated.')
+    return redirect(url_for('main.home'))
+
 
 @main.route('/unit/<string:code>/vote', methods=['POST'])
 @login_required

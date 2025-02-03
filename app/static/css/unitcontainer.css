@@ -4,11 +4,10 @@
     grid-template-columns: repeat(3, 1fr); /* 3 columns */
     gap: 1.5rem; /* Spacing between units */
     overflow-y: auto;
-    max-height: 600px; /* Limits visible units to ~9 */
+    max-height: 700px; /* Limits visible units to ~9 */
     padding: 1.5rem;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    background-color: #fff;
+    border-radius: 25px;
+    background-color: #f0f0f049;
 
     /* Ensure all cards stretch to the same height */
     align-items: stretch;
@@ -30,6 +29,27 @@
     justify-content: space-between; /* Pushes the button to the bottom */
     height: 100%; /* Ensures the card takes up full height */
     transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.units-grid ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+.units-grid ::-webkit-scrollbar-track {
+    background: #dddcdc86; /* Light background */
+    border-radius: 10px;
+}
+.units-grid ::-webkit-scrollbar-thumb {
+    background: linear-gradient(45deg, #3B82F6, #9F7AEA); /* Gradient for a modern look */
+    border-radius: 10px;
+}
+
+.units-grid ::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(45deg, #3B82F6, #8866EE); /* Darker on hover */
+}
+.units-grid {
+    scrollbar-width: thin;
+    scrollbar-color: #3B82F6 #f0f0f0; /* Thumb & track color */
 }
 
 .unit-card:hover {
@@ -116,18 +136,26 @@
     }
 }
 
-
-
-
  /* Cards */
- .unit-card, .review-card, .stats-card {
-    background: white;
+ .unit-card, .review-card{
+    background: rgba(255, 255, 255, 0.476);
     border-radius: 8px;
     padding: 1.5rem;
     margin-bottom: 1rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     max-width: 100%; /* Ensure cards don't exceed viewport width */
 }
+
+.stats-card {
+    background: rgba(255, 255, 255, 0.824);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.8rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 100%; /* Ensure cards don't exceed viewport width */
+}
+
 /* Unit Grid in Dark Mode */
 .dark-mode .units-grid {
     background-color: #1A1A1A; /* Dark background */
@@ -151,12 +179,12 @@
 }
 
 .dark-mode .review-card {
-    background-color: #1F2937; /* Dark grey */
+    background-color: #171b21; /* Dark grey */
     border: 1px solid var(--border-color);
     color: var(--text-color);
 }
 .dark-mode .stats-card {
-    background-color: #1F2937; /* Dark grey */
+    background-color: #171b21; /* Dark grey */
     border: 1px solid var(--border-color);
     color: var(--text-color);
 }

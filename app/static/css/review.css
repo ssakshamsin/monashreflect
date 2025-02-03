@@ -245,7 +245,7 @@
 }
 
 .vote-btn.upvote.active {
-    background-color: #007bff; /* Darker blue background */
+    background-color: #007bffb4; /* Darker blue background */
     color: white; /* White text */
 }
 
@@ -255,9 +255,10 @@
 }
 
 .vote-btn.downvote.active {
-    background-color: #dc3545; /* Darker red background */
+    background-color: #dc3546bf; /* Darker red background */
     color: white; /* White text */
 }
+
 
 /* Dark Mode Review Form */
 .dark-mode .review-form-section {
@@ -286,7 +287,7 @@
 
 /* Dark Mode Reviews */
 .dark-mode .review-content-container {
-    background-color: #1F2937; /* Darker background */
+    background-color: #171b21; /* Darker background */
     border-color: #374151; /* Darker borders */
     color: #ffffff; /* Light text */
 }
@@ -325,6 +326,7 @@
 
 .dark-mode .vote-btn.upvote.active {
     background-color: #2563EB;
+    color: white;
 }
 
 .dark-mode .vote-btn.downvote {
@@ -333,5 +335,5 @@
 }
 
 .dark-mode .vote-btn.downvote.active {
-    background-color: #DC2626;
+    background-color: #dc2626d2;
 }

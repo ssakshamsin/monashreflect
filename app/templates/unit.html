@@ -43,7 +43,7 @@
                     class="poll-button good-button"
                     {% if not current_user.is_authenticated %}disabled{% endif %}
                 >
-                    Good
+                    Like
                 </button>
                 <p><span id="goodVotes">{{ unit.upvotes }}</span</p>
                 <div class="bar-wrapper">
@@ -57,7 +57,7 @@
                     class="poll-button bad-button"
                     {% if not current_user.is_authenticated %}disabled{% endif %}
                 >
-                    Bad
+                    Dislike
                 </button>
             </div>
 
@@ -164,8 +164,6 @@
             </select>
         </div>
         {% endif %}
-
-        
     </div>
 
 
@@ -245,7 +243,6 @@
         .then(response => response.json())
         
         .then(data => {
-            console.log(data.success);
             if (data) {
                 location.reload(); // Refresh page to show updated review
             } else {
@@ -317,7 +314,7 @@
                                 Deleted User
                             {% endif %}
                         </span>
-                        <span class="review-date">{{ review.timestamp.strftime('%Y-%m-%d') }}</span>
+                        <span class="review-date">{{ review.timestamp.strftime('%#d %B, %Y') }}</span>
                     </div>
 
                     </div>

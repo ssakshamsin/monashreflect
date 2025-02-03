@@ -676,7 +676,7 @@
         "name": "Interdisciplinary studio 1",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "12",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "2 - End of semester assessment (80%); 1 - Mid semester assessment (20%)",
         "url": "https://handbook.monash.edu/2025/units/ADA2001"
     },
     {
@@ -708,7 +708,7 @@
         "name": "Art, Design and Architecture internship",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Folio (100%)",
         "url": "https://handbook.monash.edu/2025/units/ADA3406"
     },
     {
@@ -748,7 +748,7 @@
         "name": "Design thinking for business",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "3 - Presentation (20%); 2 - Reflective Journal 2 (40%); 1 - Reflective Journal 1 (20%); 4 - Presentation (20%)",
         "url": "https://handbook.monash.edu/2025/units/ADA5111"
     },
     {
@@ -756,7 +756,7 @@
         "name": "Indigenous design thinking and relationality",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "2 - Individual reflection and application (30%); 1 - Collaborative group projects (70%)",
         "url": "https://handbook.monash.edu/2025/units/ADA5222"
     },
     {
@@ -764,7 +764,7 @@
         "name": "Art, Design and Architecture internship",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Folio (100%)",
         "url": "https://handbook.monash.edu/2025/units/ADA5406"
     },
     {
@@ -772,7 +772,7 @@
         "name": "Design thinking for business",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "5 - Sustainable Startup Presentation (10%); 3 - Reflective Journal 3 (30%); 2 - Reflective Journal 2 (30%); 1 - Reflective Journal 1 (20%); 4 - Research Presentation (10%)",
         "url": "https://handbook.monash.edu/2025/units/ADI5111"
     },
     {
@@ -780,7 +780,7 @@
         "name": "Design thinking",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Portfolio of Design Thinking templates  (50%); 2 - Reflective journal (50%)",
         "url": "https://handbook.monash.edu/2025/units/ADO5111"
     },
     {
@@ -1180,7 +1180,7 @@
         "name": "Modernism and the avant-garde",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Critical Analysis (30%); 2 - Essay (40%); 3 - Test (30%)",
         "url": "https://handbook.monash.edu/2025/units/AHT1102"
     },
     {
@@ -1188,7 +1188,7 @@
         "name": "Curating: Introduction",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "3 - Presentation (30%); 4 - Exhibition proposal (50%); 2 - Preliminary proposal (10%); 1 - Critical analysis (10%)",
         "url": "https://handbook.monash.edu/2025/units/AHT1202"
     },
     {
@@ -1196,7 +1196,7 @@
         "name": "World wide: Art beyond the Western canon",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "2 - Presentation (30%); 4 - Research Essay (summative task) (40%); 1 - Exercise (10%); 3 - Annotated bibliography (20%)",
         "url": "https://handbook.monash.edu/2025/units/AHT2031"
     },
     {
@@ -1204,7 +1204,7 @@
         "name": "Post-war practices 1945-1990",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Presentation (20%); 2 - Critical Analysis (20%); 3 - Research essay (60%)",
         "url": "https://handbook.monash.edu/2025/units/AHT2102"
     },
     {
@@ -1228,7 +1228,7 @@
         "name": "Indigenous Australian creative practice and ways of knowing",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Presentation and essay (40%); 2 - Folio and journal (60%)",
         "url": "https://handbook.monash.edu/2025/units/AHT2301"
     },
     {
@@ -1236,7 +1236,7 @@
         "name": "History and theory of photography, film and video",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Weekly critical responses (15%); 3 - Final research essay (55%); 2 - Critical analysis (30%)",
         "url": "https://handbook.monash.edu/2025/units/AHT2440"
     },
     {
@@ -1244,7 +1244,7 @@
         "name": "Neo-Baroque aesthetics: History and theory",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "2 - Research essay (60%); 1 - Research essay (40%)",
         "url": "https://handbook.monash.edu/2025/units/AHT2530"
     },
     {
@@ -1252,7 +1252,7 @@
         "name": "Curating: Histories and theories",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Critical analysis (40%); 2 - Research essay (60%)",
         "url": "https://handbook.monash.edu/2025/units/AHT2712"
     },
     {
@@ -1260,7 +1260,7 @@
         "name": "Curating: Making exhibitions",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Critical analysis (15%); 2 - Case study: Artist interview (25%); 3 - Report (60%)",
         "url": "https://handbook.monash.edu/2025/units/AHT2722"
     },
     {
@@ -1268,7 +1268,7 @@
         "name": "Australian art",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "3 - Test (40%); 2 - Essay (40%); 1 - Critical analysis (20%)",
         "url": "https://handbook.monash.edu/2025/units/AHT2740"
     },
     {
@@ -1276,7 +1276,7 @@
         "name": "Contemporary Asian art and exhibitions",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "3 - Annotated bibliography (20%); 4 - Research essay (40%); 2 - Presentation (30%); 1 - Exercise (10%)",
         "url": "https://handbook.monash.edu/2025/units/AHT2882"
     },
     {
@@ -1284,7 +1284,7 @@
         "name": "Art writing and criticism",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "2 - Exhibition catalogue (30%); 3 - Online artist interview (40%); 1 - Essay (30%)",
         "url": "https://handbook.monash.edu/2025/units/AHT3001"
     },
     {
@@ -1292,7 +1292,7 @@
         "name": "World wide: Art beyond the Western canon",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "2 - Presentation (30%); 3 - Annotated bibliography (20%); 4 - Research Essay (summative task) (40%); 1 - Exercise (10%)",
         "url": "https://handbook.monash.edu/2025/units/AHT3031"
     },
     {
@@ -1316,7 +1316,7 @@
         "name": "Curating: Project studies",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "2 - Curatorial Project (60%); 1 - Project Proposal (40%)",
         "url": "https://handbook.monash.edu/2025/units/AHT3150"
     },
     {
@@ -1324,7 +1324,7 @@
         "name": "Museums, archives and cultural heritage",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Exercises (fortnightly critical responses) (25%); 2 - Critical analysis (short essay) (25%); 3 - Research essay (50%)",
         "url": "https://handbook.monash.edu/2025/units/AHT3220"
     },
     {
@@ -1332,7 +1332,7 @@
         "name": "Indigenous Australian creative practice and ways of knowing",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Presentation and essay (40%); 2 - Folio and journal (60%)",
         "url": "https://handbook.monash.edu/2025/units/AHT3301"
     },
     {
@@ -1340,7 +1340,7 @@
         "name": "History and theory of photography, film and video",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "2 - Critical analysis (30%); 3 - Final research essay (55%); 1 - Weekly critical responses (15%)",
         "url": "https://handbook.monash.edu/2025/units/AHT3440"
     },
     {
@@ -1348,7 +1348,7 @@
         "name": "Neo-Baroque aesthetics: History and theory",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Research essay (40%); 2 - Research essay (60%)",
         "url": "https://handbook.monash.edu/2025/units/AHT3530"
     },
     {
@@ -1356,7 +1356,7 @@
         "name": "Australian art",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Review (20%); 3 - Slide exam (40%); 2 - Essay (40%)",
         "url": "https://handbook.monash.edu/2025/units/AHT3740"
     },
     {
@@ -1364,7 +1364,7 @@
         "name": "Contemporary Asian art and exhibitions",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Exercise (10%); 3 - Annotated bibliography (20%); 2 - Presentation (30%); 4 - Research essay (40%)",
         "url": "https://handbook.monash.edu/2025/units/AHT3882"
     },
     {
@@ -1372,7 +1372,7 @@
         "name": "History of art in public space",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "4 - In-class presentation (15%); 1 - Research essay (45%); 2 - Preliminary Bibliography (15%); 3 - Critical Historical Analysis (25%)",
         "url": "https://handbook.monash.edu/2025/units/AHT4210"
     },
     {
@@ -1380,7 +1380,7 @@
         "name": "Curating internship",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "0",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "2 - Internship journal (50%); 1 - Reflective essay (50%)",
         "url": "https://handbook.monash.edu/2025/units/AHT4406"
     },
     {
@@ -1388,7 +1388,7 @@
         "name": "Advanced fine art research: Theory",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Literature review (40%); 2 - Research essay (60%)",
         "url": "https://handbook.monash.edu/2025/units/AHT4503"
     },
     {
@@ -3380,7 +3380,7 @@
         "name": "Architecture foundation studio 1",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "12",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "2 - Folio 2 (60%); 1 - Folio 1 (40%)",
         "url": "https://handbook.monash.edu/2025/units/ARC1001"
     },
     {
@@ -3388,7 +3388,7 @@
         "name": "Architecture foundation studio 2",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "12",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Single project / folio (100%)",
         "url": "https://handbook.monash.edu/2025/units/ARC1002"
     },
     {
@@ -3396,7 +3396,7 @@
         "name": "Architectural performance 1",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Single project (folio) (100%)",
         "url": "https://handbook.monash.edu/2025/units/ARC1102"
     },
     {
@@ -3404,7 +3404,7 @@
         "name": "Architecture communications 1",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Project 1 (30%); 3 - Project 3 (25%); 4 - Quizzes (15%); 2 - Project 2 (30%)",
         "url": "https://handbook.monash.edu/2025/units/ARC1301"
     },
     {
@@ -3412,7 +3412,7 @@
         "name": "Architecture design studio 3",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "12",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Single project / folio (100%)",
         "url": "https://handbook.monash.edu/2025/units/ARC2001"
     },
     {
@@ -3420,7 +3420,7 @@
         "name": "Architecture design studio 4",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "12",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Single project / folio (100%)",
         "url": "https://handbook.monash.edu/2025/units/ARC2002"
     },
     {
@@ -3428,7 +3428,7 @@
         "name": "Architectural performance 2",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Single project / folio (100%)",
         "url": "https://handbook.monash.edu/2025/units/ARC2101"
     },
     {
@@ -3436,7 +3436,7 @@
         "name": "Architecture communications 2",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "2 - Assignment 2 (40%); 1 - Assignment 1 (20%); 3 - Assignment 3 (40%)",
         "url": "https://handbook.monash.edu/2025/units/ARC2301"
     },
     {
@@ -3444,7 +3444,7 @@
         "name": "Positions and dialogues in architecture 1",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Research task (15%); 2 - Presentation (25%); 3 - Essay (60%)",
         "url": "https://handbook.monash.edu/2025/units/ARC2401"
     },
     {
@@ -3452,7 +3452,7 @@
         "name": "19th and 20th century architecture",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "5 - Essay (15%); 1 - Assignments (30%); 4 - Quiz (10%); 3 - Participation and Peer Review (15%); 2 - Presentations (30%)",
         "url": "https://handbook.monash.edu/2025/units/ARC2402"
     },
     {
@@ -3460,7 +3460,7 @@
         "name": "Architecture design studio 5",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "12",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Single project / folio (100%)",
         "url": "https://handbook.monash.edu/2025/units/ARC3001"
     },
     {
@@ -3468,7 +3468,7 @@
         "name": "Architecture design studio 6",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "12",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Single project / folio (100%)",
         "url": "https://handbook.monash.edu/2025/units/ARC3002"
     },
     {
@@ -3476,7 +3476,7 @@
         "name": "Architectural performance 3",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Single project / folio (100%)",
         "url": "https://handbook.monash.edu/2025/units/ARC3101"
     },
     {
@@ -3484,7 +3484,7 @@
         "name": "Architectural performance 4: Integrated design",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Single project / folio (100%)",
         "url": "https://handbook.monash.edu/2025/units/ARC3102"
     },
     {
@@ -3492,7 +3492,7 @@
         "name": "Architecture communications 3",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "2 - Folio 2 (60%); 1 - Folio 1 (40%)",
         "url": "https://handbook.monash.edu/2025/units/ARC3301"
     },
     {
@@ -3500,7 +3500,7 @@
         "name": "Positions and dialogues in architecture 2",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "3 - Essay (60%); 2 - Presentation (25%); 1 - Research Task (15%)",
         "url": "https://handbook.monash.edu/2025/units/ARC3401"
     },
     {
@@ -3508,7 +3508,7 @@
         "name": "Advanced studies in architecture A",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Single project / folio (100%)",
         "url": "https://handbook.monash.edu/2025/units/ARC3501"
     },
     {
@@ -3516,7 +3516,7 @@
         "name": "Advanced studies in architecture B",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Single project / folio (100%)",
         "url": "https://handbook.monash.edu/2025/units/ARC3502"
     },
     {
@@ -3524,7 +3524,7 @@
         "name": "Advanced architecture project 1",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "12",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Single project/folio (100%)",
         "url": "https://handbook.monash.edu/2025/units/ARC4001"
     },
     {
@@ -3532,7 +3532,7 @@
         "name": "Advanced architecture project 2",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "12",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Single project/folio (100%)",
         "url": "https://handbook.monash.edu/2025/units/ARC4002"
     },
     {
@@ -3540,7 +3540,7 @@
         "name": "Transition architecture studio 1",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "18",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Folio (100%)",
         "url": "https://handbook.monash.edu/2025/units/ARC4031"
     },
     {
@@ -3548,7 +3548,7 @@
         "name": "Transition architecture studio 2",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "12",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Folio (100%)",
         "url": "https://handbook.monash.edu/2025/units/ARC4032"
     },
     {
@@ -3556,7 +3556,7 @@
         "name": "Architectural performance 5",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Case study (40%); 2 - Folio (60%)",
         "url": "https://handbook.monash.edu/2025/units/ARC4102"
     },
     {
@@ -3564,7 +3564,7 @@
         "name": "Transition architectural performance",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Single project/Folio (100%)",
         "url": "https://handbook.monash.edu/2025/units/ARC4130"
     },
     {
@@ -3572,7 +3572,7 @@
         "name": "Advanced architecture studies 1",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Single project/folio (100%)",
         "url": "https://handbook.monash.edu/2025/units/ARC4501"
     },
     {
@@ -3580,7 +3580,7 @@
         "name": "Advanced architecture studies 2",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Single project/folio (100%)",
         "url": "https://handbook.monash.edu/2025/units/ARC4502"
     },
     {
@@ -3588,7 +3588,7 @@
         "name": "Advanced architecture project 3",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "12",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Single project/folio (100%)",
         "url": "https://handbook.monash.edu/2025/units/ARC5001"
     },
     {
@@ -3596,7 +3596,7 @@
         "name": "Advanced architecture project 4",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "12",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Single project/folio (100%)",
         "url": "https://handbook.monash.edu/2025/units/ARC5002"
     },
     {
@@ -3604,7 +3604,7 @@
         "name": "Professional practices",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "2 - Project (30%); 3 - Exercises (40%); 1 - Case study (30%)",
         "url": "https://handbook.monash.edu/2025/units/ARC5201"
     },
     {
@@ -3612,7 +3612,7 @@
         "name": "Ethics in practice",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "2 - Project (50%); 1 - Case studies (50%)",
         "url": "https://handbook.monash.edu/2025/units/ARC5401"
     },
     {
@@ -3620,7 +3620,7 @@
         "name": "Advanced architecture studies 3",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Single project/folio (100%)",
         "url": "https://handbook.monash.edu/2025/units/ARC5501"
     },
     {
@@ -3628,7 +3628,7 @@
         "name": "Advanced architecture studies 4",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Single project/folio (100%)",
         "url": "https://handbook.monash.edu/2025/units/ARC5502"
     },
     {
@@ -11852,7 +11852,7 @@
         "name": "Indigenous Australian creative practice and ways of knowing",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Presentation and essay (40%); 2 - Folio and journal (60%)",
         "url": "https://handbook.monash.edu/2025/units/BLK1000"
     },
     {
@@ -13260,7 +13260,7 @@
         "name": "Introduction to contemporary illustration",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "2 - Project 2 (20%); 1 - Project 1 (20%); 3 - Project 3 (20%); 4 - Project 4 (20%); 5 - Project 5 (20%)",
         "url": "https://handbook.monash.edu/2025/units/CDS1203"
     },
     {
@@ -13268,7 +13268,7 @@
         "name": "Typography 1",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "3 - Project 2 (50%); 2 - Project 1 (40%); 1 - Exercises (10%)",
         "url": "https://handbook.monash.edu/2025/units/CDS1302"
     },
     {
@@ -13276,7 +13276,7 @@
         "name": "The language of graphic design",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Project 1 (15%); 3 - Project 3 (50%); 2 - Project 2 (35%)",
         "url": "https://handbook.monash.edu/2025/units/CDS1303"
     },
     {
@@ -13284,7 +13284,7 @@
         "name": "Communication design studio 3",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "12",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "2 - Project 2 (50%); 1 - Project 1 (50%)",
         "url": "https://handbook.monash.edu/2025/units/CDS2001"
     },
     {
@@ -13292,7 +13292,7 @@
         "name": "Communication design elective studio",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "12",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "2 - Project 2 (25%); 3 - Project 3 (25%); 1 - Project 1 (25%); 4 - Project 4 (25%)",
         "url": "https://handbook.monash.edu/2025/units/CDS2002"
     },
     {
@@ -13300,7 +13300,7 @@
         "name": "Illustration as design",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "4 - Project 4 (25%); 2 - Project 2 (25%); 3 - Project 3 (25%); 1 - Project 1 (25%)",
         "url": "https://handbook.monash.edu/2025/units/CDS2204"
     },
     {
@@ -13316,7 +13316,7 @@
         "name": "Advertising design",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "3 - Project 3 (40%); 2 - Project 2 (30%); 1 - Project 1 (30%)",
         "url": "https://handbook.monash.edu/2025/units/CDS2402"
     },
     {
@@ -13324,7 +13324,7 @@
         "name": "Branding for designers",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Project 1 (30%); 2 - Project 2 (30%); 3 - Project 3 (40%)",
         "url": "https://handbook.monash.edu/2025/units/CDS2511"
     },
     {
@@ -13332,7 +13332,7 @@
         "name": "Packaging design",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "3 - Project 3 (40%); 2 - Project 2 (30%); 1 - Project 1 (30%)",
         "url": "https://handbook.monash.edu/2025/units/CDS2512"
     },
     {
@@ -13340,7 +13340,7 @@
         "name": "Creative coding",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "3 - Project 2 (35%); 2 - Project 1 (35%); 4 - Portfolio (10%); 1 - Exercises (20%)",
         "url": "https://handbook.monash.edu/2025/units/CDS2521"
     },
     {
@@ -13348,7 +13348,7 @@
         "name": "Creative visualisation",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Single project / folio (100%)",
         "url": "https://handbook.monash.edu/2025/units/CDS2523"
     },
     {
@@ -13356,7 +13356,7 @@
         "name": "Unconventional publishing",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "3 - Project 3 (20%); 2 - Project 2 (50%); 1 - Project 1 (30%)",
         "url": "https://handbook.monash.edu/2025/units/CDS2524"
     },
     {
@@ -13364,7 +13364,7 @@
         "name": "Animation and motion",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "3 - Project 3 (50%); 2 - Project 2 (30%); 1 - Project 1 (20%)",
         "url": "https://handbook.monash.edu/2025/units/CDS2531"
     },
     {
@@ -13372,7 +13372,7 @@
         "name": "Illustration for narrative",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Project 1 (25%); 4 - Project 4 (25%); 2 - Project 2 (25%); 3 - Project 3 (25%)",
         "url": "https://handbook.monash.edu/2025/units/CDS2532"
     },
     {
@@ -13380,7 +13380,7 @@
         "name": "Photographic art direction",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Project 1 (40%); 2 - Project 2 (40%); 3 - Studio Folio (20%)",
         "url": "https://handbook.monash.edu/2025/units/CDS2533"
     },
     {
@@ -13388,7 +13388,7 @@
         "name": "Digital audio/video",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Project 1 (30%); 2 - Project 2 (30%); 3 - Project 3 (40%)",
         "url": "https://handbook.monash.edu/2025/units/CDS2601"
     },
     {
@@ -13396,7 +13396,7 @@
         "name": "Web design",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Single project / folio (100%)",
         "url": "https://handbook.monash.edu/2025/units/CDS2704"
     },
     {
@@ -13412,7 +13412,7 @@
         "name": "Communication design studio 4",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "12",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Studio 1 Projects (50%); 2 - Studio 2 Projects (50%)",
         "url": "https://handbook.monash.edu/2025/units/CDS3001"
     },
     {
@@ -13420,7 +13420,7 @@
         "name": "Communication design studio 5",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "12",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Project 1 (50%); 2 - Project 2 (50%)",
         "url": "https://handbook.monash.edu/2025/units/CDS3002"
     },
     {
@@ -13428,7 +13428,7 @@
         "name": "Type design",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "2 - Project 1 (30%); 3 - Project 2 (40%); 1 - Exercise (10%); 4 - Project 3 (20%)",
         "url": "https://handbook.monash.edu/2025/units/CDS3305"
     },
     {
@@ -13436,7 +13436,7 @@
         "name": "Digital publication",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Project 1 (40%); 2 - Project 2 (60%)",
         "url": "https://handbook.monash.edu/2025/units/CDS3906"
     },
     {
@@ -15004,7 +15004,7 @@
         "name": "Collaborative design studio 2",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "12",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Project 1 (50%); 2 - Project 2 (50%)",
         "url": "https://handbook.monash.edu/2025/units/COL1002"
     },
     {
@@ -15012,7 +15012,7 @@
         "name": "Collaborative design studio 3",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "12",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Project 1 (50%); 2 - Project 2 (50%)",
         "url": "https://handbook.monash.edu/2025/units/COL2001"
     },
     {
@@ -15020,7 +15020,7 @@
         "name": "Collaborative design studio 4",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "12",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Project 1 (50%); 2 - Project 2 (50%)",
         "url": "https://handbook.monash.edu/2025/units/COL3001"
     },
     {
@@ -15028,7 +15028,7 @@
         "name": "Collaborative design studio 5",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "12",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Project 1 (50%); 2 - Project 2 (50%)",
         "url": "https://handbook.monash.edu/2025/units/COL3002"
     },
     {
@@ -15220,7 +15220,7 @@
         "name": "Design studio 1",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "12",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "2 - Project 2 (50%); 1 - Project 1 (50%)",
         "url": "https://handbook.monash.edu/2025/units/DGN1000"
     },
     {
@@ -15228,7 +15228,7 @@
         "name": "Interdisciplinary design",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "3 - Folio (50%); 2 - Project 2 (30%); 1 - Project 1 (20%)",
         "url": "https://handbook.monash.edu/2025/units/DGN2000"
     },
     {
@@ -15236,7 +15236,7 @@
         "name": "Creative sustainability",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "2 - Project 2 (35%); 1 - Project 1 (25%); 3 - Project 3 (40%)",
         "url": "https://handbook.monash.edu/2025/units/DGN2040"
     },
     {
@@ -15244,7 +15244,7 @@
         "name": "Design thinking for global challenges",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "2 - Project (30%); 3 - Project (40%); 1 - Project (30%)",
         "url": "https://handbook.monash.edu/2025/units/DGN2500"
     },
     {
@@ -15252,7 +15252,7 @@
         "name": "Creative prototyping for interactivity",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Project 1 (15%); 2 - Project 2 (35%); 3 - Project 3 (50%)",
         "url": "https://handbook.monash.edu/2025/units/DGN2522"
     },
     {
@@ -15268,7 +15268,7 @@
         "name": "Design for culture and heritage",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "3 - Folio (50%); 1 - Project 1 (20%); 2 - Project 2 (30%)",
         "url": "https://handbook.monash.edu/2025/units/DGN3203"
     },
     {
@@ -15276,7 +15276,7 @@
         "name": "Designing interactive systems",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "3 - Project 2 (40%); 1 - Exercise (20%); 2 - Project 1 (40%)",
         "url": "https://handbook.monash.edu/2025/units/DGN4029"
     },
     {
@@ -15284,7 +15284,7 @@
         "name": "Information design for interactive media",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "2 - Project 2 (50%); 1 - Project 1 (50%)",
         "url": "https://handbook.monash.edu/2025/units/DGN4030"
     },
     {
@@ -15292,7 +15292,7 @@
         "name": "3D modelling and virtual space",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "2 - Project 1 (30%); 3 - Project 2 (40%); 1 - Exercises (30%)",
         "url": "https://handbook.monash.edu/2025/units/DGN4201"
     },
     {
@@ -15300,7 +15300,7 @@
         "name": "Design thinking approaches",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "2 - Project 2 (30%); 1 - Project 1 (30%); 3 - Project 3 (40%)",
         "url": "https://handbook.monash.edu/2025/units/DGN4500"
     },
     {
@@ -15308,7 +15308,7 @@
         "name": "Digital audio/video 1",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "2 - Project 2 (30%); 3 - Project 3 (40%); 1 - Project 1 (30%)",
         "url": "https://handbook.monash.edu/2025/units/DGN4604"
     },
     {
@@ -15316,7 +15316,7 @@
         "name": "3D animation",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "2 - Project 2 (30%); 1 - Project 1 (30%); 3 - Project 3 (40%)",
         "url": "https://handbook.monash.edu/2025/units/DGN5201"
     },
     {
@@ -15324,7 +15324,7 @@
         "name": "Design for culture and heritage",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "2 - Project 2 (30%); 1 - Project 1 (20%); 3 - Folio (50%)",
         "url": "https://handbook.monash.edu/2025/units/DGN5203"
     },
     {
@@ -15332,7 +15332,7 @@
         "name": "Design for social impact",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "2 - Project 2 (30%); 1 - Project 1 (20%); 3 - Folio (50%)",
         "url": "https://handbook.monash.edu/2025/units/DGN5204"
     },
     {
@@ -15340,7 +15340,7 @@
         "name": "Digital audio/video 2",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "3 - Exercise 3 (40%); 2 - Exercise 2 (30%); 1 - Exercise 1 (30%)",
         "url": "https://handbook.monash.edu/2025/units/DGN5604"
     },
     {
@@ -15508,7 +15508,7 @@
         "name": "Drawing: Introduction",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Preparatory Folio (40%); 2 - Independent project and folio (60%)",
         "url": "https://handbook.monash.edu/2025/units/DWG1201"
     },
     {
@@ -15516,7 +15516,7 @@
         "name": "Drawing: The body",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "2 - Final folio (60%); 1 - Mid-semester folio (40%)",
         "url": "https://handbook.monash.edu/2025/units/DWG2509"
     },
     {
@@ -15524,7 +15524,7 @@
         "name": "Drawing: The anatomical specimen",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment.",
+        "assessment_summary": "2 - Final folio (60%); 1 - Mid-semester folio (40%)",
         "url": "https://handbook.monash.edu/2025/units/DWG2519"
     },
     {
@@ -24572,7 +24572,7 @@
         "name": "Studio practices 1",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Studio project 1 (50%); 2 - Studio project 2 (50%)",
         "url": "https://handbook.monash.edu/2025/units/FNA1111"
     },
     {
@@ -24580,7 +24580,7 @@
         "name": "Studio practices 2",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "12",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "3 - Studio project 3 (20%); 2 - Studio project 2 (20%); 1 - Studio project 1 (20%); 4 - Studio project 4 (20%); 5 - Studio practice exhibition (20%)",
         "url": "https://handbook.monash.edu/2025/units/FNA1112"
     },
     {
@@ -24588,7 +24588,7 @@
         "name": "Sound in the space of art",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "2 - Final folio examination (60%); 1 - Mid-semester assessment (40%)",
         "url": "https://handbook.monash.edu/2025/units/FNA2034"
     },
     {
@@ -24596,7 +24596,7 @@
         "name": "Interventions in sound, performance and socially engaged practices",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "2 - Final folio (60%); 1 - Mid-semester assessment (40%)",
         "url": "https://handbook.monash.edu/2025/units/FNA2035"
     },
     {
@@ -24604,7 +24604,7 @@
         "name": "Studio practices 3",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "2 - End of semester folio (60%); 1 - Mid-semester folio (40%)",
         "url": "https://handbook.monash.edu/2025/units/FNA2211"
     },
     {
@@ -24612,7 +24612,7 @@
         "name": "Studio practices 4",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "2 - End of semester folio (60%); 1 - Mid-semester folio (40%)",
         "url": "https://handbook.monash.edu/2025/units/FNA2212"
     },
     {
@@ -24620,7 +24620,7 @@
         "name": "Extended studio practice",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Single project / folio (100%)",
         "url": "https://handbook.monash.edu/2025/units/FNA2222"
     },
     {
@@ -24628,7 +24628,7 @@
         "name": "Film: Art and cinema",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "2 - Photo sequence  (25%); 3 - Final project (50%); 1 - Storyboard (25%)",
         "url": "https://handbook.monash.edu/2025/units/FNA2903"
     },
     {
@@ -24636,7 +24636,7 @@
         "name": "Studio practices 5",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "12",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "2 - End of semester folio (60%); 1 - Mid-semester folio (40%)",
         "url": "https://handbook.monash.edu/2025/units/FNA3111"
     },
     {
@@ -24644,7 +24644,7 @@
         "name": "Studio practices 6",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "12",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "2 - End of semester folio (60%); 1 - Mid-semester folio (40%)",
         "url": "https://handbook.monash.edu/2025/units/FNA3112"
     },
     {
@@ -24652,7 +24652,7 @@
         "name": "Fine art project studies",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "12",
-        "assessment_summary": "100% in-semester assessment\u00a0",
+        "assessment_summary": "1 - Single project / folio (100%)",
         "url": "https://handbook.monash.edu/2025/units/FNA4001"
     },
     {
@@ -24660,7 +24660,7 @@
         "name": "Fine art research project",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "18",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Single project / folio (100%)",
         "url": "https://handbook.monash.edu/2025/units/FNA4002"
     },
     {
@@ -24668,7 +24668,7 @@
         "name": "Advanced fine art research: Methods",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Presentation 1 (40%); 2 - Presentation 2 (60%)",
         "url": "https://handbook.monash.edu/2025/units/FNA4011"
     },
     {
@@ -25396,7 +25396,7 @@
         "name": "Material transformations: Foundations in hot glass forming",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Folio 1 (40%); 2 - Folio 2 (60%)",
         "url": "https://handbook.monash.edu/2025/units/GLS1231"
     },
     {
@@ -25876,7 +25876,7 @@
         "name": "Industrial design studio 2",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "12",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Studio (15%); 4 - Making (15%); 2 - Drawing (15%); 3 - CAD (15%); 5 - Studio folio assessment (40%)",
         "url": "https://handbook.monash.edu/2025/units/IDN1002"
     },
     {
@@ -25892,7 +25892,7 @@
         "name": "Industrial design studio 3",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "12",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "2 - Project presentation 2 (30%); 1 - Project presentation 1 (30%); 3 - Final project presentation (40%)",
         "url": "https://handbook.monash.edu/2025/units/IDN2001"
     },
     {
@@ -25900,7 +25900,7 @@
         "name": "Industrial design project studio",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Project 1 (50%); 2 - Project 2 (50%)",
         "url": "https://handbook.monash.edu/2025/units/IDN2002"
     },
     {
@@ -25908,7 +25908,7 @@
         "name": "Mould making and casting for design",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "3 - Brief 3 - Free, material translation, moulding as medium (40%); 2 - Brief 2 - Toys, bootleg sampling, two part moulds (30%); 1 - Brief 1 - Sweets, bridging senses, open moulds (30%)",
         "url": "https://handbook.monash.edu/2025/units/IDN2033"
     },
     {
@@ -25916,7 +25916,7 @@
         "name": "Service design studio",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "3 - Case study (50%); 2 - Progress report (20%); 1 - Research report and presentation (30%)",
         "url": "https://handbook.monash.edu/2025/units/IDN2102"
     },
     {
@@ -25924,7 +25924,7 @@
         "name": "Designing for sustainability",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "3 - Project 3 (55%); 1 - Project 1 (15%); 2 - Project 2 (30%)",
         "url": "https://handbook.monash.edu/2025/units/IDN2120"
     },
     {
@@ -25932,7 +25932,7 @@
         "name": "Design for digital fabrication",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "2 - Project 2 (50%); 1 - Project 1 (50%)",
         "url": "https://handbook.monash.edu/2025/units/IDN2211"
     },
     {
@@ -25940,7 +25940,7 @@
         "name": "Furniture design 1",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "4 - Practical Use (50%); 3 - Collaborative Learning (10%); 1 - Tangible Stock (15%); 2 - Ways of Doing (25%)",
         "url": "https://handbook.monash.edu/2025/units/IDN2810"
     },
     {
@@ -25948,7 +25948,7 @@
         "name": "Emerging technologies for designers",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "3 - Project 3 (50%); 1 - Project 1 (20%); 2 - Project 2 (30%)",
         "url": "https://handbook.monash.edu/2025/units/IDN2811"
     },
     {
@@ -25956,7 +25956,7 @@
         "name": "3D modelling",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "2 - Project (50%); 1 - In-class Exercises (6 exercises - refer to unit schedule) (50%)",
         "url": "https://handbook.monash.edu/2025/units/IDN2904"
     },
     {
@@ -25964,7 +25964,7 @@
         "name": "Industrial design studio 4",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "12",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "2 - Project 2 (50%); 1 - Project 1 (50%)",
         "url": "https://handbook.monash.edu/2025/units/IDN3001"
     },
     {
@@ -25972,7 +25972,7 @@
         "name": "Industrial design studio 5",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "12",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Single project / folio (100%)",
         "url": "https://handbook.monash.edu/2025/units/IDN3002"
     },
     {
@@ -25980,7 +25980,7 @@
         "name": "Sustainable mobility design 1",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Single project / folio (100%)",
         "url": "https://handbook.monash.edu/2025/units/IDN3812"
     },
     {
@@ -25988,7 +25988,7 @@
         "name": "Sustainable mobility design 2",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Single project / folio (100%)",
         "url": "https://handbook.monash.edu/2025/units/IDN3813"
     },
     {
@@ -26636,7 +26636,7 @@
         "name": "Material transformations: Jewellery and object forming",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "2 - Final folio examination (60%); 1 - Mid-semester assessment (40%)",
         "url": "https://handbook.monash.edu/2025/units/JWL2311"
     },
     {
@@ -29412,7 +29412,7 @@
         "name": "Major design project",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "24",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Portfolio (100%)",
         "url": "https://handbook.monash.edu/2025/units/MDC5100"
     },
     {
@@ -29420,7 +29420,7 @@
         "name": "Interaction design studio 3",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "12",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Project A (50%); 2 - Project B (50%)",
         "url": "https://handbook.monash.edu/2025/units/MDC5210"
     },
     {
@@ -29428,7 +29428,7 @@
         "name": "Multimedia design studio 3",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "12",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "4 - Project 4 (40%); 1 - Project 1 (20%); 2 - Project 2 (20%); 3 - Project 3 (20%)",
         "url": "https://handbook.monash.edu/2025/units/MDC5220"
     },
     {
@@ -29436,7 +29436,7 @@
         "name": "Collaborative design studio 2",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "12",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "2 - Project 2 (50%); 1 - Project 1 (50%)",
         "url": "https://handbook.monash.edu/2025/units/MDC5230"
     },
     {
@@ -29452,7 +29452,7 @@
         "name": "Interaction design studio 4",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "18",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "2 - Project 2 (40%); 1 - Project 1 (60%)",
         "url": "https://handbook.monash.edu/2025/units/MDC5310"
     },
     {
@@ -29460,7 +29460,7 @@
         "name": "Multimedia design studio 4",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "18",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "2 - Project 2 (50%); 1 - Project 1 (50%)",
         "url": "https://handbook.monash.edu/2025/units/MDC5320"
     },
     {
@@ -29468,7 +29468,7 @@
         "name": "Collaborative design studio 3",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "18",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Project 1 (50%); 2 - Project 2 (50%)",
         "url": "https://handbook.monash.edu/2025/units/MDC5330"
     },
     {
@@ -29476,7 +29476,7 @@
         "name": "Design research studio 4",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "18",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Single Project/Folio (100%)",
         "url": "https://handbook.monash.edu/2025/units/MDC5340"
     },
     {
@@ -36044,7 +36044,7 @@
         "name": "Introduction to art and design health and safety",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "0",
-        "assessment_summary": "100% in-semester assessment. Pass grade only.",
+        "assessment_summary": "1 - Short quiz (100%)",
         "url": "https://handbook.monash.edu/2025/units/OHS1000"
     },
     {
@@ -36852,7 +36852,7 @@
         "name": "Photography: Introduction",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Mid-semester assessment (40%); 2 - Final folio examination (60%)",
         "url": "https://handbook.monash.edu/2025/units/PHO1203"
     },
     {
@@ -36868,7 +36868,7 @@
         "name": "Photography: Advanced darkroom and lighting",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "2 - Final folio examination (60%); 1 - Mid-semester assessment (40%)",
         "url": "https://handbook.monash.edu/2025/units/PHO2202"
     },
     {
@@ -37684,7 +37684,7 @@
         "name": "Design management and entrepreneurship",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "2 - Project 1 (20%); 1 - Report (40%); 5 - Project 2 (40%); 3 - Project 2 (40%); 4 - Project 1 (10%); 6 - Pitch (50%)",
         "url": "https://handbook.monash.edu/2025/units/PPR5500"
     },
     {
@@ -37692,7 +37692,7 @@
         "name": "Printmaking: Etching, relief printing and the artist book",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "2 - Final folio examination (60%); 1 - Mid-semester assessment (40%)",
         "url": "https://handbook.monash.edu/2025/units/PRM2001"
     },
     {
@@ -37700,7 +37700,7 @@
         "name": "Printmaking: Screenprinting and the contemporary poster",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "2 - Final folio examination (60%); 1 - Mid-semester assessment (40%)",
         "url": "https://handbook.monash.edu/2025/units/PRM2401"
     },
     {
@@ -38756,7 +38756,7 @@
         "name": "Painting: Introduction to materials and methods",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "2 - Final folio examination (60%); 1 - Mid-semester assessment (40%)",
         "url": "https://handbook.monash.edu/2025/units/PTG1001"
     },
     {
@@ -38764,7 +38764,7 @@
         "name": "Painting: Colour strategies",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Mid-semester assessment (40%); 2 - Final folio (60%)",
         "url": "https://handbook.monash.edu/2025/units/PTG2031"
     },
     {
@@ -38772,7 +38772,7 @@
         "name": "Painting: Figuration",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Mid-semester assessment (40%); 2 - Final folio examination (60%)",
         "url": "https://handbook.monash.edu/2025/units/PTG2033"
     },
     {
@@ -39964,7 +39964,7 @@
         "name": "Material transformations: Ceramics",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Mid-semester assessment (40%); 2 - Final folio (60%)",
         "url": "https://handbook.monash.edu/2025/units/SCU1021"
     },
     {
@@ -39972,7 +39972,7 @@
         "name": "Material transformations: Glass and sculptural forming",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "2 - Final folio examination (60%); 1 - Mid-semester assessment (40%)",
         "url": "https://handbook.monash.edu/2025/units/SCU2021"
     },
     {
@@ -39980,7 +39980,7 @@
         "name": "Spatial design studio 2",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "12",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Single project (100%)",
         "url": "https://handbook.monash.edu/2025/units/SDN1002"
     },
     {
@@ -39988,7 +39988,7 @@
         "name": "Spatial design studio 3",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "12",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Single project (100%)",
         "url": "https://handbook.monash.edu/2025/units/SDN2001"
     },
     {
@@ -39996,7 +39996,7 @@
         "name": "Design ecologies",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Single project / folio (100%)",
         "url": "https://handbook.monash.edu/2025/units/SDN2502"
     },
     {
@@ -40004,7 +40004,7 @@
         "name": "Exhibition design",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Single project (100%)",
         "url": "https://handbook.monash.edu/2025/units/SDN2505"
     },
     {
@@ -40012,7 +40012,7 @@
         "name": "Advanced technologies for spatial design 1",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Single project (100%)",
         "url": "https://handbook.monash.edu/2025/units/SDN2508"
     },
     {
@@ -40020,7 +40020,7 @@
         "name": "Advanced technologies for spatial design 2",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Single project (100%)",
         "url": "https://handbook.monash.edu/2025/units/SDN2509"
     },
     {
@@ -40028,7 +40028,7 @@
         "name": "Sensory design",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Single project (100%)",
         "url": "https://handbook.monash.edu/2025/units/SDN2525"
     },
     {
@@ -40036,7 +40036,7 @@
         "name": "Spatial design studio 4",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "12",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Single project (100%)",
         "url": "https://handbook.monash.edu/2025/units/SDN3001"
     },
     {
@@ -40044,7 +40044,7 @@
         "name": "Spatial design studio 5",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "12",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Single project (100%)",
         "url": "https://handbook.monash.edu/2025/units/SDN3002"
     },
     {
@@ -40052,7 +40052,7 @@
         "name": "Professional documentation for spatial design",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Single project / folio (100%)",
         "url": "https://handbook.monash.edu/2025/units/SDN3303"
     },
     {
@@ -40700,7 +40700,7 @@
         "name": "Design research methods",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Project 1 (20%); 2 - Project 2 (40%); 3 - Project 3 (40%)",
         "url": "https://handbook.monash.edu/2025/units/TAD5400"
     },
     {
@@ -40708,7 +40708,7 @@
         "name": "Design research documentation",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Project 1 (30%); 3 - Project 3 (50%); 2 - Project 2 (20%)",
         "url": "https://handbook.monash.edu/2025/units/TAD5500"
     },
     {
@@ -40716,7 +40716,7 @@
         "name": "Design and the avant-garde",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "3 - On-going Assessment task: Visual Journal (1% for each week) (10%); 1 - Class Presentation: Visualisation + Reading Report (30%); 2 - Long Essay (Research Essay) (60%)",
         "url": "https://handbook.monash.edu/2025/units/TDN1002"
     },
     {
@@ -40724,7 +40724,7 @@
         "name": "Sociologies of design",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Oral presentation (20%); 2 - Artefact analysis (30%); 3 - Research essay (50%)",
         "url": "https://handbook.monash.edu/2025/units/TDN2001"
     },
     {
@@ -40732,7 +40732,7 @@
         "name": "Research for design",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "2 - Visual analysis (30%); 1 - Presentation (20%); 3 - Research essay (50%)",
         "url": "https://handbook.monash.edu/2025/units/TDN3001"
     },
     {
@@ -40740,7 +40740,7 @@
         "name": "Design strategy and professional practice",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "3 - Project 3 (30%); 2 - Project Plan (50%); 1 - Project Brief (20%)",
         "url": "https://handbook.monash.edu/2025/units/TDN3002"
     },
     {
@@ -40996,7 +40996,7 @@
         "name": "Urban design studio 1: Climate resilience",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Design portfolio (100%)",
         "url": "https://handbook.monash.edu/2025/units/UDI4001"
     },
     {
@@ -41004,7 +41004,7 @@
         "name": "Urban design studio 2: Smart city",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Design portfolio (100%)",
         "url": "https://handbook.monash.edu/2025/units/UDI4002"
     },
     {
@@ -41012,7 +41012,7 @@
         "name": "History and theory of urban design",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "2 - Final project (60%); 1 - Preliminary project (40%)",
         "url": "https://handbook.monash.edu/2025/units/UDI4101"
     },
     {
@@ -41020,7 +41020,7 @@
         "name": "Governance and regulation 1",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "2 - Final project (60%); 1 - Preliminary project (40%)",
         "url": "https://handbook.monash.edu/2025/units/UDI4102"
     },
     {
@@ -41028,7 +41028,7 @@
         "name": "City and ecology 1",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "2 - Final project (60%); 1 - Preliminary project (40%)",
         "url": "https://handbook.monash.edu/2025/units/UDI4201"
     },
     {
@@ -41036,7 +41036,7 @@
         "name": "City and ecology 2",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Preliminary project (40%); 2 - Final project (60%)",
         "url": "https://handbook.monash.edu/2025/units/UDI4202"
     },
     {
@@ -41044,7 +41044,7 @@
         "name": "Smart city technologies 1",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "2 - Final project (60%); 1 - Preliminary project (40%)",
         "url": "https://handbook.monash.edu/2025/units/UDI4301"
     },
     {
@@ -41052,7 +41052,7 @@
         "name": "Smart city technologies 2",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "2 - Final project (60%); 1 - Preliminary project (40%)",
         "url": "https://handbook.monash.edu/2025/units/UDI4302"
     },
     {
@@ -41060,7 +41060,7 @@
         "name": "Urban design studio 3: Project",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "12",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Design portfolio (100%)",
         "url": "https://handbook.monash.edu/2025/units/UDI5001"
     },
     {
@@ -41068,7 +41068,7 @@
         "name": "Urban design thesis",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "12",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Design portfolio (100%)",
         "url": "https://handbook.monash.edu/2025/units/UDI5002"
     },
     {
@@ -41076,7 +41076,7 @@
         "name": "Governance and regulation 2",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "2 - Final project (60%); 1 - Preliminary project (40%)",
         "url": "https://handbook.monash.edu/2025/units/UDI5101"
     },
     {
@@ -41084,7 +41084,7 @@
         "name": "Social impact lab",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "12",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "2 - Final project (60%); 1 - Preliminary project (40%)",
         "url": "https://handbook.monash.edu/2025/units/UDI5102"
     },
     {
@@ -41092,7 +41092,7 @@
         "name": "Ecology and health",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "2 - Final prohect (60%); 1 - Preliminary project (40%)",
         "url": "https://handbook.monash.edu/2025/units/UDI5201"
     },
     {
@@ -41100,7 +41100,7 @@
         "name": "Urban design studio 1A: Design actions",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Portfolio (100%)",
         "url": "https://handbook.monash.edu/2025/units/UDI5501"
     },
     {
@@ -41108,7 +41108,7 @@
         "name": "Urban design studio 1B: Neighbourhood",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Portfolio (100%)",
         "url": "https://handbook.monash.edu/2025/units/UDI5502"
     },
     {
@@ -41116,7 +41116,7 @@
         "name": "Urban design studio 2A: Town",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "\n\n100% in-semester assessment\n\n",
+        "assessment_summary": "1 - Portfolio (100%)",
         "url": "https://handbook.monash.edu/2025/units/UDI5503"
     },
     {
@@ -41124,7 +41124,7 @@
         "name": "Urban design studio 2B: Town",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Portfolio (100%)",
         "url": "https://handbook.monash.edu/2025/units/UDI5504"
     },
     {
@@ -41132,7 +41132,7 @@
         "name": "Urban design studio 3A: City",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Portfolio (100%)",
         "url": "https://handbook.monash.edu/2025/units/UDI5505"
     },
     {
@@ -41140,7 +41140,7 @@
         "name": "Urban design studio 3B: City",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Portfolio (100%)",
         "url": "https://handbook.monash.edu/2025/units/UDI5506"
     },
     {
@@ -41148,7 +41148,7 @@
         "name": "Fieldwork for design",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Project (60%); 2 - Written (40%)",
         "url": "https://handbook.monash.edu/2025/units/UDI5507"
     },
     {
@@ -41156,7 +41156,7 @@
         "name": "Urban design thesis",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "12",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Portfolio (100%)",
         "url": "https://handbook.monash.edu/2025/units/UDI5508"
     },
     {
@@ -41164,7 +41164,7 @@
         "name": "Fabric for urban life",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Project (40%); 2 - Project (60%)",
         "url": "https://handbook.monash.edu/2025/units/UDI5601"
     },
     {
@@ -41172,7 +41172,7 @@
         "name": "City and ecology ",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "2 - Final project (60%); 1 - Preliminary project (40%)",
         "url": "https://handbook.monash.edu/2025/units/UDI5602"
     },
     {
@@ -41180,7 +41180,7 @@
         "name": "Smart city technologies ",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "2 - Final project (60%); 1 - Preliminary project (40%)",
         "url": "https://handbook.monash.edu/2025/units/UDI5603"
     },
     {
@@ -41188,7 +41188,7 @@
         "name": "Governance and development",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "2 - Project (60%); 1 - Project (40%)",
         "url": "https://handbook.monash.edu/2025/units/UDI5604"
     },
     {
@@ -41196,7 +41196,7 @@
         "name": "Urban spatial reasoning",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Project (40%); 2 - Project (60%)",
         "url": "https://handbook.monash.edu/2025/units/UDI5605"
     },
     {
@@ -41204,7 +41204,7 @@
         "name": "Social impact lab",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "12",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Preliminary Project (40%); 2 - Final Project (60%)",
         "url": "https://handbook.monash.edu/2025/units/UDI5701"
     },
     {
@@ -41244,7 +41244,7 @@
         "name": "Reimagining cities",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Journal (25%); 2 - Critical analysis (25%); 3 - Project (50%)",
         "url": "https://handbook.monash.edu/2025/units/UPD3501"
     },
     {
@@ -41252,7 +41252,7 @@
         "name": "Planning project 1: Compact city",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "12",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Report 1 (40%); 2 - Report 2 (60%)",
         "url": "https://handbook.monash.edu/2025/units/UPD4001"
     },
     {
@@ -41260,7 +41260,7 @@
         "name": "Planning project 2: Expanding city",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "12",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "3 - Final report and presentation (50%); 2 - Mid-semester project report (20%); 1 - Critical analysis report (30%)",
         "url": "https://handbook.monash.edu/2025/units/UPD4002"
     },
     {
@@ -41268,7 +41268,7 @@
         "name": "Professional practice 1: Communication and roles",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "3 - Report (35%); 2 - Reflection (35%); 1 - Presentation/s (30%)",
         "url": "https://handbook.monash.edu/2025/units/UPD4101"
     },
     {
@@ -41276,7 +41276,7 @@
         "name": "Urban positions and practices",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "3 - Essay (40%); 2 - Project (30%); 4 - Presentation (15%); 1 - Exercises (15%)",
         "url": "https://handbook.monash.edu/2025/units/UPD4301"
     },
     {
@@ -41284,7 +41284,7 @@
         "name": "Regulating the city",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "3 - Essay (45%); 2 - Report 2 (35%); 1 - Report 1 (20%)",
         "url": "https://handbook.monash.edu/2025/units/UPD4302"
     },
     {
@@ -41292,7 +41292,7 @@
         "name": "Planning project 3: Transforming city",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "12",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "3 - Report 2 (50%); 2 - Report 1 (20%); 1 - Critical analysis (30%)",
         "url": "https://handbook.monash.edu/2025/units/UPD5001"
     },
     {
@@ -41300,7 +41300,7 @@
         "name": "Planning project 4: Inclusive city",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "12",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Report 1 (40%); 2 - Report 2 (20%); 3 - Final report and exhibition (40%)",
         "url": "https://handbook.monash.edu/2025/units/UPD5002"
     },
     {
@@ -41308,7 +41308,7 @@
         "name": "Professional practice 2: Analysis and research",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "2 - Project 2 report (30%); 3 - Project 3 report (40%); 1 - Project 1 report (30%)",
         "url": "https://handbook.monash.edu/2025/units/UPD5102"
     },
     {
@@ -41316,7 +41316,7 @@
         "name": "Economics and the city",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - Report 1 (40%); 2 - Report 2 (30%); 3 - Report 3 (30%)",
         "url": "https://handbook.monash.edu/2025/units/UPD5301"
     },
     {
@@ -41324,7 +41324,7 @@
         "name": "Democratic city",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - 100% in-semester assessment (100%)",
         "url": "https://handbook.monash.edu/2025/units/UPD5302"
     },
     {
@@ -41332,7 +41332,7 @@
         "name": "Independent research project",
         "faculty": "Faculty of Art, Design and Architecture",
         "credit_points": "6",
-        "assessment_summary": "100% in-semester assessment",
+        "assessment_summary": "1 - 100% in-semester assessment (100%)",
         "url": "https://handbook.monash.edu/2025/units/UPD5500"
     },
     {

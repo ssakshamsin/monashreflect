@@ -8,11 +8,33 @@
     const cancelButton = document.querySelector("#cancel-update");
     const profilePic = document.querySelector(".profile-pic");
     
+    const logoutImg = document.getElementById("logout-icon");
+
+    function updateLogoutIcon() {
+        const isDarkMode = localStorage.getItem("dark-mode") === "enabled";
+        logoutImg.src = isDarkMode 
+            ? "{{ url_for('static', filename='images/logout-dark.png') }}" 
+            : "{{ url_for('static', filename='images/logout.png') }}";
+    }
+    updateLogoutIcon();
+
+    // Listen for changes to dark mode
+    document.getElementById("dark-mode-toggle")?.addEventListener("click", function () {
+        setTimeout(updateLogoutIcon, 100); // Small delay to ensure mode updates first
+    });
     let originalSrc = profilePic.src;  // Store the original profile picture URL
 
     // Show form when profile picture is clicked
     profilePicContainer.addEventListener("click", function () {
         profileUpdateForm.classList.toggle("hidden");
+    });
+
+    document.getElementById("profile_pic").addEventListener("change", function () {
+    const file = this.files[0];
+    if (file && file.size > 1 * 1024 * 1024) { // 2MB limit
+        alert("File size must be under 2MB.");
+        this.value = ""; // Reset file input
+        }
     });
 
     // Live preview of new profile picture
@@ -33,11 +55,50 @@
         profilePic.src = originalSrc;  // Restore original picture
         fileInput.value = "";  // Reset file input
     });
-    
+
     if (document.querySelector(".error")) {
         profileUpdateForm.classList.remove("hidden");
     }
 });
+
+function voteReview(reviewId, voteType) {
+    fetch(`/review/${reviewId}/${voteType}`, {
+        method: 'POST',
+        headers: {
+            'X-CSRF-Token': document.querySelector('input[name="csrf_token"]').value,
+            'Content-Type': 'application/json'
+        },
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.error) {
+            alert(data.error);
+            return;
+        }
+
+        // Update the vote counts
+        document.querySelectorAll(`#upvotes-${reviewId}`).forEach(el => el.textContent = data.upvotes);
+        document.querySelectorAll(`#downvotes-${reviewId}`).forEach(el => el.textContent = data.downvotes);
+
+        // Update button states on all matching elements
+        document.querySelectorAll(`[data-review-id="${reviewId}"]`).forEach(reviewContainer => {
+            const upvoteBtn = reviewContainer.querySelector('.upvote-2');
+            const downvoteBtn = reviewContainer.querySelector('.downvote-2');
+            if (data.user_vote === 'up') {
+                upvoteBtn.classList.add('active');
+                downvoteBtn.classList.remove('active');
+            } else if (data.user_vote === 'down') {
+                downvoteBtn.classList.add('active');
+                upvoteBtn.classList.remove('active');
+            } else {
+                upvoteBtn.classList.remove('active');
+                downvoteBtn.classList.remove('active');
+            }
+        });
+    })
+
+}
+
 </script>
     <div class="profile-section">
         <div class="profile-pic-container">
@@ -47,7 +108,7 @@
         <div class="name-container">
         <h1>{{ current_user.username }}'s Profile</h1>
         
-        <a class = "logout-photo" href="{{ url_for('auth.logout') }}"><img class="logout-photo" src="{{ url_for('static', filename='pictures/logout.png') }}" alt="Logout"></a>
+        <a class = "logout-photo" href="{{ url_for('auth.logout') }}"><img id="logout-icon" class="logout-photo" src="{{ url_for('static', filename='images/logout.png') }}" alt="Logout"></a>
         </div>
         
     <div class="profile-update-form hidden">
@@ -73,21 +134,22 @@
         </form>
     </div>
     
-    <div class="stats-card">
-        <h2>Your Statistics</h2>
-        <p>Total Reviews: {{ reviews.total }}</p>
-        {% set vote_stats = current_user.get_total_votes() %}
-        <p>Total Votes Received: {{ vote_stats.total }}</p>
-        <p>▲ Upvotes: {{ vote_stats.upvotes }}</p>
-        <p>▼ Downvotes: {{ vote_stats.downvotes }}</p>
-        <p>Member Since: {{ current_user.timestamp.strftime('%Y-%m-%d') }}</p>
-    </div>
+
+        <div class="stats-card">
+            <h2>Your Statistics</h2>
+            <p>Total Reviews: {{ reviews.total }}</p>
+            {% set vote_stats = current_user.get_total_votes() %}
+            <p>Total Votes Received: {{ vote_stats.total }}</p>
+            <p>▲ Upvotes: {{ vote_stats.upvotes }}</p>
+            <p>▼ Downvotes: {{ vote_stats.downvotes }}</p>
+            <p>Member Since: {{ current_user.timestamp.strftime('%#d %B, %Y') }}</p>
+        </div>
 
         <div class="user-reviews">
             <h2>Your Reviews</h2>
             {% if reviews.items %}
                 {% for review in reviews.items %}
-                    <div class="review-card">
+                    <div class="review-card profile-review">
                         <div class="review-header">
                             <a href="{{ url_for('main.unit', code=review.unit.code) }}">
                                 {{ review.unit.code }} - {{ review.unit.name }}
@@ -97,14 +159,18 @@
                             <div class="review-rating">
                                 {% for _ in range(review.rating) %}⭐{% endfor %}
                             </div>
-                            <span class="review-date">{{ review.timestamp.strftime('%Y-%m-%d') }}</span>
-                            
+                            <span class="review-date">{{ review.timestamp.strftime('%#d %B, %Y') }}</span>
                         </div>
                         <div class="review-upvote-container">
                             <div class="review-content">
                                 {{ review.content }}
                             </div>
-                            <div class="review-stats-2">
+                            <div class="review-stats-2"
+                            data-review-id="{{ review.id }}"
+                            data-upvotes="{{ review.upvotes }}"
+                            data-downvotes="{{ review.downvotes }}"
+                            data-user-vote="{{ review.get_vote_status(current_user) }}"
+                            >
                                 <!-- Upvote Button -->
                                 <button onclick="voteReview('{{ review.id }}', 'up')"
                                         class="vote-btn upvote-2 {% if review.has_voted(current_user, 'up') %}active{% endif %}"
@@ -120,7 +186,6 @@
                                 </button>
                             </div>
                         </div>
-
                     </div>
                 {% endfor %}
 
@@ -142,5 +207,14 @@
                 <p>You haven't written any reviews yet.</p>
             {% endif %}
         </div>
+        
+        {% if not current_user.is_deleted %}
+        {{ form.hidden_tag() }}
+        <form action="{{ url_for('main.delete_account') }}" method="post" 
+            onsubmit="return confirm('Are you sure you want to delete your account?');">
+            {{ form.hidden_tag() }}
+            <button type="submit" class="btn btn-secondary">Delete Account</button>
+        </form>
+        {% endif %}
     </div>
 {% endblock %}

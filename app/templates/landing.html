@@ -14,11 +14,22 @@
 .landing-page {
     text-align: center;
     padding: 100px 20px;
+    background: linear-gradient(to top, rgb(89, 180, 255), rgba(255, 122, 89,0));
+    height: 80vh; /* Full viewport height */
+    width:105vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: -50px;
+    bottom: -14px;
 }
 
 .hero-section {
-    max-width: 600px;
+    max-width: 800px;
     margin: 0 auto;
+    position: relative;
 }
 
 .hero-section h1 {
@@ -33,9 +44,32 @@
     color: #666;
 }
 
+.dark-mode .hero-section p {
+    color: #ccc;
+}
+
 .btn-large {
     padding: 1rem 2rem;
     font-size: 1.2rem;
+}
+
+@media (max-width: 970px) {
+    .hero-section {
+        left: 30px;
+        max-width: 600px;
+    }
+}
+
+@media (max-width: 670px) {
+    
+.hero-section {
+    left: 20px;
+    max-width: 600px;
+    .hero-section h1 {
+    font-size: 3rem;
+    color: var(--text-color);
+}
+}
 }
 </style>
 {% endblock %}

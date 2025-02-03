@@ -30,6 +30,8 @@ class User(UserMixin, db.Model):
     password_hash = db.Column(db.String(128))
     timestamp = db.Column(db.DateTime, default=datetime.utcnow)
     is_verified = db.Column(db.Boolean, default=False)
+    is_admin = db.Column(db.Boolean, default=False)
+    is_deleted = db.Column(db.Boolean, default=False)
     reviews = db.relationship("Review", back_populates="user", foreign_keys="Review.user_id")
     profile_pic = db.Column(db.String(120), default='default.jpg')
 
@@ -50,6 +52,10 @@ class User(UserMixin, db.Model):
         self.locked_until = None
         db.session.commit()
 
+    def soft_delete(self):
+        self.is_deleted = True
+        db.session.commit()
+        
     def set_password(self, password):
         self.password_hash = generate_password_hash(password)
 
@@ -153,7 +159,7 @@ class Review(db.Model):
     def can_edit(self, user):
         if not user.is_authenticated:
             return False
-        return user.id == self.user_id # or user.is_admin
+        return user.id == self.user_id or user.is_admin
     
 class Vote(db.Model):
     id = db.Column(db.Integer, primary_key=True)
