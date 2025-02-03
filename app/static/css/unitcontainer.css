@@ -169,3 +169,27 @@
     font-size: 0.9rem;
 
 }
+
+.review-content-container, .review-text {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.review-content-container, .review-text  {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.review-content-container, .review-text  {
+    width: 100%;
+    max-width: 100%;
+}
+
+.review-content-container, .review-text  {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    max-width: 100%;
+}

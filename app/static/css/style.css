@@ -124,7 +124,18 @@ button:disabled{
     box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
 }
 
-
+.btn-secondary{
+    margin-top: 10px;
+    padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
 /* Responsive Design */
 @media (max-width: 768px) {
     /* Adjust container padding */
@@ -284,10 +295,6 @@ button:disabled{
     display: flex;
     align-items: center;
 }
-.review-card {
-    max-width: 600px;
-    width: 100%; /* Ensures the card doesn't stretch beyond its container */
-}
 
 .profile-update-form {
     background: white;
@@ -360,7 +367,6 @@ input[type="file"] {
 .dark-mode .nav-links a:hover {
     background-color: rgba(255, 255, 255, 0.1); /* Slight hover effect */
 }
-
 
 
 /* Responsive Design for Mobile Screens */

@@ -6,7 +6,15 @@
     border-radius: 8px;
     background-color: white;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
+    max-width: 600px; /* Increase max-width or remove it entirely */
+}
+.review-upvote-container{
+    display:flex;
+    justify-content: space-between;
+    margin-top:6px;
+    align-items: center;
+}
+
   
   /* Review Header */
   .review-header {
@@ -43,6 +51,8 @@
     margin-bottom: 0.75rem;
     line-height: 1.6;
     color: var(--text-color);
+    word-wrap: break-word;
+    overflow-wrap:break-word;
   }
   
   /* Review Stats */
@@ -51,6 +61,15 @@
     gap: 1rem; /* Space between upvotes and downvotes */
     font-size: 0.9rem;
     color: #666; /* Subtle gray for stats */
+    justify-content: flex-end;
+  }
+  .review-stats-2 {
+    display: flex;
+    gap: 1rem; /* Space between upvotes and downvotes */
+    font-size: 0.9rem;
+    color: #666; /* Subtle gray for stats */
+    justify-content: flex-end;
+    margin-bottom:10px;
   }
   
   .review-stats span {
@@ -75,7 +94,11 @@
     justify-content: center; /* Center the name and logout button horizontally */
 }
 
-
+    .date-star-container{
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
 @media (max-width: 768px){
     .logout-photo {
         width: 25px;
@@ -95,3 +118,44 @@
 }
 
     
+.review-content, .review-upvote-container {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.review-content, .review-upvote-container {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.review-content, .review-upvote-container {
+    width: 100%;
+    max-width: 100%;
+}
+
+.review-content, .review-upvote-container {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    max-width: 100%;
+}
+
+.vote-btn.upvote-2 {
+    background-color: #e6f7ff; /* Light blue background */
+    color: #007bff; /* Blue text */
+    width: 60px;
+    height:34px;
+    margin-left:4px;
+}
+
+.vote-btn.downvote-2 {
+    background-color: #fff3f3; /* Light blue background */
+    color: #dc3545; 
+    width: 60px;
+    height:34px;
+    margin-left:4px;
+}
+
+

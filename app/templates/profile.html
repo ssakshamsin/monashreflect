@@ -73,15 +73,15 @@
         </form>
     </div>
     
-        <div class="stats-card">
-            <h2>Your Statistics</h2>
-            <p>Total Reviews: {{ reviews.total }}</p>
-            {% set vote_stats = current_user.get_total_votes() %}
-            <p>Total Votes Received: {{ vote_stats.total }}</p>
-            <p>👍 Upvotes: {{ vote_stats.upvotes }}</p>
-            <p>👎 Downvotes: {{ vote_stats.downvotes }}</p>
-            <p>Member Since: {{ current_user.timestamp.strftime('%Y-%m-%d') }}</p>
-        </div>
+    <div class="stats-card">
+        <h2>Your Statistics</h2>
+        <p>Total Reviews: {{ reviews.total }}</p>
+        {% set vote_stats = current_user.get_total_votes() %}
+        <p>Total Votes Received: {{ vote_stats.total }}</p>
+        <p>▲ Upvotes: {{ vote_stats.upvotes }}</p>
+        <p>▼ Downvotes: {{ vote_stats.downvotes }}</p>
+        <p>Member Since: {{ current_user.timestamp.strftime('%Y-%m-%d') }}</p>
+    </div>
 
         <div class="user-reviews">
             <h2>Your Reviews</h2>
@@ -93,17 +93,34 @@
                                 {{ review.unit.code }} - {{ review.unit.name }}
                             </a>
                         </div>
-                        <span class="review-date">{{ review.timestamp.strftime('%Y-%m-%d') }}</span>
-                        <div class="review-rating">
-                            {% for _ in range(review.rating) %}⭐{% endfor %}
+                        <div class= "date-star-container">
+                            <div class="review-rating">
+                                {% for _ in range(review.rating) %}⭐{% endfor %}
+                            </div>
+                            <span class="review-date">{{ review.timestamp.strftime('%Y-%m-%d') }}</span>
+                            
                         </div>
-                        <div class="review-content">
-                            {{ review.content }}
+                        <div class="review-upvote-container">
+                            <div class="review-content">
+                                {{ review.content }}
+                            </div>
+                            <div class="review-stats-2">
+                                <!-- Upvote Button -->
+                                <button onclick="voteReview('{{ review.id }}', 'up')"
+                                        class="vote-btn upvote-2 {% if review.has_voted(current_user, 'up') %}active{% endif %}"
+                                        {% if not current_user.is_authenticated %}disabled{% endif %}>
+                                    ▲ <span id="upvotes-{{ review.id }}" class="vote-count">{{ review.upvotes }}</span>
+                                </button>
+                            
+                                <!-- Downvote Button -->
+                                <button onclick="voteReview('{{ review.id }}', 'down')"
+                                        class="vote-btn downvote-2 {% if review.has_voted(current_user, 'down') %}active{% endif %}"
+                                        {% if not current_user.is_authenticated %}disabled{% endif %}>
+                                    ▼ <span id="downvotes-{{ review.id }}" class="vote-count">{{ review.downvotes }}</span>
+                                </button>
+                            </div>
                         </div>
-                        <div class="review-stats">
-                            <span>👍 {{ review.upvotes }}</span>
-                            <span>👎 {{ review.downvotes }}</span>
-                        </div>
+
                     </div>
                 {% endfor %}
 

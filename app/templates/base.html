@@ -12,14 +12,14 @@
 <body>
     <nav>
     <div class="nav-container">
-        <a href="{{ url_for('main.home') }}" class="logo">MonReviews</a>
+        <a href="{{ url_for('main.home') }}" class="logo">MonashReflect</a>
         <div class="nav-links">
         {% if current_user.is_authenticated %}
             <a href="{{ url_for('main.profile') }}">Profile</a>
-            <!-- <a href="{{ url_for('auth.logout') }}">Logout</a> -->
+            <!-- <a href="{{ url_for('auth.logout') }}">Logout</a> removed for mobile calirty -->
         {% else %}
             <a href="{{ url_for('auth.login') }}">Login</a>
-            <a href="{{ url_for('auth.register') }}">Register</a>
+            <!-- <a href="{{ url_for('auth.register') }}">Register</a> removed for mobile clarity -->
         {% endif %}
         <!-- Dark Mode Toggle Button -->
             <button id="dark-mode-toggle" class="dark-mode-toggle">
@@ -91,7 +91,7 @@
       </div>
     </div>
     <div class="footer-bottom">
-      <p>&copy; 2025 MonReviews. All rights reserved.</p>
+      <p>&copy; 2025 MonashReflect. All rights reserved.</p>
     </div>
   </footer>
 </body>
