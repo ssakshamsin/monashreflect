@@ -136,7 +136,8 @@ class Review(db.Model):
     user = db.relationship("User", back_populates="reviews", foreign_keys=[user_id])
     unit = db.relationship("Unit", back_populates="reviews")
 
-
+    votes = db.relationship('Vote', backref='review', cascade="all, delete-orphan")
+    
     def has_voted(self, user, vote_type):
         if not user.is_authenticated:
             return False
