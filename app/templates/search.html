@@ -20,6 +20,18 @@
                            class="btn btn-secondary">View Reviews</a>
                     </div>
                 {% endfor %}
+
+                <div class="pagination">
+                    {% if units.has_prev %}
+                        <a href="{{ url_for('main.search', page=units.prev_num, query=request.args.get('query', '')) }}" class="btn btn-secondary">Previous</a>
+                    {% endif %}
+                    
+                    <span>Page {{ units.page }} of {{ units.pages }}</span>
+                    
+                    {% if units.has_next %}
+                        <a href="{{ url_for('main.search', page=units.next_num, query=request.args.get('query', '')) }}" class="btn btn-secondary">Next</a>
+                    {% endif %}
+                </div>
             {% else %}
                 <p>No units found matching your search criteria.</p>
             {% endif %}

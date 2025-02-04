@@ -1,16 +1,22 @@
 #!/usr/bin/env bash
 
-set -o errexit  # exit on error
+set -o errexit  # Exit on error
+
+# Upgrade pip and install dependencies
 pip install --upgrade pip
 pip install -r requirements.txt
 
-# Check if the database is already seeded
-if [ "$(python -c 'from your_app import db; from your_app.models import User; print(User.query.count())')" -eq 0 ]; then
-  python seed_database.py  # Run seed script if the database is empty
-else
-  echo "Database already seeded, skipping seed step."
-fi
+# Remove old migrations (optional)
+rm -rf migrations/
 
-flask db upgrade  # Run any migrations
+# Initialize and generate fresh migrations
+flask db init
+flask db migrate -m "Recreate migrations"
+flask db upgrade  # Apply migrations
+
+# Seed the database AFTER migrations
+python seed_database.py  
+
+# Handle static files
 mkdir -p staticfiles
 cp -r app/static/* staticfiles/

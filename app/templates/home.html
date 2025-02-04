@@ -7,8 +7,9 @@
       <input
         type="text"
         id="searchBar"
-        placeholder="Search for a unit..."
-        oninput="filterUnits()"
+        placeholder="Search for a unit or faculty..."
+        autocomplete="off"
+        class="search-input"
       />
     </div>
 
@@ -27,8 +28,56 @@
         <p>No units available.</p>
       {% endif %}
     </div>
+
+    {% if units.pages > 1 %}
+        <div class="pagination">
+        </div>
+    {% endif %}
   </div>
 
 
   <script src="{{ url_for('static', filename='/js/script.js') }}"></script>
+
+  <style>
+    .pagination {
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+    .pagination-content {
+        display: flex;
+        gap: 0.5rem;
+        align-items: center;
+    }
+    .pbtn {
+        padding: 0.5rem 1rem;
+        border: 1px solid #ddd;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+    .pbtn:hover {
+        background: #f0f0f0;
+    }
+    .pbtn.active {
+        background-color: var(--primary-color);
+        color: white;
+        border-color: var(--primary-color);
+    }
+    .ellipsis {
+        padding: 0.5rem;
+    }
+    .dark-mode .pbtn {
+        background: #333;
+        color: white;
+        border-color: #333;
+    }
+    .dark-mode .pbtn:hover {
+        background: #444;
+    }
+    .dark-mode .pbtn.active {
+        background: #1f42a1 !important; /* Darker effect when clicked */
+        transform: scale(0.98); /* Optional: Add a slight press effect */
+    }
+    </style>
 {% endblock %}

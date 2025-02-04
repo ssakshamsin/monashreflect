@@ -1,15 +1,9 @@
 from functools import wraps
 from flask import request, abort, current_app
 import re
-from flask_limiter import Limiter
 from flask_limiter.util import get_remote_address
 from flask_talisman import Talisman
 
-
-limiter = Limiter(
-        key_func=get_remote_address,
-        default_limits=["100 per hour"]
-    )
 
 def init_security(app):
     # Initialize Talisman for security headers
@@ -18,12 +12,7 @@ def init_security(app):
         content_security_policy=app.config['SECURITY_HEADERS']['Content-Security-Policy'],
         force_https=True
     )
-    
-    # Initialize rate limiter
-
-    limiter.init_app(app)
-    
-    return limiter
+    return 
 
 def sanitize_input(input_string):
     """Remove potentially dangerous characters from input"""

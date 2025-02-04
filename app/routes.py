@@ -1,21 +1,66 @@
 
 from flask import Blueprint, render_template, flash, redirect, url_for, request, jsonify, current_app, abort
 from flask_login import login_user, logout_user, current_user, login_required
-from flask_limiter import Limiter
 from app import db
 from app.models import User, Unit, Review, Vote
 from app.forms import RegistrationForm, LoginForm, ReviewForm, SearchForm, UpdateProfileForm
 from datetime import datetime
 from urllib.parse import urlparse
-from security import sanitize_input, limiter, validate_input
+from security import sanitize_input, validate_input
 from app.utils import save_profile_picture
 
 main = Blueprint('main', __name__)
 auth = Blueprint('auth', __name__)
 
+@main.route('/api/search')
+def live_search():
+    query = request.args.get('query', '')
+    page = request.args.get('page', 1, type=int)
+    per_page = 9  # Number of results per page
+    
+    # Query the database
+    units = Unit.query.filter(
+        db.or_(
+            Unit.code.ilike(f'%{query}%'),
+            Unit.name.ilike(f'%{query}%'),
+            Unit.faculty.ilike(f'%{query}%')
+        )
+    ).paginate(page=page, per_page=per_page)
+    
+    # Format results
+    results = {
+        'units': [{
+            'code': unit.code,
+            'name': unit.name,
+            'faculty': unit.faculty,
+            'url': url_for('main.unit', code=unit.code)
+        } for unit in units.items],
+        'total_pages': units.pages,
+        'current_page': units.page,
+        'query': query
+    }
+    
+    return jsonify(results)
+
 @main.route('/units', methods=['GET'])
 def home():
-    units = Unit.query.all()
+    page = request.args.get('page', 1, type=int)
+    units = Unit.query.paginate(
+        page=page, 
+        per_page=9,
+        error_out=False
+    )
+    if request.headers.get('Accept') == 'application/json':
+        return jsonify({
+            'units': [{
+                'code': unit.code,
+                'name': unit.name,
+                'faculty': unit.faculty,
+            } for unit in units.items],
+            'page': units.page,
+            'pages': units.pages,
+            'total': units.total
+        })
     return render_template('home.html', units=units)
 
 @main.route('/unit/<string:code>', methods=['GET', 'POST'])
@@ -186,7 +231,6 @@ def delete_review(id):
 
 @main.route('/review/<int:id>/<string:vote_type>', methods=['POST'])
 @login_required
-@limiter.limit("20 per minute")
 def vote_review(id, vote_type):
     if vote_type not in ['up', 'down']:
         abort(400)
@@ -300,7 +344,9 @@ def vote_unit(code):
 @main.route('/search')
 def search():
     form = SearchForm()
-    query = request.args.get('query', '')
+    query = request.args.get('query', '').strip()
+    page = request.args.get('page', 1, type=int)  # Get the current page number
+    per_page = 9
     
     units = Unit.query
     if query:
@@ -310,7 +356,11 @@ def search():
             (Unit.faculty.contains(query))
         )
     
-    units = units.order_by(Unit.code).all()
+    units = units.paginate(
+        page=page,
+        per_page=9,
+        error_out=False
+    )
     return render_template('search.html', units=units, form=form)
 
 @main.route("/contact")
