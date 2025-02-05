@@ -53,4 +53,12 @@ class UpdateProfileForm(FlaskForm):
             if user:
                 raise ValidationError('That username is taken. Please choose a different one.')
 
-# Update app/routes.py
+class AdminUserActionForm(FlaskForm):
+    username = StringField('Username', validators=[DataRequired()])
+    submit_delete = SubmitField('Delete User')
+    submit_restore = SubmitField('Restore User')
+
+    def validate_username(self, username):
+        user = User.query.filter_by(username=username.data).first()
+        if not user:
+            raise ValidationError('User not found.')

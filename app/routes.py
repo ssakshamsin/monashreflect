@@ -3,7 +3,7 @@ from flask import Blueprint, render_template, flash, redirect, url_for, request,
 from flask_login import login_user, logout_user, current_user, login_required
 from app import db
 from app.models import User, Unit, Review, Vote
-from app.forms import RegistrationForm, LoginForm, ReviewForm, SearchForm, UpdateProfileForm
+from app.forms import RegistrationForm, LoginForm, ReviewForm, SearchForm, UpdateProfileForm, AdminUserActionForm
 from datetime import datetime
 from urllib.parse import urlparse
 from security import sanitize_input, validate_input
@@ -114,9 +114,13 @@ def login():
     form = LoginForm()
     if form.validate_on_submit():
         user = User.query.filter_by(username=form.username.data).first()
-        if user is None or not user.check_password(form.password.data) or user.is_deleted:
+        if user is None or not user.check_password(form.password.data):
             flash('Invalid username or password')
             return redirect(url_for('auth.login'))
+        elif user.is_deleted:
+            flash('This account has been deactivated.')
+            return redirect(url_for('auth.login'))
+
         
         login_user(user, remember=form.remember_me.data)
         next_page = request.args.get('next')
@@ -287,6 +291,7 @@ def vote_review(id, vote_type):
 @login_required
 def profile():
     form = UpdateProfileForm()
+    admin_form = AdminUserActionForm() if current_user.is_admin else None
     if form.validate_on_submit():
         if form.profile_pic.data:
             picture_file = save_profile_picture(form.profile_pic.data)
@@ -310,7 +315,7 @@ def profile():
         per_page=current_app.config['REVIEWS_PER_PAGE'],
         error_out=False
     )
-    return render_template('profile.html', user=current_user, reviews=reviews, form=form)
+    return render_template('profile.html', user=current_user, reviews=reviews, form=form, admin_form=admin_form)
 
 
 @main.route('/profile/delete', methods=['POST'])
@@ -391,3 +396,47 @@ def rules():
 def landing():
     return render_template("landing.html")
 
+@main.route('/admin/delete_user', methods=['POST'])
+@login_required
+def admin_delete_user():
+    if not current_user.is_admin:
+        abort(403)
+        
+    form = AdminUserActionForm()
+    if form.validate_on_submit():
+        user = User.query.filter_by(username=form.username.data).first()
+        if user:
+            if user.is_admin:
+                flash('Cannot delete admin users.')
+                return redirect(url_for('main.profile'))
+            if user.is_deleted:
+                flash('This account is already deleted.')
+                return redirect(url_for('main.profile'))
+                
+            user.soft_delete()
+            flash(f'User {user.username} has been deleted.')
+        else:
+            flash('User not found.')
+            
+    return redirect(url_for('main.profile'))
+
+@main.route('/admin/restore_user', methods=['POST'])
+@login_required
+def admin_restore_user():
+    if not current_user.is_admin:
+        abort(403)
+        
+    form = AdminUserActionForm()
+    if form.validate_on_submit():
+        user = User.query.filter_by(username=form.username.data).first()
+        if user:
+            if not user.is_deleted:
+                flash('This account is not deleted.')
+                return redirect(url_for('main.profile'))
+                
+            user.restore_account()
+            flash(f'User account {user.username} has been restored.')
+        else:
+            flash('User not found.')
+            
+    return redirect(url_for('main.profile'))

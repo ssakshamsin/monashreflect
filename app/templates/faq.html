@@ -1,11 +1,43 @@
 {% extends "base.html" %}
 {% block content %}
 <div class="about-container">
-  <h1 class="about-title">FAQ</h1>
+  <h1 class="about-title" style="margin-bottom: 10px;">FAQ</h1>
   <div class="about-content">
-    <p class="about-text">
-      Currently Nothin!
+      <strong class="quest">What is the purpose of this website?</strong> 
+      <p>When we started at Monash, we found it impossible to know which units to select, without perusing through the handbook and random Reddit comments. This website allows students to see real student opinions in a centralised manner, while letting them review units for other students to see.</p>
+      
+      <strong class="quest">Do I need to make an account?:</strong>
+      <p>You don't need an account to see other reviews and unit ratings, but to write reviews or vote yourself, you will need an account to maintain review integrity.</p>
+    
+      <strong class="quest">How do I delete my account?</strong>
+      <p>You can delete your account by going to your profile page, but this does not delete your information. If you want to remove all your information, contact us at our contact form.</p>
+    
+    <strong class="quest">Is this website official or affiliated with Monash university?</strong>
+    <p>No, this website is not affiliated with Monash University. It is an independent student-run project.</p>
+
+    <strong class="quest">Can I edit my review after posting?</strong>
+    <p>Yes, you can edit and delete your review on the unit page.</p>
+
+    <strong class="quest">What does posting anonymously do?</strong>
+    <p>Posting anonymously hides your username and profile picture from other users, but the review will still be linked to your account to allow for editing and deleting.</p>
     </p>
+
+    <p style="margin-top: 40px; margin-bottom: 5px;">For other inquries, contact us on our contact form!</p>
+
+    
+
   </div>
 </div>
+</div>
+
+<style>
+  .about-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  p{
+    margin-bottom: 25px;
+  }
+  </style>
 {% endblock %}

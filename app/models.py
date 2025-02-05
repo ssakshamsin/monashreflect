@@ -33,7 +33,7 @@ class User(UserMixin, db.Model):
     is_admin = db.Column(db.Boolean, default=False)
     is_deleted = db.Column(db.Boolean, default=False)
     reviews = db.relationship("Review", back_populates="user", foreign_keys="Review.user_id")
-    profile_pic = db.Column(db.String(255), default='default.jpg')
+    profile_pic = db.Column(db.String(255), default='default.png')
 
     login_attempts = db.Column(db.Integer, default=0)
     locked_until = db.Column(db.DateTime)
@@ -62,6 +62,10 @@ class User(UserMixin, db.Model):
     def check_password(self, password):
         return check_password_hash(self.password_hash, password)
     
+    def restore_account(self):
+        self.is_deleted = False
+        db.session.commit()
+
     def get_total_votes(self):
         total_upvotes = 0
         total_downvotes = 0
