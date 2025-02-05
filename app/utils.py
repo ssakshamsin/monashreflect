@@ -18,7 +18,7 @@ def save_profile_picture(form_picture):
     os.makedirs(os.path.dirname(picture_path), exist_ok=True)
 
     # Remove the old profile picture if it's not the default one
-    if current_user.profile_pic != "default.jpg":
+    if current_user.profile_pic != "default.png":
         old_picture_path = os.path.join(current_app.root_path, 'static', 'pictures', current_user.profile_pic)
         if os.path.exists(old_picture_path):
             os.remove(old_picture_path)
