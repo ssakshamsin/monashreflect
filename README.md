@@ -14,9 +14,9 @@
 
 ## Project Details
 
-The website is currently running at "[MonashReflect](https://www.monashreflect.com/)" for a limited time, until 3 months after original release. We were inspired by a Reddit post on the Monash subreddit, and built this entire website from scratch in 4 days. :D
+The website is currently running at [MonashReflect](https://www.monashreflect.com/) for a limited time, until 3 months after original release. We were inspired by a Reddit post on the Monash subreddit, and built this entire website from scratch in 4 days :D
 
-The data processing can be found at "https://github.com/ssakshamsin/monash-units-scraper"
+The data processing can be found at https://github.com/ssakshamsin/monash-units-scraper
 
 # Getting Started
 
@@ -24,7 +24,7 @@ To get a local copy up and running follow these steps.
 
 ## Instructions
 
-1. You must have SQLite installed, if you are on Windows you can install it from [here](https://www.sqlite.org/download.html)"
+1. You must have SQLite installed, if you are on Windows you can install it from [here](https://www.sqlite.org/download.html)
 2. Open a command prompt in the root directory:
   3. pip install -r requirements.txt
   4. venv\Scripts\activate
